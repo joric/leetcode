@@ -1,0 +1,8 @@
+name: Scheduled Trigger
+on:
+  schedule:
+    - cron: '1 0 * * *'  # 00:01 GMT daily
+
+jobs:
+  trigger-update:
+    uses: ./.github/workflows/update-data.yml  # Calls the reusable workflow
