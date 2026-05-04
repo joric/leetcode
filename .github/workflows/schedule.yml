@@ -1,7 +1,7 @@
 name: Scheduled Trigger
 on:
   schedule:
-    - cron: '15 0 * * *'  # 00:15 GMT daily
+    - cron: '20 0 * * *'  # 00:20 GMT daily
 
 jobs:
   trigger-update:
