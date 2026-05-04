@@ -1,7 +1,7 @@
 name: Scheduled Trigger
 on:
   schedule:
-    - cron: '25 0 * * *'  # 00:25 GMT daily
+    - cron: '30 0 * * *'  # 00:30 GMT daily
   workflow_dispatch:
 
 jobs:
