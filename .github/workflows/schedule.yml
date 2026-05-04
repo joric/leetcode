@@ -6,4 +6,14 @@ on:
 
 jobs:
   trigger-update:
-    uses: ./.github/workflows/update-data.yml  # Calls the reusable workflow
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log current time before trigger
+        run: |
+          echo "=== Current Time Information ==="
+          echo "UTC Time: $(date -u)"
+          echo "Local Time: $(date -u '+%Y-%m-%d %H:%M:%S %Z')"
+          echo "Unix Timestamp: $(date +%s)"
+          echo "================================"
+      - name: Call reusable workflow
+        uses: ./.github/workflows/update-data.yml
