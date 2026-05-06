@@ -26,6 +26,6 @@ jobs:
           git add daily.csv weekly.csv
 
           git diff --staged --quiet && echo "No changes - skipping" || (
-            git commit -m "Data update: $(date +'%Y-%m-%d')" &&
+            git commit -m "crontab update: $(date +'%Y-%m-%d %H:%M:%S')" &&
             git push
           )
