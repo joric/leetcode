@@ -1,7 +1,7 @@
 name: Scheduled Trigger
 on:
   schedule:
-    - cron: '17 0 * * *'
+    - cron: '17 21 * * *'
   workflow_dispatch:
 
 jobs:
