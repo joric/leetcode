@@ -2228,3 +2228,5 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-06,rotating-the-box,1861,Rotating the Box,Medium,79.7
 2026-05-07,jump-game-ix,3660,Jump Game IX,Medium,28.4
 2026-05-08,minimum-jumps-to-reach-end-via-prime-teleportation,3629,Minimum Jumps to Reach End via Prime Teleportation,Medium,45.3
+2026-05-09,cyclically-rotating-a-grid,1914,Cyclically Rotating a Grid,Medium,74.0
+2026-05-10,maximum-number-of-jumps-to-reach-the-last-index,2770,Maximum Number of Jumps to Reach the Last Index,Medium,32.9
