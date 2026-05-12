@@ -2231,3 +2231,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-09,cyclically-rotating-a-grid,1914,Cyclically Rotating a Grid,Medium,74.0
 2026-05-10,maximum-number-of-jumps-to-reach-the-last-index,2770,Maximum Number of Jumps to Reach the Last Index,Medium,32.9
 2026-05-11,separate-the-digits-in-an-array,2553,Separate the Digits in an Array,Easy,80.9
+2026-05-12,minimum-initial-energy-to-finish-tasks,1665,Minimum Initial Energy to Finish Tasks,Hard,60.9
