@@ -2234,3 +2234,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-12,minimum-initial-energy-to-finish-tasks,1665,Minimum Initial Energy to Finish Tasks,Hard,60.9
 2026-05-13,minimum-moves-to-make-array-complementary,1674,Minimum Moves to Make Array Complementary,Medium,43.6
 2026-05-14,check-if-array-is-good,2784,Check if Array is Good,Easy,48.9
+2026-05-15,find-minimum-in-rotated-sorted-array,153,Find Minimum in Rotated Sorted Array,Medium,54.2
