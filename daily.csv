@@ -2237,3 +2237,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-15,find-minimum-in-rotated-sorted-array,153,Find Minimum in Rotated Sorted Array,Medium,54.2
 2026-05-16,find-minimum-in-rotated-sorted-array-ii,154,Find Minimum in Rotated Sorted Array II,Hard,45.0
 2026-05-17,jump-game-iii,1306,Jump Game III,Medium,66.9
+2026-05-18,jump-game-iv,1345,Jump Game IV,Hard,46.4
