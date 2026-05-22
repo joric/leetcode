@@ -342,3 +342,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-01,employee-free-time,759,Employee Free Time,Hard,72.8
 2026-05-08,robot-room-cleaner,489,Robot Room Cleaner,Hard,78.0
 2026-05-15,number-of-spaces-cleaning-robot-cleaned,2061,Number of Spaces Cleaning Robot Cleaned,Medium,62.8
+2026-05-22,fixed-point,1064,Fixed Point,Easy,63.8
