@@ -2243,3 +2243,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-21,find-the-length-of-the-longest-common-prefix,3043,Find the Length of the Longest Common Prefix,Medium,57.3
 2026-05-22,search-in-rotated-sorted-array,33,Search in Rotated Sorted Array,Medium,44.6
 2026-05-23,check-if-array-is-sorted-and-rotated,1752,Check if Array Is Sorted and Rotated,Easy,56.0
+2026-05-24,jump-game-v,1340,Jump Game V,Hard,65.3
