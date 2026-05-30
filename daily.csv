@@ -2249,3 +2249,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-27,count-the-number-of-special-characters-ii,3121,Count the Number of Special Characters II,Medium,45.0
 2026-05-28,longest-common-suffix-queries,3093,Longest Common Suffix Queries,Hard,36.2
 2026-05-29,minimum-element-after-replacement-with-digit-sum,3300,Minimum Element After Replacement With Digit Sum,Easy,85.2
+2026-05-30,block-placement-queries,3161,Block Placement Queries,Hard,18.9
