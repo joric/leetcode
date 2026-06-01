@@ -344,3 +344,5 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-05-15,number-of-spaces-cleaning-robot-cleaned,2061,Number of Spaces Cleaning Robot Cleaned,Medium,62.8
 2026-05-22,fixed-point,1064,Fixed Point,Easy,63.8
 2026-05-29,confusing-number,1056,Confusing Number,Easy,49.4
+2026-06-05,confusing-number-ii,1088,Confusing Number II,Hard,47.1
+2026-06-01,candy-crush,723,Candy Crush,Medium,77.4
