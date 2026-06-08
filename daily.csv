@@ -2258,3 +2258,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-05,total-waviness-of-numbers-in-range-ii,3753,Total Waviness of Numbers in Range II,Hard,32.5
 2026-06-06,left-and-right-sum-differences,2574,Left and Right Sum Differences,Easy,88.1
 2026-06-07,create-binary-tree-from-descriptions,2196,Create Binary Tree From Descriptions,Medium,81.9
+2026-06-08,partition-array-according-to-given-pivot,2161,Partition Array According to Given Pivot,Medium,89.8
