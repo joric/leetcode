@@ -2259,3 +2259,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-06,left-and-right-sum-differences,2574,Left and Right Sum Differences,Easy,88.1
 2026-06-07,create-binary-tree-from-descriptions,2196,Create Binary Tree From Descriptions,Medium,81.9
 2026-06-08,partition-array-according-to-given-pivot,2161,Partition Array According to Given Pivot,Medium,89.8
+2026-06-09,maximum-total-subarray-value-i,3689,Maximum Total Subarray Value I,Medium,64.5
