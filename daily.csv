@@ -2261,3 +2261,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-08,partition-array-according-to-given-pivot,2161,Partition Array According to Given Pivot,Medium,89.8
 2026-06-09,maximum-total-subarray-value-i,3689,Maximum Total Subarray Value I,Medium,64.5
 2026-06-10,maximum-total-subarray-value-ii,3691,Maximum Total Subarray Value II,Hard,24.4
+2026-06-11,number-of-ways-to-assign-edge-weights-i,3558,Number of Ways to Assign Edge Weights I,Medium,55.3
