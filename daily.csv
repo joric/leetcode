@@ -2264,3 +2264,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-11,number-of-ways-to-assign-edge-weights-i,3558,Number of Ways to Assign Edge Weights I,Medium,55.3
 2026-06-12,number-of-ways-to-assign-edge-weights-ii,3559,Number of Ways to Assign Edge Weights II,Hard,62.3
 2026-06-13,weighted-word-mapping,3838,Weighted Word Mapping,Easy,86.3
+2026-06-14,maximum-twin-sum-of-a-linked-list,2130,Maximum Twin Sum of a Linked List,Medium,81.8
