@@ -2267,3 +2267,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-14,maximum-twin-sum-of-a-linked-list,2130,Maximum Twin Sum of a Linked List,Medium,81.8
 2026-06-15,delete-the-middle-node-of-a-linked-list,2095,Delete the Middle Node of a Linked List,Medium,59.7
 2026-06-16,process-string-with-special-operations-i,3612,Process String with Special Operations I,Medium,65.9
+2026-06-17,process-string-with-special-operations-ii,3614,Process String with Special Operations II,Hard,20.7
