@@ -2275,3 +2275,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-22,maximum-number-of-balloons,1189,Maximum Number of Balloons,Easy,60.5
 2026-06-23,number-of-zigzag-arrays-i,3699,Number of ZigZag Arrays I,Hard,35.0
 2026-06-24,number-of-zigzag-arrays-ii,3700,Number of ZigZag Arrays II,Hard,57.5
+2026-06-25,count-subarrays-with-majority-element-i,3737,Count Subarrays With Majority Element I,Medium,67.1
