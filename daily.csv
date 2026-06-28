@@ -2278,3 +2278,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-25,count-subarrays-with-majority-element-i,3737,Count Subarrays With Majority Element I,Medium,67.1
 2026-06-26,count-subarrays-with-majority-element-ii,3739,Count Subarrays With Majority Element II,Hard,52.4
 2026-06-27,find-the-maximum-number-of-elements-in-subset,3020,Find the Maximum Number of Elements in Subset,Medium,27.7
+2026-06-28,maximum-element-after-decreasing-and-rearranging,1846,Maximum Element After Decreasing and Rearranging,Medium,65.8
