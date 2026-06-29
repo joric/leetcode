@@ -349,3 +349,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-08,number-of-unique-flavors-after-sharing-k-candies,2107,Number of Unique Flavors After Sharing K Candies,Medium,60.8
 2026-06-15,handshakes-that-dont-cross,1259,Handshakes That Don't Cross,Hard,60.1
 2026-06-22,clone-binary-tree-with-random-pointer,1485,Clone Binary Tree With Random Pointer,Medium,80.9
+2026-06-29,clone-n-ary-tree,1490,Clone N-ary Tree,Medium,83.0
