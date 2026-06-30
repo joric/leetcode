@@ -2280,3 +2280,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-27,find-the-maximum-number-of-elements-in-subset,3020,Find the Maximum Number of Elements in Subset,Medium,27.7
 2026-06-28,maximum-element-after-decreasing-and-rearranging,1846,Maximum Element After Decreasing and Rearranging,Medium,65.8
 2026-06-29,number-of-strings-that-appear-as-substrings-in-word,1967,Number of Strings That Appear as Substrings in Word,Easy,83.0
+2026-06-30,number-of-substrings-containing-all-three-characters,1358,Number of Substrings Containing All Three Characters,Medium,73.8
