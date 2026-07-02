@@ -2282,3 +2282,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-29,number-of-strings-that-appear-as-substrings-in-word,1967,Number of Strings That Appear as Substrings in Word,Easy,83.0
 2026-06-30,number-of-substrings-containing-all-three-characters,1358,Number of Substrings Containing All Three Characters,Medium,73.8
 2026-07-01,find-the-safest-path-in-a-grid,2812,Find the Safest Path in a Grid,Medium,49.2
+2026-07-02,find-a-safe-walk-through-a-grid,3286,Find a Safe Walk Through a Grid,Medium,34.8
