@@ -2283,3 +2283,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-30,number-of-substrings-containing-all-three-characters,1358,Number of Substrings Containing All Three Characters,Medium,73.8
 2026-07-01,find-the-safest-path-in-a-grid,2812,Find the Safest Path in a Grid,Medium,49.2
 2026-07-02,find-a-safe-walk-through-a-grid,3286,Find a Safe Walk Through a Grid,Medium,34.8
+2026-07-03,network-recovery-pathways,3620,Network Recovery Pathways,Hard,31.1
