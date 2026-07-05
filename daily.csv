@@ -2285,3 +2285,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-02,find-a-safe-walk-through-a-grid,3286,Find a Safe Walk Through a Grid,Medium,34.8
 2026-07-03,network-recovery-pathways,3620,Network Recovery Pathways,Hard,31.1
 2026-07-04,minimum-score-of-a-path-between-two-cities,2492,Minimum Score of a Path Between Two Cities,Medium,59.0
+2026-07-05,number-of-paths-with-max-score,1301,Number of Paths with Max Score,Hard,43.1
