@@ -2288,3 +2288,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-05,number-of-paths-with-max-score,1301,Number of Paths with Max Score,Hard,43.1
 2026-07-06,remove-covered-intervals,1288,Remove Covered Intervals,Medium,56.1
 2026-07-07,concatenate-non-zero-digits-and-multiply-by-sum-i,3754,Concatenate Non-Zero Digits and Multiply by Sum I,Easy,57.1
+2026-07-08,concatenate-non-zero-digits-and-multiply-by-sum-ii,3756,Concatenate Non-Zero Digits and Multiply by Sum II,Medium,25.8

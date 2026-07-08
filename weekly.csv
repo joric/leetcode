@@ -351,3 +351,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-06-22,clone-binary-tree-with-random-pointer,1485,Clone Binary Tree With Random Pointer,Medium,80.9
 2026-06-29,clone-n-ary-tree,1490,Clone N-ary Tree,Medium,83.0
 2026-07-01,unique-word-abbreviation,288,Unique Word Abbreviation,Medium,27.6
+2026-07-08,word-pattern-ii,291,Word Pattern II,Medium,48.9
