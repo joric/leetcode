@@ -2290,3 +2290,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-07,concatenate-non-zero-digits-and-multiply-by-sum-i,3754,Concatenate Non-Zero Digits and Multiply by Sum I,Easy,57.1
 2026-07-08,concatenate-non-zero-digits-and-multiply-by-sum-ii,3756,Concatenate Non-Zero Digits and Multiply by Sum II,Medium,25.8
 2026-07-09,path-existence-queries-in-a-graph-i,3532,Path Existence Queries in a Graph I,Medium,56.5
+2026-07-10,path-existence-queries-in-a-graph-ii,3534,Path Existence Queries in a Graph II,Hard,30.7
