@@ -2291,3 +2291,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-08,concatenate-non-zero-digits-and-multiply-by-sum-ii,3756,Concatenate Non-Zero Digits and Multiply by Sum II,Medium,25.8
 2026-07-09,path-existence-queries-in-a-graph-i,3532,Path Existence Queries in a Graph I,Medium,56.5
 2026-07-10,path-existence-queries-in-a-graph-ii,3534,Path Existence Queries in a Graph II,Hard,30.7
+2026-07-11,count-the-number-of-complete-components,2685,Count the Number of Complete Components,Medium,77.7
