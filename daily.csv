@@ -2294,3 +2294,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-11,count-the-number-of-complete-components,2685,Count the Number of Complete Components,Medium,77.7
 2026-07-12,rank-transform-of-an-array,1331,Rank Transform of an Array,Easy,71.0
 2026-07-13,sequential-digits,1291,Sequential Digits,Medium,65.4
+2026-07-14,find-the-number-of-subsequences-with-equal-gcd,3336,Find the Number of Subsequences With Equal GCD,Hard,32.3
