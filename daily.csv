@@ -2296,3 +2296,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-13,sequential-digits,1291,Sequential Digits,Medium,65.4
 2026-07-14,find-the-number-of-subsequences-with-equal-gcd,3336,Find the Number of Subsequences With Equal GCD,Hard,32.3
 2026-07-15,gcd-of-odd-and-even-sums,3658,GCD of Odd and Even Sums,Easy,85.2
+2026-07-16,sum-of-gcd-of-formed-pairs,3867,Sum of GCD of Formed Pairs,Medium,65.9
