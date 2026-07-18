@@ -2298,3 +2298,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-15,gcd-of-odd-and-even-sums,3658,GCD of Odd and Even Sums,Easy,85.2
 2026-07-16,sum-of-gcd-of-formed-pairs,3867,Sum of GCD of Formed Pairs,Medium,65.9
 2026-07-17,sorted-gcd-pair-queries,3312,Sorted GCD Pair Queries,Hard,23.6
+2026-07-18,find-greatest-common-divisor-of-array,1979,Find Greatest Common Divisor of Array,Easy,80.2
