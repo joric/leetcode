@@ -2300,3 +2300,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-17,sorted-gcd-pair-queries,3312,Sorted GCD Pair Queries,Hard,23.6
 2026-07-18,find-greatest-common-divisor-of-array,1979,Find Greatest Common Divisor of Array,Easy,80.2
 2026-07-19,smallest-subsequence-of-distinct-characters,1081,Smallest Subsequence of Distinct Characters,Medium,63.7
+2026-07-20,shift-2d-grid,1260,Shift 2D Grid,Easy,68.1
