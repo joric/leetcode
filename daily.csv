@@ -2307,3 +2307,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-24,number-of-unique-xor-triplets-ii,3514,Number of Unique XOR Triplets II,Medium,34.2
 2026-07-25,maximum-product-of-two-digits,3536,Maximum Product of Two Digits,Easy,69.5
 2026-07-26,maximum-product-of-three-numbers,628,Maximum Product of Three Numbers,Easy,46.1
+2026-07-27,maximum-product-of-two-elements-in-an-array,1464,Maximum Product of Two Elements in an Array,Easy,83.7
