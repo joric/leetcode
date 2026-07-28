@@ -206,6 +206,8 @@ def update(contests, path, kind):
         log(2, f"{contest['title']} missing {len(missing)}/{total}")
 
         done_count = total - len(missing)
+
+        '''
         with ThreadPoolExecutor(max_workers=8) as pool:
             futures = [pool.submit(download, contest, q) for q in missing]
 
@@ -223,10 +225,29 @@ def update(contests, path, kind):
                 saved.add((row["contestSlug"], row["titleSlug"]))
                 done_count += 1
                 log(3, f"saved {row['titleSlug']} ({done_count}/{total})")
+        '''
 
-    if skipped:
-        log(1, f"skipped {skipped} already-complete contests (no network call)")
+        # Fetch all in parallel but preserve order
+        results = {}
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            futures = {pool.submit(download, contest, q): q["titleSlug"] for q in missing}
+            for f in as_completed(futures):
+                slug = futures[f]
+                try:
+                    row = f.result()
+                    if row:
+                        results[slug] = row
+                except Exception as e:
+                    log(3, f"worker error for {slug}: {e}")
 
+        # Now write in original order
+        for q in missing:
+            row = results.get(q["titleSlug"])
+            if row:
+                append_row(path, row)
+                saved.add((row["contestSlug"], row["titleSlug"]))
+                done_count += 1
+                log(3, f"saved {row['titleSlug']} ({done_count}/{total})")
 
 def main():
     print("cwd:", os.getcwd())

@@ -1,749 +1,749 @@
 contestSlug,contestTitle,date,problemCount,titleSlug,questionFrontendId,title,difficulty,acRate
-biweekly-contest-1,Biweekly Contest 1,2019-06-01,4,campus-bikes-ii,1066,Campus Bikes II,Medium,55.9
-biweekly-contest-1,Biweekly Contest 1,2019-06-01,4,index-pairs-of-a-string,1065,Index Pairs of a String,Easy,68.7
 biweekly-contest-1,Biweekly Contest 1,2019-06-01,4,fixed-point,1064,Fixed Point,Easy,64.3
+biweekly-contest-1,Biweekly Contest 1,2019-06-01,4,index-pairs-of-a-string,1065,Index Pairs of a String,Easy,68.7
+biweekly-contest-1,Biweekly Contest 1,2019-06-01,4,campus-bikes-ii,1066,Campus Bikes II,Medium,55.9
 biweekly-contest-1,Biweekly Contest 1,2019-06-01,4,digit-count-in-range,1067,Digit Count in Range,Hard,46.6
 biweekly-contest-2,Biweekly Contest 2,2019-06-15,4,sum-of-digits-in-the-minimum-number,1085,Sum of Digits in the Minimum Number,Easy,76.7
 biweekly-contest-2,Biweekly Contest 2,2019-06-15,4,high-five,1086,High Five,Easy,74.2
 biweekly-contest-2,Biweekly Contest 2,2019-06-15,4,brace-expansion,1087,Brace Expansion,Medium,66.9
 biweekly-contest-2,Biweekly Contest 2,2019-06-15,4,confusing-number-ii,1088,Confusing Number II,Hard,47.2
-biweekly-contest-3,Biweekly Contest 3,2019-06-29,4,path-with-maximum-minimum-value,1102,Path With Maximum Minimum Value,Medium,54.7
 biweekly-contest-3,Biweekly Contest 3,2019-06-29,4,two-sum-less-than-k,1099,Two Sum Less Than K,Easy,62.2
 biweekly-contest-3,Biweekly Contest 3,2019-06-29,4,find-k-length-substrings-with-no-repeated-characters,1100,Find K-Length Substrings With No Repeated Characters,Medium,76.5
 biweekly-contest-3,Biweekly Contest 3,2019-06-29,4,the-earliest-moment-when-everyone-become-friends,1101,The Earliest Moment When Everyone Become Friends,Medium,66.1
+biweekly-contest-3,Biweekly Contest 3,2019-06-29,4,path-with-maximum-minimum-value,1102,Path With Maximum Minimum Value,Medium,54.7
 biweekly-contest-4,Biweekly Contest 4,2019-07-13,4,number-of-days-in-a-month,1118,Number of Days in a Month,Easy,59.4
-biweekly-contest-4,Biweekly Contest 4,2019-07-13,4,divide-array-into-increasing-sequences,1121,Divide Array Into Increasing Sequences,Hard,65.3
-biweekly-contest-4,Biweekly Contest 4,2019-07-13,4,maximum-average-subtree,1120,Maximum Average Subtree,Medium,67.0
 biweekly-contest-4,Biweekly Contest 4,2019-07-13,4,remove-vowels-from-a-string,1119,Remove Vowels from a String,Easy,91.3
-biweekly-contest-5,Biweekly Contest 5,2019-07-27,4,parallel-courses,1136,Parallel Courses,Medium,62.3
-biweekly-contest-5,Biweekly Contest 5,2019-07-27,4,connecting-cities-with-minimum-cost,1135,Connecting Cities With Minimum Cost,Medium,63.6
-biweekly-contest-5,Biweekly Contest 5,2019-07-27,4,armstrong-number,1134,Armstrong Number,Easy,77.8
+biweekly-contest-4,Biweekly Contest 4,2019-07-13,4,maximum-average-subtree,1120,Maximum Average Subtree,Medium,67.0
+biweekly-contest-4,Biweekly Contest 4,2019-07-13,4,divide-array-into-increasing-sequences,1121,Divide Array Into Increasing Sequences,Hard,65.3
 biweekly-contest-5,Biweekly Contest 5,2019-07-27,4,largest-unique-number,1133,Largest Unique Number,Easy,71.3
-biweekly-contest-6,Biweekly Contest 6,2019-08-10,4,analyze-user-website-visit-pattern,1152,Analyze User Website Visit Pattern,Medium,44.3
+biweekly-contest-5,Biweekly Contest 5,2019-07-27,4,armstrong-number,1134,Armstrong Number,Easy,77.8
+biweekly-contest-5,Biweekly Contest 5,2019-07-27,4,connecting-cities-with-minimum-cost,1135,Connecting Cities With Minimum Cost,Medium,63.6
+biweekly-contest-5,Biweekly Contest 5,2019-07-27,4,parallel-courses,1136,Parallel Courses,Medium,62.3
 biweekly-contest-6,Biweekly Contest 6,2019-08-10,4,check-if-a-number-is-majority-element-in-a-sorted-array,1150,Check If a Number Is Majority Element in a Sorted Array,Easy,60.0
-biweekly-contest-6,Biweekly Contest 6,2019-08-10,4,string-transforms-into-another-string,1153,String Transforms Into Another String,Hard,34.6
 biweekly-contest-6,Biweekly Contest 6,2019-08-10,4,minimum-swaps-to-group-all-1s-together,1151,Minimum Swaps to Group All 1's Together,Medium,61.3
-biweekly-contest-7,Biweekly Contest 7,2019-08-24,4,optimize-water-distribution-in-a-village,1168,Optimize Water Distribution in a Village,Hard,65.6
-biweekly-contest-7,Biweekly Contest 7,2019-08-24,4,minimum-cost-to-connect-sticks,1167,Minimum Cost to Connect Sticks,Medium,72.0
+biweekly-contest-6,Biweekly Contest 6,2019-08-10,4,analyze-user-website-visit-pattern,1152,Analyze User Website Visit Pattern,Medium,44.3
+biweekly-contest-6,Biweekly Contest 6,2019-08-10,4,string-transforms-into-another-string,1153,String Transforms Into Another String,Hard,34.6
 biweekly-contest-7,Biweekly Contest 7,2019-08-24,4,single-row-keyboard,1165,Single-Row Keyboard,Easy,87.8
 biweekly-contest-7,Biweekly Contest 7,2019-08-24,4,design-file-system,1166,Design File System,Medium,65.2
-biweekly-contest-8,Biweekly Contest 8,2019-09-07,4,maximum-number-of-ones,1183,Maximum Number of Ones,Hard,70.6
-biweekly-contest-8,Biweekly Contest 8,2019-09-07,4,before-and-after-puzzle,1181,Before and After Puzzle,Medium,51.9
+biweekly-contest-7,Biweekly Contest 7,2019-08-24,4,minimum-cost-to-connect-sticks,1167,Minimum Cost to Connect Sticks,Medium,72.0
+biweekly-contest-7,Biweekly Contest 7,2019-08-24,4,optimize-water-distribution-in-a-village,1168,Optimize Water Distribution in a Village,Hard,65.6
 biweekly-contest-8,Biweekly Contest 8,2019-09-07,4,count-substrings-with-only-one-distinct-letter,1180,Count Substrings with Only One Distinct Letter,Easy,80.9
+biweekly-contest-8,Biweekly Contest 8,2019-09-07,4,before-and-after-puzzle,1181,Before and After Puzzle,Medium,51.9
 biweekly-contest-8,Biweekly Contest 8,2019-09-07,4,shortest-distance-to-target-color,1182,Shortest Distance to Target Color,Medium,56.5
+biweekly-contest-8,Biweekly Contest 8,2019-09-07,4,maximum-number-of-ones,1183,Maximum Number of Ones,Hard,70.6
 biweekly-contest-9,Biweekly Contest 9,2019-09-21,4,how-many-apples-can-you-put-into-the-basket,1196,How Many Apples Can You Put into the Basket,Easy,67.2
 biweekly-contest-9,Biweekly Contest 9,2019-09-21,4,minimum-knight-moves,1197,Minimum Knight Moves,Medium,42.0
 biweekly-contest-9,Biweekly Contest 9,2019-09-21,4,find-smallest-common-element-in-all-rows,1198,Find Smallest Common Element in All Rows,Medium,76.8
 biweekly-contest-9,Biweekly Contest 9,2019-09-21,4,minimum-time-to-build-blocks,1199,Minimum Time to Build Blocks,Hard,46.8
-biweekly-contest-10,Biweekly Contest 10,2019-10-05,4,valid-palindrome-iii,1216,Valid Palindrome III,Hard,49.2
+biweekly-contest-10,Biweekly Contest 10,2019-10-05,4,intersection-of-three-sorted-arrays,1213,Intersection of Three Sorted Arrays,Easy,80.0
 biweekly-contest-10,Biweekly Contest 10,2019-10-05,4,two-sum-bsts,1214,Two Sum BSTs,Medium,68.2
 biweekly-contest-10,Biweekly Contest 10,2019-10-05,4,stepping-numbers,1215,Stepping Numbers,Medium,48.6
-biweekly-contest-10,Biweekly Contest 10,2019-10-05,4,intersection-of-three-sorted-arrays,1213,Intersection of Three Sorted Arrays,Easy,80.0
-biweekly-contest-11,Biweekly Contest 11,2019-10-19,4,divide-chocolate,1231,Divide Chocolate,Hard,60.6
+biweekly-contest-10,Biweekly Contest 10,2019-10-05,4,valid-palindrome-iii,1216,Valid Palindrome III,Hard,49.2
+biweekly-contest-11,Biweekly Contest 11,2019-10-19,4,missing-number-in-arithmetic-progression,1228,Missing Number In Arithmetic Progression,Easy,52.2
 biweekly-contest-11,Biweekly Contest 11,2019-10-19,4,meeting-scheduler,1229,Meeting Scheduler,Medium,55.2
 biweekly-contest-11,Biweekly Contest 11,2019-10-19,4,toss-strange-coins,1230,Toss Strange Coins,Medium,58.1
-biweekly-contest-11,Biweekly Contest 11,2019-10-19,4,missing-number-in-arithmetic-progression,1228,Missing Number In Arithmetic Progression,Easy,52.2
-biweekly-contest-12,Biweekly Contest 12,2019-11-02,4,design-a-leaderboard,1244,Design A Leaderboard,Medium,68.1
-biweekly-contest-12,Biweekly Contest 12,2019-11-02,4,palindrome-removal,1246,Palindrome Removal,Hard,46.2
-biweekly-contest-12,Biweekly Contest 12,2019-11-02,4,tree-diameter,1245,Tree Diameter,Medium,61.3
+biweekly-contest-11,Biweekly Contest 11,2019-10-19,4,divide-chocolate,1231,Divide Chocolate,Hard,60.6
 biweekly-contest-12,Biweekly Contest 12,2019-11-02,4,array-transformation,1243,Array Transformation,Easy,53.8
+biweekly-contest-12,Biweekly Contest 12,2019-11-02,4,design-a-leaderboard,1244,Design A Leaderboard,Medium,68.1
+biweekly-contest-12,Biweekly Contest 12,2019-11-02,4,tree-diameter,1245,Tree Diameter,Medium,61.3
+biweekly-contest-12,Biweekly Contest 12,2019-11-02,4,palindrome-removal,1246,Palindrome Removal,Hard,46.2
 biweekly-contest-13,Biweekly Contest 13,2019-11-16,4,encode-number,1256,Encode Number,Medium,70.3
+biweekly-contest-13,Biweekly Contest 13,2019-11-16,4,smallest-common-region,1257,Smallest Common Region,Medium,68.3
 biweekly-contest-13,Biweekly Contest 13,2019-11-16,4,synonymous-sentences,1258,Synonymous Sentences,Medium,57.5
 biweekly-contest-13,Biweekly Contest 13,2019-11-16,4,handshakes-that-dont-cross,1259,Handshakes That Don't Cross,Hard,61.5
-biweekly-contest-13,Biweekly Contest 13,2019-11-16,4,smallest-common-region,1257,Smallest Common Region,Medium,68.3
+biweekly-contest-14,Biweekly Contest 14,2019-11-30,4,hexspeak,1271,Hexspeak,Easy,58.4
 biweekly-contest-14,Biweekly Contest 14,2019-11-30,4,remove-interval,1272,Remove Interval,Medium,67.3
 biweekly-contest-14,Biweekly Contest 14,2019-11-30,4,delete-tree-nodes,1273,Delete Tree Nodes,Medium,61.6
 biweekly-contest-14,Biweekly Contest 14,2019-11-30,4,number-of-ships-in-a-rectangle,1274,Number of Ships in a Rectangle,Hard,68.8
-biweekly-contest-14,Biweekly Contest 14,2019-11-30,4,hexspeak,1271,Hexspeak,Easy,58.4
-biweekly-contest-15,Biweekly Contest 15,2019-12-14,4,remove-covered-intervals,1288,Remove Covered Intervals,Medium,60.1
 biweekly-contest-15,Biweekly Contest 15,2019-12-14,4,element-appearing-more-than-25-in-sorted-array,1287,Element Appearing More Than 25% In Sorted Array,Easy,61.3
-biweekly-contest-15,Biweekly Contest 15,2019-12-14,4,minimum-falling-path-sum-ii,1289,Minimum Falling Path Sum II,Hard,63.0
+biweekly-contest-15,Biweekly Contest 15,2019-12-14,4,remove-covered-intervals,1288,Remove Covered Intervals,Medium,60.1
 biweekly-contest-15,Biweekly Contest 15,2019-12-14,4,iterator-for-combination,1286,Iterator for Combination,Medium,72.7
-biweekly-contest-16,Biweekly Contest 16,2019-12-28,4,deepest-leaves-sum,1302,Deepest Leaves Sum,Medium,86.6
-biweekly-contest-16,Biweekly Contest 16,2019-12-28,4,number-of-paths-with-max-score,1301,Number of Paths with Max Score,Hard,63.9
-biweekly-contest-16,Biweekly Contest 16,2019-12-28,4,sum-of-mutated-array-closest-to-target,1300,Sum of Mutated Array Closest to Target,Medium,46.5
+biweekly-contest-15,Biweekly Contest 15,2019-12-14,4,minimum-falling-path-sum-ii,1289,Minimum Falling Path Sum II,Hard,63.0
 biweekly-contest-16,Biweekly Contest 16,2019-12-28,4,replace-elements-with-greatest-element-on-right-side,1299,Replace Elements with Greatest Element on Right Side,Easy,72.4
+biweekly-contest-16,Biweekly Contest 16,2019-12-28,4,sum-of-mutated-array-closest-to-target,1300,Sum of Mutated Array Closest to Target,Medium,46.5
+biweekly-contest-16,Biweekly Contest 16,2019-12-28,4,deepest-leaves-sum,1302,Deepest Leaves Sum,Medium,86.6
+biweekly-contest-16,Biweekly Contest 16,2019-12-28,4,number-of-paths-with-max-score,1301,Number of Paths with Max Score,Hard,63.8
+biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,decompress-run-length-encoded-list,1313,Decompress Run-Length Encoded List,Easy,86.3
 biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,matrix-block-sum,1314,Matrix Block Sum,Medium,76.8
 biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,sum-of-nodes-with-even-valued-grandparent,1315,Sum of Nodes with Even-Valued Grandparent,Medium,86.0
-biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,decompress-run-length-encoded-list,1313,Decompress Run-Length Encoded List,Easy,86.3
 biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,distinct-echo-substrings,1316,Distinct Echo Substrings,Hard,53.4
 biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,rank-transform-of-an-array,1331,Rank Transform of an Array,Easy,73.9
 biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,break-a-palindrome,1328,Break a Palindrome,Medium,51.6
 biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,sort-the-matrix-diagonally,1329,Sort the Matrix Diagonally,Medium,83.2
 biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,reverse-subarray-to-maximize-array-value,1330,Reverse Subarray To Maximize Array Value,Hard,44.3
-biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,jump-game-iv,1345,Jump Game IV,Hard,51.0
 biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,number-of-steps-to-reduce-a-number-to-zero,1342,Number of Steps to Reduce a Number to Zero,Easy,85.9
 biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,Medium,73.6
 biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,angle-between-hands-of-a-clock,1344,Angle Between Hands of a Clock,Medium,69.7
+biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,jump-game-iv,1345,Jump Game IV,Hard,51.0
 biweekly-contest-20,Biweekly Contest 20,2020-02-22,4,sort-integers-by-the-number-of-1-bits,1356,Sort Integers by The Number of 1 Bits,Easy,82.4
+biweekly-contest-20,Biweekly Contest 20,2020-02-22,4,apply-discount-every-n-orders,1357,Apply Discount Every n Orders,Medium,65.9
 biweekly-contest-20,Biweekly Contest 20,2020-02-22,4,number-of-substrings-containing-all-three-characters,1358,Number of Substrings Containing All Three Characters,Medium,74.4
 biweekly-contest-20,Biweekly Contest 20,2020-02-22,4,count-all-valid-pickup-and-delivery-options,1359,Count All Valid Pickup and Delivery Options,Hard,64.9
-biweekly-contest-20,Biweekly Contest 20,2020-02-22,4,apply-discount-every-n-orders,1357,Apply Discount Every n Orders,Medium,65.9
-biweekly-contest-21,Biweekly Contest 21,2020-03-07,4,find-the-longest-substring-containing-vowels-in-even-counts,1371,Find the Longest Substring Containing Vowels in Even Counts,Medium,75.6
-biweekly-contest-21,Biweekly Contest 21,2020-03-07,4,maximum-sum-bst-in-binary-tree,1373,Maximum Sum BST in Binary Tree,Hard,48.4
 biweekly-contest-21,Biweekly Contest 21,2020-03-07,4,increasing-decreasing-string,1370,Increasing Decreasing String,Easy,77.3
+biweekly-contest-21,Biweekly Contest 21,2020-03-07,4,find-the-longest-substring-containing-vowels-in-even-counts,1371,Find the Longest Substring Containing Vowels in Even Counts,Medium,75.6
 biweekly-contest-21,Biweekly Contest 21,2020-03-07,4,longest-zigzag-path-in-a-binary-tree,1372,Longest ZigZag Path in a Binary Tree,Medium,67.3
-biweekly-contest-22,Biweekly Contest 22,2020-03-21,4,cinema-seat-allocation,1386,Cinema Seat Allocation,Medium,44.8
-biweekly-contest-22,Biweekly Contest 22,2020-03-21,4,pizza-with-3n-slices,1388,Pizza With 3n Slices,Hard,54.1
+biweekly-contest-21,Biweekly Contest 21,2020-03-07,4,maximum-sum-bst-in-binary-tree,1373,Maximum Sum BST in Binary Tree,Hard,48.4
 biweekly-contest-22,Biweekly Contest 22,2020-03-21,4,find-the-distance-value-between-two-arrays,1385,Find the Distance Value Between Two Arrays,Easy,72.1
+biweekly-contest-22,Biweekly Contest 22,2020-03-21,4,cinema-seat-allocation,1386,Cinema Seat Allocation,Medium,44.8
 biweekly-contest-22,Biweekly Contest 22,2020-03-21,4,sort-integers-by-the-power-value,1387,Sort Integers by The Power Value,Medium,71.7
+biweekly-contest-22,Biweekly Contest 22,2020-03-21,4,pizza-with-3n-slices,1388,Pizza With 3n Slices,Hard,54.1
+biweekly-contest-23,Biweekly Contest 23,2020-04-04,4,count-largest-group,1399,Count Largest Group,Easy,74.7
 biweekly-contest-23,Biweekly Contest 23,2020-04-04,4,construct-k-palindrome-strings,1400,Construct K Palindrome Strings,Medium,68.5
 biweekly-contest-23,Biweekly Contest 23,2020-04-04,4,circle-and-rectangle-overlapping,1401,Circle and Rectangle Overlapping,Medium,50.3
 biweekly-contest-23,Biweekly Contest 23,2020-04-04,4,reducing-dishes,1402,Reducing Dishes,Hard,76.8
-biweekly-contest-23,Biweekly Contest 23,2020-04-04,4,count-largest-group,1399,Count Largest Group,Easy,74.7
-biweekly-contest-24,Biweekly Contest 24,2020-04-18,4,the-k-th-lexicographical-string-of-all-happy-strings-of-length-n,1415,The k-th Lexicographical String of All Happy Strings of Length n,Medium,87.1
-biweekly-contest-24,Biweekly Contest 24,2020-04-18,4,find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k,1414,Find the Minimum Number of Fibonacci Numbers Whose Sum Is K,Medium,64.7
-biweekly-contest-24,Biweekly Contest 24,2020-04-18,4,restore-the-array,1416,Restore The Array,Hard,46.7
 biweekly-contest-24,Biweekly Contest 24,2020-04-18,4,minimum-value-to-get-positive-step-by-step-sum,1413,Minimum Value to Get Positive Step by Step Sum,Easy,64.8
+biweekly-contest-24,Biweekly Contest 24,2020-04-18,4,find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k,1414,Find the Minimum Number of Fibonacci Numbers Whose Sum Is K,Medium,64.7
+biweekly-contest-24,Biweekly Contest 24,2020-04-18,4,the-k-th-lexicographical-string-of-all-happy-strings-of-length-n,1415,The k-th Lexicographical String of All Happy Strings of Length n,Medium,87.1
+biweekly-contest-24,Biweekly Contest 24,2020-04-18,4,restore-the-array,1416,Restore The Array,Hard,46.7
 biweekly-contest-25,Biweekly Contest 25,2020-05-02,4,kids-with-the-greatest-number-of-candies,1431,Kids With the Greatest Number of Candies,Easy,88.0
 biweekly-contest-25,Biweekly Contest 25,2020-05-02,4,max-difference-you-can-get-from-changing-an-integer,1432,Max Difference You Can Get From Changing an Integer,Medium,48.6
 biweekly-contest-25,Biweekly Contest 25,2020-05-02,4,check-if-a-string-can-break-another-string,1433,Check If a String Can Break Another String,Medium,71.1
 biweekly-contest-25,Biweekly Contest 25,2020-05-02,4,number-of-ways-to-wear-different-hats-to-each-other,1434,Number of Ways to Wear Different Hats to Each Other,Hard,46.5
-biweekly-contest-26,Biweekly Contest 26,2020-05-16,4,count-good-nodes-in-binary-tree,1448,Count Good Nodes in Binary Tree,Medium,73.9
-biweekly-contest-26,Biweekly Contest 26,2020-05-16,4,form-largest-integer-with-digits-that-add-up-to-target,1449,Form Largest Integer With Digits That Add up to Target,Hard,49.9
-biweekly-contest-26,Biweekly Contest 26,2020-05-16,4,simplified-fractions,1447,Simplified Fractions,Medium,70.0
 biweekly-contest-26,Biweekly Contest 26,2020-05-16,4,consecutive-characters,1446,Consecutive Characters,Easy,60.4
-biweekly-contest-27,Biweekly Contest 27,2020-05-30,4,course-schedule-iv,1462,Course Schedule IV,Medium,60.1
+biweekly-contest-26,Biweekly Contest 26,2020-05-16,4,simplified-fractions,1447,Simplified Fractions,Medium,70.0
+biweekly-contest-26,Biweekly Contest 26,2020-05-16,4,count-good-nodes-in-binary-tree,1448,Count Good Nodes in Binary Tree,Medium,73.9
+biweekly-contest-26,Biweekly Contest 26,2020-05-16,4,form-largest-integer-with-digits-that-add-up-to-target,1449,Form Largest Integer With Digits That Add up to Target,Hard,49.8
 biweekly-contest-27,Biweekly Contest 27,2020-05-30,4,make-two-arrays-equal-by-reversing-subarrays,1460,Make Two Arrays Equal by Reversing Subarrays,Easy,75.8
-biweekly-contest-27,Biweekly Contest 27,2020-05-30,4,cherry-pickup-ii,1463,Cherry Pickup II,Hard,72.6
 biweekly-contest-27,Biweekly Contest 27,2020-05-30,4,check-if-a-string-contains-all-binary-codes-of-size-k,1461,Check If a String Contains All Binary Codes of Size K,Medium,61.6
+biweekly-contest-27,Biweekly Contest 27,2020-05-30,4,course-schedule-iv,1462,Course Schedule IV,Medium,60.1
+biweekly-contest-27,Biweekly Contest 27,2020-05-30,4,cherry-pickup-ii,1463,Cherry Pickup II,Hard,72.6
+biweekly-contest-28,Biweekly Contest 28,2020-06-13,4,final-prices-with-a-special-discount-in-a-shop,1475,Final Prices With a Special Discount in a Shop,Easy,84.3
+biweekly-contest-28,Biweekly Contest 28,2020-06-13,4,subrectangle-queries,1476,Subrectangle Queries,Medium,86.4
 biweekly-contest-28,Biweekly Contest 28,2020-06-13,4,find-two-non-overlapping-sub-arrays-each-with-target-sum,1477,Find Two Non-overlapping Sub-arrays Each With Target Sum,Medium,36.9
 biweekly-contest-28,Biweekly Contest 28,2020-06-13,4,allocate-mailboxes,1478,Allocate Mailboxes,Hard,56.8
-biweekly-contest-28,Biweekly Contest 28,2020-06-13,4,subrectangle-queries,1476,Subrectangle Queries,Medium,86.4
-biweekly-contest-28,Biweekly Contest 28,2020-06-13,4,final-prices-with-a-special-discount-in-a-shop,1475,Final Prices With a Special Discount in a Shop,Easy,84.3
-biweekly-contest-29,Biweekly Contest 29,2020-06-27,4,parallel-courses-ii,1494,Parallel Courses II,Hard,31.2
 biweekly-contest-29,Biweekly Contest 29,2020-06-27,4,average-salary-excluding-the-minimum-and-maximum-salary,1491,Average Salary Excluding the Minimum and Maximum Salary,Easy,63.6
-biweekly-contest-29,Biweekly Contest 29,2020-06-27,4,longest-subarray-of-1s-after-deleting-one-element,1493,Longest Subarray of 1's After Deleting One Element,Medium,71.4
 biweekly-contest-29,Biweekly Contest 29,2020-06-27,4,the-kth-factor-of-n,1492,The kth Factor of n,Medium,70.5
+biweekly-contest-29,Biweekly Contest 29,2020-06-27,4,longest-subarray-of-1s-after-deleting-one-element,1493,Longest Subarray of 1's After Deleting One Element,Medium,71.4
+biweekly-contest-29,Biweekly Contest 29,2020-06-27,4,parallel-courses-ii,1494,Parallel Courses II,Hard,31.2
 biweekly-contest-30,Biweekly Contest 30,2020-07-11,4,reformat-date,1507,Reformat Date,Easy,68.7
-biweekly-contest-30,Biweekly Contest 30,2020-07-11,4,minimum-difference-between-largest-and-smallest-value-in-three-moves,1509,Minimum Difference Between Largest and Smallest Value in Three Moves,Medium,59.2
 biweekly-contest-30,Biweekly Contest 30,2020-07-11,4,range-sum-of-sorted-subarray-sums,1508,Range Sum of Sorted Subarray Sums,Medium,63.0
+biweekly-contest-30,Biweekly Contest 30,2020-07-11,4,minimum-difference-between-largest-and-smallest-value-in-three-moves,1509,Minimum Difference Between Largest and Smallest Value in Three Moves,Medium,59.2
 biweekly-contest-30,Biweekly Contest 30,2020-07-11,4,stone-game-iv,1510,Stone Game IV,Hard,59.6
-biweekly-contest-31,Biweekly Contest 31,2020-07-25,4,number-of-sub-arrays-with-odd-sum,1524,Number of Sub-arrays With Odd Sum,Medium,55.6
 biweekly-contest-31,Biweekly Contest 31,2020-07-25,4,count-odd-numbers-in-an-interval-range,1523,Count Odd Numbers in an Interval Range,Easy,54.6
+biweekly-contest-31,Biweekly Contest 31,2020-07-25,4,number-of-sub-arrays-with-odd-sum,1524,Number of Sub-arrays With Odd Sum,Medium,55.6
 biweekly-contest-31,Biweekly Contest 31,2020-07-25,4,number-of-good-ways-to-split-a-string,1525,Number of Good Ways to Split a String,Medium,68.5
 biweekly-contest-31,Biweekly Contest 31,2020-07-25,4,minimum-number-of-increments-on-subarrays-to-form-a-target-array,1526,Minimum Number of Increments on Subarrays to Form a Target Array,Hard,78.2
 biweekly-contest-32,Biweekly Contest 32,2020-08-08,4,kth-missing-positive-number,1539,Kth Missing Positive Number,Easy,63.8
+biweekly-contest-32,Biweekly Contest 32,2020-08-08,4,can-convert-string-in-k-moves,1540,Can Convert String in K Moves,Medium,37.9
 biweekly-contest-32,Biweekly Contest 32,2020-08-08,4,minimum-insertions-to-balance-a-parentheses-string,1541,Minimum Insertions to Balance a Parentheses String,Medium,53.6
 biweekly-contest-32,Biweekly Contest 32,2020-08-08,4,find-longest-awesome-substring,1542,Find Longest Awesome Substring,Hard,47.2
-biweekly-contest-32,Biweekly Contest 32,2020-08-08,4,can-convert-string-in-k-moves,1540,Can Convert String in K Moves,Medium,37.9
 biweekly-contest-33,Biweekly Contest 33,2020-08-22,4,thousand-separator,1556,Thousand Separator,Easy,53.8
 biweekly-contest-33,Biweekly Contest 33,2020-08-22,4,minimum-number-of-vertices-to-reach-all-nodes,1557,Minimum Number of Vertices to Reach All Nodes,Medium,81.7
-biweekly-contest-33,Biweekly Contest 33,2020-08-22,4,detect-cycles-in-2d-grid,1559,Detect Cycles in 2D Grid,Medium,63.4
 biweekly-contest-33,Biweekly Contest 33,2020-08-22,4,minimum-numbers-of-function-calls-to-make-target-array,1558,Minimum Numbers of Function Calls to Make Target Array,Medium,62.7
+biweekly-contest-33,Biweekly Contest 33,2020-08-22,4,detect-cycles-in-2d-grid,1559,Detect Cycles in 2D Grid,Medium,63.4
 biweekly-contest-34,Biweekly Contest 34,2020-09-05,4,matrix-diagonal-sum,1572,Matrix Diagonal Sum,Easy,84.5
-biweekly-contest-34,Biweekly Contest 34,2020-09-05,4,shortest-subarray-to-be-removed-to-make-array-sorted,1574,Shortest Subarray to be Removed to Make Array Sorted,Medium,51.3
 biweekly-contest-34,Biweekly Contest 34,2020-09-05,4,number-of-ways-to-split-a-string,1573,Number of Ways to Split a String,Medium,34.7
+biweekly-contest-34,Biweekly Contest 34,2020-09-05,4,shortest-subarray-to-be-removed-to-make-array-sorted,1574,Shortest Subarray to be Removed to Make Array Sorted,Medium,51.3
 biweekly-contest-34,Biweekly Contest 34,2020-09-05,4,count-all-possible-routes,1575,Count All Possible Routes,Hard,64.8
-biweekly-contest-35,Biweekly Contest 35,2020-09-19,4,strange-printer-ii,1591,Strange Printer II,Hard,60.9
-biweekly-contest-35,Biweekly Contest 35,2020-09-19,4,make-sum-divisible-by-p,1590,Make Sum Divisible by P,Medium,42.6
 biweekly-contest-35,Biweekly Contest 35,2020-09-19,4,sum-of-all-odd-length-subarrays,1588,Sum of All Odd Length Subarrays,Easy,84.1
 biweekly-contest-35,Biweekly Contest 35,2020-09-19,4,maximum-sum-obtained-of-any-permutation,1589,Maximum Sum Obtained of Any Permutation,Medium,41.2
-biweekly-contest-36,Biweekly Contest 36,2020-10-03,4,find-valid-matrix-given-row-and-column-sums,1605,Find Valid Matrix Given Row and Column Sums,Medium,82.6
-biweekly-contest-36,Biweekly Contest 36,2020-10-03,4,alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,1604,Alert Using Same Key-Card Three or More Times in a One Hour Period,Medium,46.3
+biweekly-contest-35,Biweekly Contest 35,2020-09-19,4,make-sum-divisible-by-p,1590,Make Sum Divisible by P,Medium,42.6
+biweekly-contest-35,Biweekly Contest 35,2020-09-19,4,strange-printer-ii,1591,Strange Printer II,Hard,60.9
 biweekly-contest-36,Biweekly Contest 36,2020-10-03,4,design-parking-system,1603,Design Parking System,Easy,87.2
+biweekly-contest-36,Biweekly Contest 36,2020-10-03,4,alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,1604,Alert Using Same Key-Card Three or More Times in a One Hour Period,Medium,46.3
+biweekly-contest-36,Biweekly Contest 36,2020-10-03,4,find-valid-matrix-given-row-and-column-sums,1605,Find Valid Matrix Given Row and Column Sums,Medium,82.6
 biweekly-contest-36,Biweekly Contest 36,2020-10-03,4,find-servers-that-handled-most-number-of-requests,1606,Find Servers That Handled Most Number of Requests,Hard,45.6
 biweekly-contest-37,Biweekly Contest 37,2020-10-17,4,mean-of-array-after-removing-some-elements,1619,Mean of Array After Removing Some Elements,Easy,72.1
-biweekly-contest-37,Biweekly Contest 37,2020-10-17,4,fancy-sequence,1622,Fancy Sequence,Hard,41.5
 biweekly-contest-37,Biweekly Contest 37,2020-10-17,4,coordinate-with-maximum-network-quality,1620,Coordinate With Maximum Network Quality,Medium,39.8
 biweekly-contest-37,Biweekly Contest 37,2020-10-17,4,number-of-sets-of-k-non-overlapping-line-segments,1621,Number of Sets of K Non-Overlapping Line Segments,Medium,46.1
-biweekly-contest-38,Biweekly Contest 38,2020-10-31,4,sort-array-by-increasing-frequency,1636,Sort Array by Increasing Frequency,Easy,80.9
+biweekly-contest-37,Biweekly Contest 37,2020-10-17,4,fancy-sequence,1622,Fancy Sequence,Hard,41.5
+biweekly-contest-38,Biweekly Contest 38,2020-10-31,4,sort-array-by-increasing-frequency,1636,Sort Array by Increasing Frequency,Easy,81.0
+biweekly-contest-38,Biweekly Contest 38,2020-10-31,4,widest-vertical-area-between-two-points-containing-no-points,1637,Widest Vertical Area Between Two Points Containing No Points,Easy,87.1
 biweekly-contest-38,Biweekly Contest 38,2020-10-31,4,count-substrings-that-differ-by-one-character,1638,Count Substrings That Differ by One Character,Medium,72.3
 biweekly-contest-38,Biweekly Contest 38,2020-10-31,4,number-of-ways-to-form-a-target-string-given-a-dictionary,1639,Number of Ways to Form a Target String Given a Dictionary,Hard,56.4
-biweekly-contest-38,Biweekly Contest 38,2020-10-31,4,widest-vertical-area-between-two-points-containing-no-points,1637,Widest Vertical Area Between Two Points Containing No Points,Easy,87.1
-biweekly-contest-39,Biweekly Contest 39,2020-11-14,4,minimum-deletions-to-make-string-balanced,1653,Minimum Deletions to Make String Balanced,Medium,68.2
 biweekly-contest-39,Biweekly Contest 39,2020-11-14,4,defuse-the-bomb,1652,Defuse the Bomb,Easy,79.4
-biweekly-contest-39,Biweekly Contest 39,2020-11-14,4,distribute-repeating-integers,1655,Distribute Repeating Integers,Hard,41.0
+biweekly-contest-39,Biweekly Contest 39,2020-11-14,4,minimum-deletions-to-make-string-balanced,1653,Minimum Deletions to Make String Balanced,Medium,68.2
 biweekly-contest-39,Biweekly Contest 39,2020-11-14,4,minimum-jumps-to-reach-home,1654,Minimum Jumps to Reach Home,Medium,31.0
+biweekly-contest-39,Biweekly Contest 39,2020-11-14,4,distribute-repeating-integers,1655,Distribute Repeating Integers,Hard,41.0
 biweekly-contest-40,Biweekly Contest 40,2020-11-28,4,maximum-repeating-substring,1668,Maximum Repeating Substring,Easy,42.0
 biweekly-contest-40,Biweekly Contest 40,2020-11-28,4,merge-in-between-linked-lists,1669,Merge In Between Linked Lists,Medium,83.1
 biweekly-contest-40,Biweekly Contest 40,2020-11-28,4,design-front-middle-back-queue,1670,Design Front Middle Back Queue,Medium,58.3
 biweekly-contest-40,Biweekly Contest 40,2020-11-28,4,minimum-number-of-removals-to-make-mountain-array,1671,Minimum Number of Removals to Make Mountain Array,Hard,54.8
-biweekly-contest-41,Biweekly Contest 41,2020-12-12,4,delivering-boxes-from-storage-to-ports,1687,Delivering Boxes from Storage to Ports,Hard,39.9
 biweekly-contest-41,Biweekly Contest 41,2020-12-12,4,count-the-number-of-consistent-strings,1684,Count the Number of Consistent Strings,Easy,88.5
 biweekly-contest-41,Biweekly Contest 41,2020-12-12,4,sum-of-absolute-differences-in-a-sorted-array,1685,Sum of Absolute Differences in a Sorted Array,Medium,68.4
 biweekly-contest-41,Biweekly Contest 41,2020-12-12,4,stone-game-vi,1686,Stone Game VI,Medium,60.9
+biweekly-contest-41,Biweekly Contest 41,2020-12-12,4,delivering-boxes-from-storage-to-ports,1687,Delivering Boxes from Storage to Ports,Hard,39.9
 biweekly-contest-42,Biweekly Contest 42,2020-12-26,4,number-of-students-unable-to-eat-lunch,1700,Number of Students Unable to Eat Lunch,Easy,79.9
+biweekly-contest-42,Biweekly Contest 42,2020-12-26,4,average-waiting-time,1701,Average Waiting Time,Medium,73.1
 biweekly-contest-42,Biweekly Contest 42,2020-12-26,4,maximum-binary-string-after-change,1702,Maximum Binary String After Change,Medium,47.8
 biweekly-contest-42,Biweekly Contest 42,2020-12-26,4,minimum-adjacent-swaps-for-k-consecutive-ones,1703,Minimum Adjacent Swaps for K Consecutive Ones,Hard,42.4
-biweekly-contest-42,Biweekly Contest 42,2020-12-26,4,average-waiting-time,1701,Average Waiting Time,Medium,73.1
+biweekly-contest-43,Biweekly Contest 43,2021-01-09,4,calculate-money-in-leetcode-bank,1716,Calculate Money in Leetcode Bank,Easy,82.4
 biweekly-contest-43,Biweekly Contest 43,2021-01-09,4,maximum-score-from-removing-substrings,1717,Maximum Score From Removing Substrings,Medium,66.4
 biweekly-contest-43,Biweekly Contest 43,2021-01-09,4,construct-the-lexicographically-largest-valid-sequence,1718,Construct the Lexicographically Largest Valid Sequence,Medium,72.6
-biweekly-contest-43,Biweekly Contest 43,2021-01-09,4,calculate-money-in-leetcode-bank,1716,Calculate Money in Leetcode Bank,Easy,82.4
 biweekly-contest-43,Biweekly Contest 43,2021-01-09,4,number-of-ways-to-reconstruct-a-tree,1719,Number Of Ways To Reconstruct A Tree,Hard,46.1
 biweekly-contest-44,Biweekly Contest 44,2021-01-23,4,find-the-highest-altitude,1732,Find the Highest Altitude,Easy,84.6
-biweekly-contest-44,Biweekly Contest 44,2021-01-23,4,count-ways-to-make-array-with-product,1735,Count Ways to Make Array With Product,Hard,55.2
 biweekly-contest-44,Biweekly Contest 44,2021-01-23,4,minimum-number-of-people-to-teach,1733,Minimum Number of People to Teach,Medium,67.2
 biweekly-contest-44,Biweekly Contest 44,2021-01-23,4,decode-xored-permutation,1734,Decode XORed Permutation,Medium,67.1
+biweekly-contest-44,Biweekly Contest 44,2021-01-23,4,count-ways-to-make-array-with-product,1735,Count Ways to Make Array With Product,Hard,55.2
 biweekly-contest-45,Biweekly Contest 45,2021-02-06,4,sum-of-unique-elements,1748,Sum of Unique Elements,Easy,80.2
 biweekly-contest-45,Biweekly Contest 45,2021-02-06,4,maximum-absolute-sum-of-any-subarray,1749,Maximum Absolute Sum of Any Subarray,Medium,70.8
 biweekly-contest-45,Biweekly Contest 45,2021-02-06,4,minimum-length-of-string-after-deleting-similar-ends,1750,Minimum Length of String After Deleting Similar Ends,Medium,56.1
 biweekly-contest-45,Biweekly Contest 45,2021-02-06,4,maximum-number-of-events-that-can-be-attended-ii,1751,Maximum Number of Events That Can Be Attended II,Hard,63.4
-biweekly-contest-46,Biweekly Contest 46,2021-02-20,4,form-array-by-concatenating-subarrays-of-another-array,1764,Form Array by Concatenating Subarrays of Another Array,Medium,54.9
-biweekly-contest-46,Biweekly Contest 46,2021-02-20,4,tree-of-coprimes,1766,Tree of Coprimes,Hard,44.5
-biweekly-contest-46,Biweekly Contest 46,2021-02-20,4,map-of-highest-peak,1765,Map of Highest Peak,Medium,76.1
 biweekly-contest-46,Biweekly Contest 46,2021-02-20,4,longest-nice-substring,1763,Longest Nice Substring,Easy,64.6
-biweekly-contest-47,Biweekly Contest 47,2021-03-06,4,sum-of-beauty-of-all-substrings,1781,Sum of Beauty of All Substrings,Medium,74.5
+biweekly-contest-46,Biweekly Contest 46,2021-02-20,4,form-array-by-concatenating-subarrays-of-another-array,1764,Form Array by Concatenating Subarrays of Another Array,Medium,54.9
+biweekly-contest-46,Biweekly Contest 46,2021-02-20,4,map-of-highest-peak,1765,Map of Highest Peak,Medium,76.1
+biweekly-contest-46,Biweekly Contest 46,2021-02-20,4,tree-of-coprimes,1766,Tree of Coprimes,Hard,44.5
 biweekly-contest-47,Biweekly Contest 47,2021-03-06,4,find-nearest-point-that-has-the-same-x-or-y-coordinate,1779,Find Nearest Point That Has the Same X or Y Coordinate,Easy,70.0
-biweekly-contest-47,Biweekly Contest 47,2021-03-06,4,count-pairs-of-nodes,1782,Count Pairs Of Nodes,Hard,43.0
 biweekly-contest-47,Biweekly Contest 47,2021-03-06,4,check-if-number-is-a-sum-of-powers-of-three,1780,Check if Number is a Sum of Powers of Three,Medium,79.4
-biweekly-contest-48,Biweekly Contest 48,2021-03-20,4,design-authentication-manager,1797,Design Authentication Manager,Medium,58.6
-biweekly-contest-48,Biweekly Contest 48,2021-03-20,4,maximize-score-after-n-operations,1799,Maximize Score After N Operations,Hard,57.9
+biweekly-contest-47,Biweekly Contest 47,2021-03-06,4,sum-of-beauty-of-all-substrings,1781,Sum of Beauty of All Substrings,Medium,74.5
+biweekly-contest-47,Biweekly Contest 47,2021-03-06,4,count-pairs-of-nodes,1782,Count Pairs Of Nodes,Hard,43.0
 biweekly-contest-48,Biweekly Contest 48,2021-03-20,4,second-largest-digit-in-a-string,1796,Second Largest Digit in a String,Easy,54.9
+biweekly-contest-48,Biweekly Contest 48,2021-03-20,4,design-authentication-manager,1797,Design Authentication Manager,Medium,58.6
 biweekly-contest-48,Biweekly Contest 48,2021-03-20,4,maximum-number-of-consecutive-values-you-can-make,1798,Maximum Number of Consecutive Values You Can Make,Medium,64.2
-biweekly-contest-49,Biweekly Contest 49,2021-04-03,4,maximum-number-of-groups-getting-fresh-donuts,1815,Maximum Number of Groups Getting Fresh Donuts,Hard,41.4
+biweekly-contest-48,Biweekly Contest 48,2021-03-20,4,maximize-score-after-n-operations,1799,Maximize Score After N Operations,Hard,57.9
+biweekly-contest-49,Biweekly Contest 49,2021-04-03,4,determine-color-of-a-chessboard-square,1812,Determine Color of a Chessboard Square,Easy,80.0
 biweekly-contest-49,Biweekly Contest 49,2021-04-03,4,sentence-similarity-iii,1813,Sentence Similarity III,Medium,48.4
 biweekly-contest-49,Biweekly Contest 49,2021-04-03,4,count-nice-pairs-in-an-array,1814,Count Nice Pairs in an Array,Medium,48.4
-biweekly-contest-49,Biweekly Contest 49,2021-04-03,4,determine-color-of-a-chessboard-square,1812,Determine Color of a Chessboard Square,Easy,80.0
-biweekly-contest-50,Biweekly Contest 50,2021-04-17,4,minimum-number-of-operations-to-make-string-sorted,1830,Minimum Number of Operations to Make String Sorted,Hard,50.3
+biweekly-contest-49,Biweekly Contest 49,2021-04-03,4,maximum-number-of-groups-getting-fresh-donuts,1815,Maximum Number of Groups Getting Fresh Donuts,Hard,41.4
+biweekly-contest-50,Biweekly Contest 50,2021-04-17,4,minimum-operations-to-make-the-array-increasing,1827,Minimum Operations to Make the Array Increasing,Easy,82.2
 biweekly-contest-50,Biweekly Contest 50,2021-04-17,4,queries-on-number-of-points-inside-a-circle,1828,Queries on Number of Points Inside a Circle,Medium,86.8
 biweekly-contest-50,Biweekly Contest 50,2021-04-17,4,maximum-xor-for-each-query,1829,Maximum XOR for Each Query,Medium,84.6
-biweekly-contest-50,Biweekly Contest 50,2021-04-17,4,minimum-operations-to-make-the-array-increasing,1827,Minimum Operations to Make the Array Increasing,Easy,82.2
+biweekly-contest-50,Biweekly Contest 50,2021-04-17,4,minimum-number-of-operations-to-make-string-sorted,1830,Minimum Number of Operations to Make String Sorted,Hard,50.3
+biweekly-contest-51,Biweekly Contest 51,2021-05-01,4,replace-all-digits-with-characters,1844,Replace All Digits with Characters,Easy,82.9
 biweekly-contest-51,Biweekly Contest 51,2021-05-01,4,seat-reservation-manager,1845,Seat Reservation Manager,Medium,67.3
 biweekly-contest-51,Biweekly Contest 51,2021-05-01,4,maximum-element-after-decreasing-and-rearranging,1846,Maximum Element After Decreasing and Rearranging,Medium,69.2
 biweekly-contest-51,Biweekly Contest 51,2021-05-01,4,closest-room,1847,Closest Room,Hard,41.6
-biweekly-contest-51,Biweekly Contest 51,2021-05-01,4,replace-all-digits-with-characters,1844,Replace All Digits with Characters,Easy,82.9
-biweekly-contest-52,Biweekly Contest 52,2021-05-15,4,rotating-the-box,1861,Rotating the Box,Medium,82.5
-biweekly-contest-52,Biweekly Contest 52,2021-05-15,4,incremental-memory-leak,1860,Incremental Memory Leak,Medium,72.8
 biweekly-contest-52,Biweekly Contest 52,2021-05-15,4,sorting-the-sentence,1859,Sorting the Sentence,Easy,84.2
+biweekly-contest-52,Biweekly Contest 52,2021-05-15,4,incremental-memory-leak,1860,Incremental Memory Leak,Medium,72.8
+biweekly-contest-52,Biweekly Contest 52,2021-05-15,4,rotating-the-box,1861,Rotating the Box,Medium,82.5
 biweekly-contest-52,Biweekly Contest 52,2021-05-15,4,sum-of-floored-pairs,1862,Sum of Floored Pairs,Hard,31.2
-biweekly-contest-53,Biweekly Contest 53,2021-05-29,4,minimum-xor-sum-of-two-arrays,1879,Minimum XOR Sum of Two Arrays,Hard,51.7
+biweekly-contest-53,Biweekly Contest 53,2021-05-29,4,substrings-of-size-three-with-distinct-characters,1876,Substrings of Size Three with Distinct Characters,Easy,76.9
 biweekly-contest-53,Biweekly Contest 53,2021-05-29,4,minimize-maximum-pair-sum-in-array,1877,Minimize Maximum Pair Sum in Array,Medium,83.3
 biweekly-contest-53,Biweekly Contest 53,2021-05-29,4,get-biggest-three-rhombus-sums-in-a-grid,1878,Get Biggest Three Rhombus Sums in a Grid,Medium,71.3
-biweekly-contest-53,Biweekly Contest 53,2021-05-29,4,substrings-of-size-three-with-distinct-characters,1876,Substrings of Size Three with Distinct Characters,Easy,76.9
-biweekly-contest-54,Biweekly Contest 54,2021-06-12,4,minimum-cost-to-change-the-final-value-of-expression,1896,Minimum Cost to Change the Final Value of Expression,Hard,49.8
-biweekly-contest-54,Biweekly Contest 54,2021-06-12,4,largest-magic-square,1895,Largest Magic Square,Medium,75.2
+biweekly-contest-53,Biweekly Contest 53,2021-05-29,4,minimum-xor-sum-of-two-arrays,1879,Minimum XOR Sum of Two Arrays,Hard,51.7
 biweekly-contest-54,Biweekly Contest 54,2021-06-12,4,check-if-all-the-integers-in-a-range-are-covered,1893,Check if All the Integers in a Range Are Covered,Easy,51.2
 biweekly-contest-54,Biweekly Contest 54,2021-06-12,4,find-the-student-that-will-replace-the-chalk,1894,Find the Student that Will Replace the Chalk,Medium,53.2
+biweekly-contest-54,Biweekly Contest 54,2021-06-12,4,largest-magic-square,1895,Largest Magic Square,Medium,75.2
+biweekly-contest-54,Biweekly Contest 54,2021-06-12,4,minimum-cost-to-change-the-final-value-of-expression,1896,Minimum Cost to Change the Final Value of Expression,Hard,49.8
+biweekly-contest-55,Biweekly Contest 55,2021-06-26,4,remove-one-element-to-make-the-array-strictly-increasing,1909,Remove One Element to Make the Array Strictly Increasing,Easy,30.0
 biweekly-contest-55,Biweekly Contest 55,2021-06-26,4,remove-all-occurrences-of-a-substring,1910,Remove All Occurrences of a Substring,Medium,78.6
 biweekly-contest-55,Biweekly Contest 55,2021-06-26,4,maximum-alternating-subsequence-sum,1911,Maximum Alternating Subsequence Sum,Medium,59.2
 biweekly-contest-55,Biweekly Contest 55,2021-06-26,4,design-movie-rental-system,1912,Design Movie Rental System,Hard,62.2
-biweekly-contest-55,Biweekly Contest 55,2021-06-26,4,remove-one-element-to-make-the-array-strictly-increasing,1909,Remove One Element to Make the Array Strictly Increasing,Easy,30.0
 biweekly-contest-56,Biweekly Contest 56,2021-07-10,4,count-square-sum-triples,1925,Count Square Sum Triples,Easy,77.2
+biweekly-contest-56,Biweekly Contest 56,2021-07-10,4,nearest-exit-from-entrance-in-maze,1926,Nearest Exit from Entrance in Maze,Medium,48.9
 biweekly-contest-56,Biweekly Contest 56,2021-07-10,4,sum-game,1927,Sum Game,Medium,49.4
 biweekly-contest-56,Biweekly Contest 56,2021-07-10,4,minimum-cost-to-reach-destination-in-time,1928,Minimum Cost to Reach Destination in Time,Hard,42.0
-biweekly-contest-56,Biweekly Contest 56,2021-07-10,4,nearest-exit-from-entrance-in-maze,1926,Nearest Exit from Entrance in Maze,Medium,48.9
 biweekly-contest-57,Biweekly Contest 57,2021-07-24,4,check-if-all-characters-have-equal-number-of-occurrences,1941,Check if All Characters Have Equal Number of Occurrences,Easy,79.6
 biweekly-contest-57,Biweekly Contest 57,2021-07-24,4,the-number-of-the-smallest-unoccupied-chair,1942,The Number of the Smallest Unoccupied Chair,Medium,60.3
-biweekly-contest-57,Biweekly Contest 57,2021-07-24,4,number-of-visible-people-in-a-queue,1944,Number of Visible People in a Queue,Hard,73.4
 biweekly-contest-57,Biweekly Contest 57,2021-07-24,4,describe-the-painting,1943,Describe the Painting,Medium,52.8
-biweekly-contest-58,Biweekly Contest 58,2021-08-07,4,minimum-total-space-wasted-with-k-resizing-operations,1959,Minimum Total Space Wasted With K Resizing Operations,Medium,44.1
+biweekly-contest-57,Biweekly Contest 57,2021-07-24,4,number-of-visible-people-in-a-queue,1944,Number of Visible People in a Queue,Hard,73.4
 biweekly-contest-58,Biweekly Contest 58,2021-08-07,4,delete-characters-to-make-fancy-string,1957,Delete Characters to Make Fancy String,Easy,74.0
-biweekly-contest-58,Biweekly Contest 58,2021-08-07,4,maximum-product-of-the-length-of-two-palindromic-substrings,1960,Maximum Product of the Length of Two Palindromic Substrings,Hard,31.4
 biweekly-contest-58,Biweekly Contest 58,2021-08-07,4,check-if-move-is-legal,1958,Check if Move is Legal,Medium,50.0
+biweekly-contest-58,Biweekly Contest 58,2021-08-07,4,minimum-total-space-wasted-with-k-resizing-operations,1959,Minimum Total Space Wasted With K Resizing Operations,Medium,44.1
+biweekly-contest-58,Biweekly Contest 58,2021-08-07,4,maximum-product-of-the-length-of-two-palindromic-substrings,1960,Maximum Product of the Length of Two Palindromic Substrings,Hard,31.4
+biweekly-contest-59,Biweekly Contest 59,2021-08-21,4,minimum-time-to-type-word-using-special-typewriter,1974,Minimum Time to Type Word Using Special Typewriter,Easy,78.8
 biweekly-contest-59,Biweekly Contest 59,2021-08-21,4,maximum-matrix-sum,1975,Maximum Matrix Sum,Medium,67.5
 biweekly-contest-59,Biweekly Contest 59,2021-08-21,4,number-of-ways-to-arrive-at-destination,1976,Number of Ways to Arrive at Destination,Medium,37.6
-biweekly-contest-59,Biweekly Contest 59,2021-08-21,4,minimum-time-to-type-word-using-special-typewriter,1974,Minimum Time to Type Word Using Special Typewriter,Easy,78.8
 biweekly-contest-59,Biweekly Contest 59,2021-08-21,4,number-of-ways-to-separate-numbers,1977,Number of Ways to Separate Numbers,Hard,21.7
-biweekly-contest-60,Biweekly Contest 60,2021-09-04,4,operations-on-tree,1993,Operations on Tree,Medium,45.6
 biweekly-contest-60,Biweekly Contest 60,2021-09-04,4,find-the-middle-index-in-array,1991,Find the Middle Index in Array,Easy,70.1
-biweekly-contest-60,Biweekly Contest 60,2021-09-04,4,the-number-of-good-subsets,1994,The Number of Good Subsets,Hard,37.5
 biweekly-contest-60,Biweekly Contest 60,2021-09-04,4,find-all-groups-of-farmland,1992,Find All Groups of Farmland,Medium,75.5
-biweekly-contest-61,Biweekly Contest 61,2021-09-18,4,maximum-earnings-from-taxi,2008,Maximum Earnings From Taxi,Medium,46.7
-biweekly-contest-61,Biweekly Contest 61,2021-09-18,4,minimum-number-of-operations-to-make-array-continuous,2009,Minimum Number of Operations to Make Array Continuous,Hard,51.8
+biweekly-contest-60,Biweekly Contest 60,2021-09-04,4,operations-on-tree,1993,Operations on Tree,Medium,45.6
+biweekly-contest-60,Biweekly Contest 60,2021-09-04,4,the-number-of-good-subsets,1994,The Number of Good Subsets,Hard,37.5
 biweekly-contest-61,Biweekly Contest 61,2021-09-18,4,count-number-of-pairs-with-absolute-difference-k,2006,Count Number of Pairs With Absolute Difference K,Easy,85.4
 biweekly-contest-61,Biweekly Contest 61,2021-09-18,4,find-original-array-from-doubled-array,2007,Find Original Array From Doubled Array,Medium,40.9
+biweekly-contest-61,Biweekly Contest 61,2021-09-18,4,maximum-earnings-from-taxi,2008,Maximum Earnings From Taxi,Medium,46.7
+biweekly-contest-61,Biweekly Contest 61,2021-09-18,4,minimum-number-of-operations-to-make-array-continuous,2009,Minimum Number of Operations to Make Array Continuous,Hard,51.8
 biweekly-contest-62,Biweekly Contest 62,2021-10-02,4,convert-1d-array-into-2d-array,2022,Convert 1D Array Into 2D Array,Easy,72.4
-biweekly-contest-62,Biweekly Contest 62,2021-10-02,4,maximize-the-confusion-of-an-exam,2024,Maximize the Confusion of an Exam,Medium,70.3
 biweekly-contest-62,Biweekly Contest 62,2021-10-02,4,number-of-pairs-of-strings-with-concatenation-equal-to-target,2023,Number of Pairs of Strings With Concatenation Equal to Target,Medium,75.4
+biweekly-contest-62,Biweekly Contest 62,2021-10-02,4,maximize-the-confusion-of-an-exam,2024,Maximize the Confusion of an Exam,Medium,70.3
 biweekly-contest-62,Biweekly Contest 62,2021-10-02,4,maximum-number-of-ways-to-partition-an-array,2025,Maximum Number of Ways to Partition an Array,Hard,35.8
-biweekly-contest-63,Biweekly Contest 63,2021-10-16,4,kth-smallest-product-of-two-sorted-arrays,2040,Kth Smallest Product of Two Sorted Arrays,Hard,48.7
-biweekly-contest-63,Biweekly Contest 63,2021-10-16,4,remove-colored-pieces-if-both-neighbors-are-the-same-color,2038,Remove Colored Pieces if Both Neighbors are the Same Color,Medium,63.1
 biweekly-contest-63,Biweekly Contest 63,2021-10-16,4,minimum-number-of-moves-to-seat-everyone,2037,Minimum Number of Moves to Seat Everyone,Easy,87.1
+biweekly-contest-63,Biweekly Contest 63,2021-10-16,4,remove-colored-pieces-if-both-neighbors-are-the-same-color,2038,Remove Colored Pieces if Both Neighbors are the Same Color,Medium,63.1
 biweekly-contest-63,Biweekly Contest 63,2021-10-16,4,the-time-when-the-network-becomes-idle,2039,The Time When the Network Becomes Idle,Medium,55.9
+biweekly-contest-63,Biweekly Contest 63,2021-10-16,4,kth-smallest-product-of-two-sorted-arrays,2040,Kth Smallest Product of Two Sorted Arrays,Hard,48.7
+biweekly-contest-64,Biweekly Contest 64,2021-10-30,4,kth-distinct-string-in-an-array,2053,Kth Distinct String in an Array,Easy,82.2
 biweekly-contest-64,Biweekly Contest 64,2021-10-30,4,two-best-non-overlapping-events,2054,Two Best Non-Overlapping Events,Medium,64.0
 biweekly-contest-64,Biweekly Contest 64,2021-10-30,4,plates-between-candles,2055,Plates Between Candles,Medium,47.6
 biweekly-contest-64,Biweekly Contest 64,2021-10-30,4,number-of-valid-move-combinations-on-chessboard,2056,Number of Valid Move Combinations On Chessboard,Hard,48.1
-biweekly-contest-64,Biweekly Contest 64,2021-10-30,4,kth-distinct-string-in-an-array,2053,Kth Distinct String in an Array,Easy,82.2
-biweekly-contest-65,Biweekly Contest 65,2021-11-13,4,walking-robot-simulation-ii,2069,Walking Robot Simulation II,Medium,43.1
-biweekly-contest-65,Biweekly Contest 65,2021-11-13,4,maximum-number-of-tasks-you-can-assign,2071,Maximum Number of Tasks You Can Assign,Hard,50.0
 biweekly-contest-65,Biweekly Contest 65,2021-11-13,4,check-whether-two-strings-are-almost-equivalent,2068,Check Whether Two Strings are Almost Equivalent,Easy,64.3
+biweekly-contest-65,Biweekly Contest 65,2021-11-13,4,walking-robot-simulation-ii,2069,Walking Robot Simulation II,Medium,43.1
 biweekly-contest-65,Biweekly Contest 65,2021-11-13,4,most-beautiful-item-for-each-query,2070,Most Beautiful Item for Each Query,Medium,62.0
+biweekly-contest-65,Biweekly Contest 65,2021-11-13,4,maximum-number-of-tasks-you-can-assign,2071,Maximum Number of Tasks You Can Assign,Hard,50.0
 biweekly-contest-66,Biweekly Contest 66,2021-11-27,4,count-common-words-with-one-occurrence,2085,Count Common Words With One Occurrence,Easy,73.6
+biweekly-contest-66,Biweekly Contest 66,2021-11-27,4,minimum-number-of-food-buckets-to-feed-the-hamsters,2086,Minimum Number of Food Buckets to Feed the Hamsters,Medium,48.4
 biweekly-contest-66,Biweekly Contest 66,2021-11-27,4,minimum-cost-homecoming-of-a-robot-in-a-grid,2087,Minimum Cost Homecoming of a Robot in a Grid,Medium,51.8
 biweekly-contest-66,Biweekly Contest 66,2021-11-27,4,count-fertile-pyramids-in-a-land,2088,Count Fertile Pyramids in a Land,Hard,66.5
-biweekly-contest-66,Biweekly Contest 66,2021-11-27,4,minimum-number-of-food-buckets-to-feed-the-hamsters,2086,Minimum Number of Food Buckets to Feed the Hamsters,Medium,48.4
+biweekly-contest-67,Biweekly Contest 67,2021-12-11,4,find-subsequence-of-length-k-with-the-largest-sum,2099,Find Subsequence of Length K With the Largest Sum,Easy,57.3
+biweekly-contest-67,Biweekly Contest 67,2021-12-11,4,find-good-days-to-rob-the-bank,2100,Find Good Days to Rob the Bank,Medium,51.9
 biweekly-contest-67,Biweekly Contest 67,2021-12-11,4,detonate-the-maximum-bombs,2101,Detonate the Maximum Bombs,Medium,50.3
 biweekly-contest-67,Biweekly Contest 67,2021-12-11,4,sequentially-ordinal-rank-tracker,2102,Sequentially Ordinal Rank Tracker,Hard,61.3
-biweekly-contest-67,Biweekly Contest 67,2021-12-11,4,find-good-days-to-rob-the-bank,2100,Find Good Days to Rob the Bank,Medium,51.9
-biweekly-contest-67,Biweekly Contest 67,2021-12-11,4,find-subsequence-of-length-k-with-the-largest-sum,2099,Find Subsequence of Length K With the Largest Sum,Easy,57.3
 biweekly-contest-68,Biweekly Contest 68,2021-12-25,4,maximum-number-of-words-found-in-sentences,2114,Maximum Number of Words Found in Sentences,Easy,86.7
-biweekly-contest-68,Biweekly Contest 68,2021-12-25,4,abbreviating-the-product-of-a-range,2117,Abbreviating the Product of a Range,Hard,24.5
-biweekly-contest-68,Biweekly Contest 68,2021-12-25,4,check-if-a-parentheses-string-can-be-valid,2116,Check if a Parentheses String Can Be Valid,Medium,45.2
 biweekly-contest-68,Biweekly Contest 68,2021-12-25,4,find-all-possible-recipes-from-given-supplies,2115,Find All Possible Recipes from Given Supplies,Medium,57.0
-biweekly-contest-69,Biweekly Contest 69,2022-01-08,4,stamping-the-grid,2132,Stamping the Grid,Hard,35.5
+biweekly-contest-68,Biweekly Contest 68,2021-12-25,4,check-if-a-parentheses-string-can-be-valid,2116,Check if a Parentheses String Can Be Valid,Medium,45.2
+biweekly-contest-68,Biweekly Contest 68,2021-12-25,4,abbreviating-the-product-of-a-range,2117,Abbreviating the Product of a Range,Hard,24.5
 biweekly-contest-69,Biweekly Contest 69,2022-01-08,4,capitalize-the-title,2129,Capitalize the Title,Easy,68.3
 biweekly-contest-69,Biweekly Contest 69,2022-01-08,4,maximum-twin-sum-of-a-linked-list,2130,Maximum Twin Sum of a Linked List,Medium,83.3
 biweekly-contest-69,Biweekly Contest 69,2022-01-08,4,longest-palindrome-by-concatenating-two-letter-words,2131,Longest Palindrome by Concatenating Two Letter Words,Medium,53.5
-biweekly-contest-70,Biweekly Contest 70,2022-01-22,4,count-the-hidden-sequences,2145,Count the Hidden Sequences,Medium,56.7
+biweekly-contest-69,Biweekly Contest 69,2022-01-08,4,stamping-the-grid,2132,Stamping the Grid,Hard,35.6
 biweekly-contest-70,Biweekly Contest 70,2022-01-22,4,minimum-cost-of-buying-candies-with-discount,2144,Minimum Cost of Buying Candies With Discount,Easy,71.6
-biweekly-contest-70,Biweekly Contest 70,2022-01-22,4,number-of-ways-to-divide-a-long-corridor,2147,Number of Ways to Divide a Long Corridor,Hard,54.5
+biweekly-contest-70,Biweekly Contest 70,2022-01-22,4,count-the-hidden-sequences,2145,Count the Hidden Sequences,Medium,56.7
 biweekly-contest-70,Biweekly Contest 70,2022-01-22,4,k-highest-ranked-items-within-a-price-range,2146,K Highest Ranked Items Within a Price Range,Medium,47.0
+biweekly-contest-70,Biweekly Contest 70,2022-01-22,4,number-of-ways-to-divide-a-long-corridor,2147,Number of Ways to Divide a Long Corridor,Hard,54.5
 biweekly-contest-71,Biweekly Contest 71,2022-02-05,4,minimum-sum-of-four-digit-number-after-splitting-digits,2160,Minimum Sum of Four Digit Number After Splitting Digits,Easy,86.3
 biweekly-contest-71,Biweekly Contest 71,2022-02-05,4,partition-array-according-to-given-pivot,2161,Partition Array According to Given Pivot,Medium,90.8
 biweekly-contest-71,Biweekly Contest 71,2022-02-05,4,minimum-cost-to-set-cooking-time,2162,Minimum Cost to Set Cooking Time,Medium,41.7
 biweekly-contest-71,Biweekly Contest 71,2022-02-05,4,minimum-difference-in-sums-after-removal-of-elements,2163,Minimum Difference in Sums After Removal of Elements,Hard,69.6
 biweekly-contest-72,Biweekly Contest 72,2022-02-19,4,count-equal-and-divisible-pairs-in-an-array,2176,Count Equal and Divisible Pairs in an Array,Easy,83.8
-biweekly-contest-72,Biweekly Contest 72,2022-02-19,4,maximum-split-of-positive-even-integers,2178,Maximum Split of Positive Even Integers,Medium,59.9
 biweekly-contest-72,Biweekly Contest 72,2022-02-19,4,find-three-consecutive-integers-that-sum-to-a-given-number,2177,Find Three Consecutive Integers That Sum to a Given Number,Medium,65.2
+biweekly-contest-72,Biweekly Contest 72,2022-02-19,4,maximum-split-of-positive-even-integers,2178,Maximum Split of Positive Even Integers,Medium,59.9
 biweekly-contest-72,Biweekly Contest 72,2022-02-19,4,count-good-triplets-in-an-array,2179,Count Good Triplets in an Array,Hard,65.2
 biweekly-contest-73,Biweekly Contest 73,2022-03-05,4,most-frequent-number-following-key-in-an-array,2190,Most Frequent Number Following Key In an Array,Easy,59.6
+biweekly-contest-73,Biweekly Contest 73,2022-03-05,4,sort-the-jumbled-numbers,2191,Sort the Jumbled Numbers,Medium,60.0
 biweekly-contest-73,Biweekly Contest 73,2022-03-05,4,all-ancestors-of-a-node-in-a-directed-acyclic-graph,2192,All Ancestors of a Node in a Directed Acyclic Graph,Medium,62.3
 biweekly-contest-73,Biweekly Contest 73,2022-03-05,4,minimum-number-of-moves-to-make-palindrome,2193,Minimum Number of Moves to Make Palindrome,Hard,53.0
-biweekly-contest-73,Biweekly Contest 73,2022-03-05,4,sort-the-jumbled-numbers,2191,Sort the Jumbled Numbers,Medium,60.0
-biweekly-contest-74,Biweekly Contest 74,2022-03-19,4,maximize-number-of-subsequences-in-a-string,2207,Maximize Number of Subsequences in a String,Medium,36.2
 biweekly-contest-74,Biweekly Contest 74,2022-03-19,4,divide-array-into-equal-pairs,2206,Divide Array Into Equal Pairs,Easy,79.2
+biweekly-contest-74,Biweekly Contest 74,2022-03-19,4,maximize-number-of-subsequences-in-a-string,2207,Maximize Number of Subsequences in a String,Medium,36.2
 biweekly-contest-74,Biweekly Contest 74,2022-03-19,4,minimum-operations-to-halve-array-sum,2208,Minimum Operations to Halve Array Sum,Medium,50.3
 biweekly-contest-74,Biweekly Contest 74,2022-03-19,4,minimum-white-tiles-after-covering-with-carpets,2209,Minimum White Tiles After Covering With Carpets,Hard,39.1
-biweekly-contest-75,Biweekly Contest 75,2022-04-02,4,number-of-ways-to-select-buildings,2222,Number of Ways to Select Buildings,Medium,50.9
 biweekly-contest-75,Biweekly Contest 75,2022-04-02,4,minimum-bit-flips-to-convert-number,2220,Minimum Bit Flips to Convert Number,Easy,87.9
-biweekly-contest-75,Biweekly Contest 75,2022-04-02,4,sum-of-scores-of-built-strings,2223,Sum of Scores of Built Strings,Hard,49.9
 biweekly-contest-75,Biweekly Contest 75,2022-04-02,4,find-triangular-sum-of-an-array,2221,Find Triangular Sum of an Array,Medium,81.9
-biweekly-contest-76,Biweekly Contest 76,2022-04-16,4,maximum-score-of-a-node-sequence,2242,Maximum Score of a Node Sequence,Hard,40.3
+biweekly-contest-75,Biweekly Contest 75,2022-04-02,4,number-of-ways-to-select-buildings,2222,Number of Ways to Select Buildings,Medium,50.9
+biweekly-contest-75,Biweekly Contest 75,2022-04-02,4,sum-of-scores-of-built-strings,2223,Sum of Scores of Built Strings,Hard,49.9
 biweekly-contest-76,Biweekly Contest 76,2022-04-16,4,find-closest-number-to-zero,2239,Find Closest Number to Zero,Easy,48.1
-biweekly-contest-76,Biweekly Contest 76,2022-04-16,4,design-an-atm-machine,2241,Design an ATM Machine,Medium,45.5
 biweekly-contest-76,Biweekly Contest 76,2022-04-16,4,number-of-ways-to-buy-pens-and-pencils,2240,Number of Ways to Buy Pens and Pencils,Medium,57.0
+biweekly-contest-76,Biweekly Contest 76,2022-04-16,4,design-an-atm-machine,2241,Design an ATM Machine,Medium,45.5
+biweekly-contest-76,Biweekly Contest 76,2022-04-16,4,maximum-score-of-a-node-sequence,2242,Maximum Score of a Node Sequence,Hard,40.3
 biweekly-contest-77,Biweekly Contest 77,2022-04-30,4,count-prefixes-of-a-given-string,2255,Count Prefixes of a Given String,Easy,74.3
-biweekly-contest-77,Biweekly Contest 77,2022-04-30,4,escape-the-spreading-fire,2258,Escape the Spreading Fire,Hard,38.8
 biweekly-contest-77,Biweekly Contest 77,2022-04-30,4,minimum-average-difference,2256,Minimum Average Difference,Medium,44.0
 biweekly-contest-77,Biweekly Contest 77,2022-04-30,4,count-unguarded-cells-in-the-grid,2257,Count Unguarded Cells in the Grid,Medium,68.9
-biweekly-contest-78,Biweekly Contest 78,2022-05-14,4,maximum-white-tiles-covered-by-a-carpet,2271,Maximum White Tiles Covered by a Carpet,Medium,36.2
-biweekly-contest-78,Biweekly Contest 78,2022-05-14,4,substring-with-largest-variance,2272,Substring With Largest Variance,Hard,46.0
+biweekly-contest-77,Biweekly Contest 77,2022-04-30,4,escape-the-spreading-fire,2258,Escape the Spreading Fire,Hard,38.8
 biweekly-contest-78,Biweekly Contest 78,2022-05-14,4,find-the-k-beauty-of-a-number,2269,Find the K-Beauty of a Number,Easy,63.6
 biweekly-contest-78,Biweekly Contest 78,2022-05-14,4,number-of-ways-to-split-array,2270,Number of Ways to Split Array,Medium,55.8
+biweekly-contest-78,Biweekly Contest 78,2022-05-14,4,maximum-white-tiles-covered-by-a-carpet,2271,Maximum White Tiles Covered by a Carpet,Medium,36.2
+biweekly-contest-78,Biweekly Contest 78,2022-05-14,4,substring-with-largest-variance,2272,Substring With Largest Variance,Hard,46.0
+biweekly-contest-79,Biweekly Contest 79,2022-05-28,4,check-if-number-has-equal-digit-count-and-digit-value,2283,Check if Number Has Equal Digit Count and Digit Value,Easy,73.1
 biweekly-contest-79,Biweekly Contest 79,2022-05-28,4,sender-with-largest-word-count,2284,Sender With Largest Word Count,Medium,60.0
 biweekly-contest-79,Biweekly Contest 79,2022-05-28,4,maximum-total-importance-of-roads,2285,Maximum Total Importance of Roads,Medium,69.1
-biweekly-contest-79,Biweekly Contest 79,2022-05-28,4,check-if-number-has-equal-digit-count-and-digit-value,2283,Check if Number Has Equal Digit Count and Digit Value,Easy,73.1
 biweekly-contest-79,Biweekly Contest 79,2022-05-28,4,booking-concert-tickets-in-groups,2286,Booking Concert Tickets in Groups,Hard,19.9
 biweekly-contest-80,Biweekly Contest 80,2022-06-11,4,strong-password-checker-ii,2299,Strong Password Checker II,Easy,55.6
-biweekly-contest-80,Biweekly Contest 80,2022-06-11,4,count-subarrays-with-score-less-than-k,2302,Count Subarrays With Score Less Than K,Hard,62.2
 biweekly-contest-80,Biweekly Contest 80,2022-06-11,4,successful-pairs-of-spells-and-potions,2300,Successful Pairs of Spells and Potions,Medium,49.7
 biweekly-contest-80,Biweekly Contest 80,2022-06-11,4,match-substring-after-replacement,2301,Match Substring After Replacement,Hard,43.5
+biweekly-contest-80,Biweekly Contest 80,2022-06-11,4,count-subarrays-with-score-less-than-k,2302,Count Subarrays With Score Less Than K,Hard,62.2
 biweekly-contest-81,Biweekly Contest 81,2022-06-25,4,count-asterisks,2315,Count Asterisks,Easy,83.5
 biweekly-contest-81,Biweekly Contest 81,2022-06-25,4,count-unreachable-pairs-of-nodes-in-an-undirected-graph,2316,Count Unreachable Pairs of Nodes in an Undirected Graph,Medium,50.1
 biweekly-contest-81,Biweekly Contest 81,2022-06-25,4,maximum-xor-after-operations,2317,Maximum XOR After Operations ,Medium,79.8
 biweekly-contest-81,Biweekly Contest 81,2022-06-25,4,number-of-distinct-roll-sequences,2318,Number of Distinct Roll Sequences,Hard,58.3
-biweekly-contest-82,Biweekly Contest 82,2022-07-09,4,subarray-with-elements-greater-than-varying-threshold,2334,Subarray With Elements Greater Than Varying Threshold,Hard,45.8
-biweekly-contest-82,Biweekly Contest 82,2022-07-09,4,minimum-sum-of-squared-difference,2333,Minimum Sum of Squared Difference,Medium,27.0
 biweekly-contest-82,Biweekly Contest 82,2022-07-09,4,evaluate-boolean-binary-tree,2331,Evaluate Boolean Binary Tree,Easy,82.4
 biweekly-contest-82,Biweekly Contest 82,2022-07-09,4,the-latest-time-to-catch-a-bus,2332,The Latest Time to Catch a Bus,Medium,30.1
+biweekly-contest-82,Biweekly Contest 82,2022-07-09,4,minimum-sum-of-squared-difference,2333,Minimum Sum of Squared Difference,Medium,27.0
+biweekly-contest-82,Biweekly Contest 82,2022-07-09,4,subarray-with-elements-greater-than-varying-threshold,2334,Subarray With Elements Greater Than Varying Threshold,Hard,45.8
 biweekly-contest-83,Biweekly Contest 83,2022-07-23,4,best-poker-hand,2347,Best Poker Hand,Easy,61.9
 biweekly-contest-83,Biweekly Contest 83,2022-07-23,4,number-of-zero-filled-subarrays,2348,Number of Zero-Filled Subarrays,Medium,70.1
-biweekly-contest-83,Biweekly Contest 83,2022-07-23,4,shortest-impossible-sequence-of-rolls,2350,Shortest Impossible Sequence of Rolls,Hard,69.2
 biweekly-contest-83,Biweekly Contest 83,2022-07-23,4,design-a-number-container-system,2349,Design a Number Container System,Medium,57.1
-biweekly-contest-84,Biweekly Contest 84,2022-08-06,4,count-number-of-bad-pairs,2364,Count Number of Bad Pairs,Medium,54.1
-biweekly-contest-84,Biweekly Contest 84,2022-08-06,4,minimum-replacements-to-sort-the-array,2366,Minimum Replacements to Sort the Array,Hard,53.1
-biweekly-contest-84,Biweekly Contest 84,2022-08-06,4,task-scheduler-ii,2365,Task Scheduler II,Medium,54.9
+biweekly-contest-83,Biweekly Contest 83,2022-07-23,4,shortest-impossible-sequence-of-rolls,2350,Shortest Impossible Sequence of Rolls,Hard,69.2
 biweekly-contest-84,Biweekly Contest 84,2022-08-06,4,merge-similar-items,2363,Merge Similar Items,Easy,77.6
+biweekly-contest-84,Biweekly Contest 84,2022-08-06,4,count-number-of-bad-pairs,2364,Count Number of Bad Pairs,Medium,54.1
+biweekly-contest-84,Biweekly Contest 84,2022-08-06,4,task-scheduler-ii,2365,Task Scheduler II,Medium,54.9
+biweekly-contest-84,Biweekly Contest 84,2022-08-06,4,minimum-replacements-to-sort-the-array,2366,Minimum Replacements to Sort the Array,Hard,53.1
 biweekly-contest-85,Biweekly Contest 85,2022-08-20,4,minimum-recolors-to-get-k-consecutive-black-blocks,2379,Minimum Recolors to Get K Consecutive Black Blocks,Easy,68.9
-biweekly-contest-85,Biweekly Contest 85,2022-08-20,4,maximum-segment-sum-after-removals,2382,Maximum Segment Sum After Removals,Hard,50.0
-biweekly-contest-85,Biweekly Contest 85,2022-08-20,4,shifting-letters-ii,2381,Shifting Letters II,Medium,53.8
 biweekly-contest-85,Biweekly Contest 85,2022-08-20,4,time-needed-to-rearrange-a-binary-string,2380,Time Needed to Rearrange a Binary String,Medium,53.4
-biweekly-contest-86,Biweekly Contest 86,2022-09-03,4,maximum-rows-covered-by-columns,2397,Maximum Rows Covered by Columns,Medium,58.2
+biweekly-contest-85,Biweekly Contest 85,2022-08-20,4,shifting-letters-ii,2381,Shifting Letters II,Medium,53.8
+biweekly-contest-85,Biweekly Contest 85,2022-08-20,4,maximum-segment-sum-after-removals,2382,Maximum Segment Sum After Removals,Hard,50.0
 biweekly-contest-86,Biweekly Contest 86,2022-09-03,4,find-subarrays-with-equal-sum,2395,Find Subarrays With Equal Sum,Easy,67.2
-biweekly-contest-86,Biweekly Contest 86,2022-09-03,4,maximum-number-of-robots-within-budget,2398,Maximum Number of Robots Within Budget,Hard,38.8
 biweekly-contest-86,Biweekly Contest 86,2022-09-03,4,strictly-palindromic-number,2396,Strictly Palindromic Number,Medium,90.4
-biweekly-contest-87,Biweekly Contest 87,2022-09-17,4,minimum-money-required-before-transactions,2412,Minimum Money Required Before Transactions,Hard,42.3
-biweekly-contest-87,Biweekly Contest 87,2022-09-17,4,smallest-subarrays-with-maximum-bitwise-or,2411,Smallest Subarrays With Maximum Bitwise OR,Medium,61.9
-biweekly-contest-87,Biweekly Contest 87,2022-09-17,4,maximum-matching-of-players-with-trainers,2410,Maximum Matching of Players With Trainers,Medium,75.4
+biweekly-contest-86,Biweekly Contest 86,2022-09-03,4,maximum-rows-covered-by-columns,2397,Maximum Rows Covered by Columns,Medium,58.2
+biweekly-contest-86,Biweekly Contest 86,2022-09-03,4,maximum-number-of-robots-within-budget,2398,Maximum Number of Robots Within Budget,Hard,38.8
 biweekly-contest-87,Biweekly Contest 87,2022-09-17,4,count-days-spent-together,2409,Count Days Spent Together,Easy,48.3
-biweekly-contest-88,Biweekly Contest 88,2022-10-01,4,number-of-pairs-satisfying-inequality,2426,Number of Pairs Satisfying Inequality,Hard,47.6
-biweekly-contest-88,Biweekly Contest 88,2022-10-01,4,bitwise-xor-of-all-pairings,2425,Bitwise XOR of All Pairings,Medium,66.9
-biweekly-contest-88,Biweekly Contest 88,2022-10-01,4,longest-uploaded-prefix,2424,Longest Uploaded Prefix,Medium,55.3
+biweekly-contest-87,Biweekly Contest 87,2022-09-17,4,maximum-matching-of-players-with-trainers,2410,Maximum Matching of Players With Trainers,Medium,75.4
+biweekly-contest-87,Biweekly Contest 87,2022-09-17,4,smallest-subarrays-with-maximum-bitwise-or,2411,Smallest Subarrays With Maximum Bitwise OR,Medium,61.9
+biweekly-contest-87,Biweekly Contest 87,2022-09-17,4,minimum-money-required-before-transactions,2412,Minimum Money Required Before Transactions,Hard,42.3
 biweekly-contest-88,Biweekly Contest 88,2022-10-01,4,remove-letter-to-equalize-frequency,2423,Remove Letter To Equalize Frequency,Easy,19.5
-biweekly-contest-89,Biweekly Contest 89,2022-10-15,4,range-product-queries-of-powers,2438,Range Product Queries of Powers,Medium,61.2
+biweekly-contest-88,Biweekly Contest 88,2022-10-01,4,longest-uploaded-prefix,2424,Longest Uploaded Prefix,Medium,55.3
+biweekly-contest-88,Biweekly Contest 88,2022-10-01,4,bitwise-xor-of-all-pairings,2425,Bitwise XOR of All Pairings,Medium,66.9
+biweekly-contest-88,Biweekly Contest 88,2022-10-01,4,number-of-pairs-satisfying-inequality,2426,Number of Pairs Satisfying Inequality,Hard,47.6
 biweekly-contest-89,Biweekly Contest 89,2022-10-15,4,number-of-valid-clock-times,2437,Number of Valid Clock Times,Easy,48.2
-biweekly-contest-89,Biweekly Contest 89,2022-10-15,4,create-components-with-same-value,2440,Create Components With Same Value,Hard,53.9
+biweekly-contest-89,Biweekly Contest 89,2022-10-15,4,range-product-queries-of-powers,2438,Range Product Queries of Powers,Medium,61.2
 biweekly-contest-89,Biweekly Contest 89,2022-10-15,4,minimize-maximum-of-array,2439,Minimize Maximum of Array,Medium,46.6
-biweekly-contest-90,Biweekly Contest 90,2022-10-29,4,next-greater-element-iv,2454,Next Greater Element IV,Hard,42.4
-biweekly-contest-90,Biweekly Contest 90,2022-10-29,4,destroy-sequential-targets,2453,Destroy Sequential Targets,Medium,42.2
+biweekly-contest-89,Biweekly Contest 89,2022-10-15,4,create-components-with-same-value,2440,Create Components With Same Value,Hard,53.9
 biweekly-contest-90,Biweekly Contest 90,2022-10-29,4,odd-string-difference,2451,Odd String Difference,Easy,62.1
 biweekly-contest-90,Biweekly Contest 90,2022-10-29,4,words-within-two-edits-of-dictionary,2452,Words Within Two Edits of Dictionary,Medium,73.2
-biweekly-contest-91,Biweekly Contest 91,2022-11-12,4,split-message-based-on-limit,2468,Split Message Based on Limit,Hard,42.1
+biweekly-contest-90,Biweekly Contest 90,2022-10-29,4,destroy-sequential-targets,2453,Destroy Sequential Targets,Medium,42.2
+biweekly-contest-90,Biweekly Contest 90,2022-10-29,4,next-greater-element-iv,2454,Next Greater Element IV,Hard,42.4
 biweekly-contest-91,Biweekly Contest 91,2022-11-12,4,number-of-distinct-averages,2465,Number of Distinct Averages,Easy,59.1
-biweekly-contest-91,Biweekly Contest 91,2022-11-12,4,most-profitable-path-in-a-tree,2467,Most Profitable Path in a Tree,Medium,67.3
 biweekly-contest-91,Biweekly Contest 91,2022-11-12,4,count-ways-to-build-good-strings,2466,Count Ways To Build Good Strings,Medium,58.9
-biweekly-contest-92,Biweekly Contest 92,2022-11-26,4,difference-between-ones-and-zeros-in-row-and-column,2482,Difference Between Ones and Zeros in Row and Column,Medium,84.4
-biweekly-contest-92,Biweekly Contest 92,2022-11-26,4,count-palindromic-subsequences,2484,Count Palindromic Subsequences,Hard,41.7
-biweekly-contest-92,Biweekly Contest 92,2022-11-26,4,minimum-penalty-for-a-shop,2483,Minimum Penalty for a Shop,Medium,71.2
+biweekly-contest-91,Biweekly Contest 91,2022-11-12,4,most-profitable-path-in-a-tree,2467,Most Profitable Path in a Tree,Medium,67.3
+biweekly-contest-91,Biweekly Contest 91,2022-11-12,4,split-message-based-on-limit,2468,Split Message Based on Limit,Hard,42.1
 biweekly-contest-92,Biweekly Contest 92,2022-11-26,4,minimum-cuts-to-divide-a-circle,2481,Minimum Cuts to Divide a Circle,Easy,56.5
-biweekly-contest-93,Biweekly Contest 93,2022-12-10,4,minimum-total-cost-to-make-arrays-unequal,2499,Minimum Total Cost to Make Arrays Unequal,Hard,41.3
-biweekly-contest-93,Biweekly Contest 93,2022-12-10,4,maximum-star-sum-of-a-graph,2497,Maximum Star Sum of a Graph,Medium,42.6
+biweekly-contest-92,Biweekly Contest 92,2022-11-26,4,difference-between-ones-and-zeros-in-row-and-column,2482,Difference Between Ones and Zeros in Row and Column,Medium,84.4
+biweekly-contest-92,Biweekly Contest 92,2022-11-26,4,minimum-penalty-for-a-shop,2483,Minimum Penalty for a Shop,Medium,71.2
+biweekly-contest-92,Biweekly Contest 92,2022-11-26,4,count-palindromic-subsequences,2484,Count Palindromic Subsequences,Hard,41.7
 biweekly-contest-93,Biweekly Contest 93,2022-12-10,4,maximum-value-of-a-string-in-an-array,2496,Maximum Value of a String in an Array,Easy,74.4
+biweekly-contest-93,Biweekly Contest 93,2022-12-10,4,maximum-star-sum-of-a-graph,2497,Maximum Star Sum of a Graph,Medium,42.6
 biweekly-contest-93,Biweekly Contest 93,2022-12-10,4,frog-jump-ii,2498,Frog Jump II,Medium,62.5
-biweekly-contest-94,Biweekly Contest 94,2022-12-24,4,count-anagrams,2514,Count Anagrams,Hard,38.0
+biweekly-contest-93,Biweekly Contest 93,2022-12-10,4,minimum-total-cost-to-make-arrays-unequal,2499,Minimum Total Cost to Make Arrays Unequal,Hard,41.3
 biweekly-contest-94,Biweekly Contest 94,2022-12-24,4,maximum-enemy-forts-that-can-be-captured,2511,Maximum Enemy Forts That Can Be Captured,Easy,41.7
-biweekly-contest-94,Biweekly Contest 94,2022-12-24,4,minimize-the-maximum-of-two-arrays,2513,Minimize the Maximum of Two Arrays,Medium,32.5
 biweekly-contest-94,Biweekly Contest 94,2022-12-24,4,reward-top-k-students,2512,Reward Top K Students,Medium,47.4
-biweekly-contest-95,Biweekly Contest 95,2023-01-07,4,maximize-the-minimum-powered-city,2528,Maximize the Minimum Powered City,Hard,61.5
-biweekly-contest-95,Biweekly Contest 95,2023-01-07,4,find-xor-beauty-of-array,2527,Find Xor-Beauty of Array,Medium,71.1
-biweekly-contest-95,Biweekly Contest 95,2023-01-07,4,find-consecutive-integers-from-a-data-stream,2526,Find Consecutive Integers from a Data Stream,Medium,51.5
+biweekly-contest-94,Biweekly Contest 94,2022-12-24,4,minimize-the-maximum-of-two-arrays,2513,Minimize the Maximum of Two Arrays,Medium,32.5
+biweekly-contest-94,Biweekly Contest 94,2022-12-24,4,count-anagrams,2514,Count Anagrams,Hard,38.0
 biweekly-contest-95,Biweekly Contest 95,2023-01-07,4,categorize-box-according-to-criteria,2525,Categorize Box According to Criteria,Easy,39.4
-biweekly-contest-96,Biweekly Contest 96,2023-01-21,4,maximum-subsequence-score,2542,Maximum Subsequence Score,Medium,54.9
-biweekly-contest-96,Biweekly Contest 96,2023-01-21,4,check-if-point-is-reachable,2543,Check if Point Is Reachable,Hard,45.2
+biweekly-contest-95,Biweekly Contest 95,2023-01-07,4,find-consecutive-integers-from-a-data-stream,2526,Find Consecutive Integers from a Data Stream,Medium,51.5
+biweekly-contest-95,Biweekly Contest 95,2023-01-07,4,find-xor-beauty-of-array,2527,Find Xor-Beauty of Array,Medium,71.1
+biweekly-contest-95,Biweekly Contest 95,2023-01-07,4,maximize-the-minimum-powered-city,2528,Maximize the Minimum Powered City,Hard,61.5
 biweekly-contest-96,Biweekly Contest 96,2023-01-21,4,minimum-common-value,2540,Minimum Common Value,Easy,60.8
 biweekly-contest-96,Biweekly Contest 96,2023-01-21,4,minimum-operations-to-make-array-equal-ii,2541,Minimum Operations to Make Array Equal II,Medium,33.3
+biweekly-contest-96,Biweekly Contest 96,2023-01-21,4,maximum-subsequence-score,2542,Maximum Subsequence Score,Medium,54.9
+biweekly-contest-96,Biweekly Contest 96,2023-01-21,4,check-if-point-is-reachable,2543,Check if Point Is Reachable,Hard,45.2
+biweekly-contest-97,Biweekly Contest 97,2023-02-04,4,separate-the-digits-in-an-array,2553,Separate the Digits in an Array,Easy,85.8
 biweekly-contest-97,Biweekly Contest 97,2023-02-04,4,maximum-number-of-integers-to-choose-from-a-range-i,2554,Maximum Number of Integers to Choose From a Range I,Medium,68.0
 biweekly-contest-97,Biweekly Contest 97,2023-02-04,4,maximize-win-from-two-segments,2555,Maximize Win From Two Segments,Medium,38.1
-biweekly-contest-97,Biweekly Contest 97,2023-02-04,4,separate-the-digits-in-an-array,2553,Separate the Digits in an Array,Easy,85.8
 biweekly-contest-97,Biweekly Contest 97,2023-02-04,4,disconnect-path-in-a-binary-matrix-by-at-most-one-flip,2556,Disconnect Path in a Binary Matrix by at Most One Flip,Medium,28.1
-biweekly-contest-98,Biweekly Contest 98,2023-02-18,4,minimum-impossible-or,2568,Minimum Impossible OR,Medium,59.3
-biweekly-contest-98,Biweekly Contest 98,2023-02-18,4,handling-sum-queries-after-update,2569,Handling Sum Queries After Update,Hard,31.6
 biweekly-contest-98,Biweekly Contest 98,2023-02-18,4,maximum-difference-by-remapping-a-digit,2566,Maximum Difference by Remapping a Digit,Easy,75.5
 biweekly-contest-98,Biweekly Contest 98,2023-02-18,4,minimum-score-by-changing-two-elements,2567,Minimum Score by Changing Two Elements,Medium,50.1
+biweekly-contest-98,Biweekly Contest 98,2023-02-18,4,minimum-impossible-or,2568,Minimum Impossible OR,Medium,59.3
+biweekly-contest-98,Biweekly Contest 98,2023-02-18,4,handling-sum-queries-after-update,2569,Handling Sum Queries After Update,Hard,31.6
 biweekly-contest-99,Biweekly Contest 99,2023-03-04,4,split-with-minimum-sum,2578,Split With Minimum Sum,Easy,73.7
 biweekly-contest-99,Biweekly Contest 99,2023-03-04,4,count-total-number-of-colored-cells,2579,Count Total Number of Colored Cells,Medium,66.1
-biweekly-contest-99,Biweekly Contest 99,2023-03-04,4,count-number-of-possible-root-nodes,2581,Count Number of Possible Root Nodes,Hard,48.7
 biweekly-contest-99,Biweekly Contest 99,2023-03-04,4,count-ways-to-group-overlapping-ranges,2580,Count Ways to Group Overlapping Ranges,Medium,39.3
+biweekly-contest-99,Biweekly Contest 99,2023-03-04,4,count-number-of-possible-root-nodes,2581,Count Number of Possible Root Nodes,Hard,48.7
 biweekly-contest-100,Biweekly Contest 100,2023-03-18,4,distribute-money-to-maximum-children,2591,Distribute Money to Maximum Children,Easy,20.7
-biweekly-contest-100,Biweekly Contest 100,2023-03-18,4,find-score-of-an-array-after-marking-all-elements,2593,Find Score of an Array After Marking All Elements,Medium,64.6
 biweekly-contest-100,Biweekly Contest 100,2023-03-18,4,maximize-greatness-of-an-array,2592,Maximize Greatness of an Array,Medium,62.0
+biweekly-contest-100,Biweekly Contest 100,2023-03-18,4,find-score-of-an-array-after-marking-all-elements,2593,Find Score of an Array After Marking All Elements,Medium,64.6
 biweekly-contest-100,Biweekly Contest 100,2023-03-18,4,minimum-time-to-repair-cars,2594,Minimum Time to Repair Cars,Medium,59.5
 biweekly-contest-101,Biweekly Contest 101,2023-04-01,4,form-smallest-number-from-two-digit-arrays,2605,Form Smallest Number From Two Digit Arrays,Easy,55.3
 biweekly-contest-101,Biweekly Contest 101,2023-04-01,4,find-the-substring-with-maximum-cost,2606,Find the Substring With Maximum Cost,Medium,58.3
 biweekly-contest-101,Biweekly Contest 101,2023-04-01,4,make-k-subarray-sums-equal,2607,Make K-Subarray Sums Equal,Medium,38.9
 biweekly-contest-101,Biweekly Contest 101,2023-04-01,4,shortest-cycle-in-a-graph,2608,Shortest Cycle in a Graph,Hard,40.0
-biweekly-contest-102,Biweekly Contest 102,2023-04-15,4,cousins-in-binary-tree-ii,2641,Cousins in Binary Tree II,Medium,75.9
-biweekly-contest-102,Biweekly Contest 102,2023-04-15,4,find-the-score-of-all-prefixes-of-an-array,2640,Find the Score of All Prefixes of an Array,Medium,73.1
-biweekly-contest-102,Biweekly Contest 102,2023-04-15,4,design-graph-with-shortest-path-calculator,2642,Design Graph With Shortest Path Calculator,Hard,65.5
 biweekly-contest-102,Biweekly Contest 102,2023-04-15,4,find-the-width-of-columns-of-a-grid,2639,Find the Width of Columns of a Grid,Easy,70.6
+biweekly-contest-102,Biweekly Contest 102,2023-04-15,4,find-the-score-of-all-prefixes-of-an-array,2640,Find the Score of All Prefixes of an Array,Medium,73.1
+biweekly-contest-102,Biweekly Contest 102,2023-04-15,4,cousins-in-binary-tree-ii,2641,Cousins in Binary Tree II,Medium,75.9
+biweekly-contest-102,Biweekly Contest 102,2023-04-15,4,design-graph-with-shortest-path-calculator,2642,Design Graph With Shortest Path Calculator,Hard,65.5
 biweekly-contest-103,Biweekly Contest 103,2023-04-29,4,maximum-sum-with-exactly-k-elements,2656,Maximum Sum With Exactly K Elements ,Easy,80.2
-biweekly-contest-103,Biweekly Contest 103,2023-04-29,4,make-array-empty,2659,Make Array Empty,Hard,27.0
-biweekly-contest-103,Biweekly Contest 103,2023-04-29,4,maximum-number-of-fish-in-a-grid,2658,Maximum Number of Fish in a Grid,Medium,70.3
 biweekly-contest-103,Biweekly Contest 103,2023-04-29,4,find-the-prefix-common-array-of-two-arrays,2657,Find the Prefix Common Array of Two Arrays,Medium,88.3
+biweekly-contest-103,Biweekly Contest 103,2023-04-29,4,maximum-number-of-fish-in-a-grid,2658,Maximum Number of Fish in a Grid,Medium,70.3
+biweekly-contest-103,Biweekly Contest 103,2023-04-29,4,make-array-empty,2659,Make Array Empty,Hard,27.0
 biweekly-contest-104,Biweekly Contest 104,2023-05-13,4,number-of-senior-citizens,2678,Number of Senior Citizens,Easy,81.2
 biweekly-contest-104,Biweekly Contest 104,2023-05-13,4,sum-in-a-matrix,2679,Sum in a Matrix,Medium,61.0
 biweekly-contest-104,Biweekly Contest 104,2023-05-13,4,maximum-or,2680,Maximum OR,Medium,43.6
 biweekly-contest-104,Biweekly Contest 104,2023-05-13,4,power-of-heroes,2681,Power of Heroes,Hard,32.0
-biweekly-contest-105,Biweekly Contest 105,2023-05-27,4,extra-characters-in-a-string,2707,Extra Characters in a String,Medium,57.2
-biweekly-contest-105,Biweekly Contest 105,2023-05-27,4,greatest-common-divisor-traversal,2709,Greatest Common Divisor Traversal,Hard,41.6
-biweekly-contest-105,Biweekly Contest 105,2023-05-27,4,maximum-strength-of-a-group,2708,Maximum Strength of a Group,Medium,25.9
 biweekly-contest-105,Biweekly Contest 105,2023-05-27,4,buy-two-chocolates,2706,Buy Two Chocolates,Easy,68.4
-biweekly-contest-106,Biweekly Contest 106,2023-06-10,4,movement-of-robots,2731,Movement of Robots,Medium,28.2
+biweekly-contest-105,Biweekly Contest 105,2023-05-27,4,extra-characters-in-a-string,2707,Extra Characters in a String,Medium,57.2
+biweekly-contest-105,Biweekly Contest 105,2023-05-27,4,maximum-strength-of-a-group,2708,Maximum Strength of a Group,Medium,25.9
+biweekly-contest-105,Biweekly Contest 105,2023-05-27,4,greatest-common-divisor-traversal,2709,Greatest Common Divisor Traversal,Hard,41.6
 biweekly-contest-106,Biweekly Contest 106,2023-06-10,4,check-if-the-number-is-fascinating,2729,Check if The Number is Fascinating,Easy,53.3
 biweekly-contest-106,Biweekly Contest 106,2023-06-10,4,find-the-longest-semi-repetitive-substring,2730,Find the Longest Semi-Repetitive Substring,Medium,39.2
+biweekly-contest-106,Biweekly Contest 106,2023-06-10,4,movement-of-robots,2731,Movement of Robots,Medium,28.2
 biweekly-contest-106,Biweekly Contest 106,2023-06-10,4,find-a-good-subset-of-the-matrix,2732,Find a Good Subset of the Matrix,Hard,46.9
-biweekly-contest-107,Biweekly Contest 107,2023-06-24,4,decremental-string-concatenation,2746,Decremental String Concatenation,Medium,28.0
 biweekly-contest-107,Biweekly Contest 107,2023-06-24,4,find-maximum-number-of-string-pairs,2744,Find Maximum Number of String Pairs,Easy,82.7
 biweekly-contest-107,Biweekly Contest 107,2023-06-24,4,construct-the-longest-new-string,2745,Construct the Longest New String,Medium,55.0
+biweekly-contest-107,Biweekly Contest 107,2023-06-24,4,decremental-string-concatenation,2746,Decremental String Concatenation,Medium,28.0
 biweekly-contest-107,Biweekly Contest 107,2023-06-24,4,count-zero-request-servers,2747,Count Zero Request Servers,Medium,36.2
-biweekly-contest-108,Biweekly Contest 108,2023-07-08,4,number-of-black-blocks,2768,Number of Black Blocks,Medium,42.1
 biweekly-contest-108,Biweekly Contest 108,2023-07-08,4,longest-alternating-subarray,2765,Longest Alternating Subarray,Easy,35.5
 biweekly-contest-108,Biweekly Contest 108,2023-07-08,4,relocate-marbles,2766,Relocate Marbles,Medium,51.8
 biweekly-contest-108,Biweekly Contest 108,2023-07-08,4,partition-string-into-minimum-beautiful-substrings,2767,Partition String Into Minimum Beautiful Substrings,Medium,54.5
+biweekly-contest-108,Biweekly Contest 108,2023-07-08,4,number-of-black-blocks,2768,Number of Black Blocks,Medium,42.1
 biweekly-contest-109,Biweekly Contest 109,2023-07-22,4,check-if-array-is-good,2784,Check if Array is Good,Easy,57.3
-biweekly-contest-109,Biweekly Contest 109,2023-07-22,4,ways-to-express-an-integer-as-sum-of-powers,2787,Ways to Express an Integer as Sum of Powers,Medium,49.8
 biweekly-contest-109,Biweekly Contest 109,2023-07-22,4,sort-vowels-in-a-string,2785,Sort Vowels in a String,Medium,83.5
 biweekly-contest-109,Biweekly Contest 109,2023-07-22,4,visit-array-positions-to-maximize-score,2786,Visit Array Positions to Maximize Score,Medium,37.9
-biweekly-contest-110,Biweekly Contest 110,2023-08-05,4,insert-greatest-common-divisors-in-linked-list,2807,Insert Greatest Common Divisors in Linked List,Medium,91.3
+biweekly-contest-109,Biweekly Contest 109,2023-07-22,4,ways-to-express-an-integer-as-sum-of-powers,2787,Ways to Express an Integer as Sum of Powers,Medium,49.8
 biweekly-contest-110,Biweekly Contest 110,2023-08-05,4,account-balance-after-rounded-purchase,2806,Account Balance After Rounded Purchase,Easy,56.8
-biweekly-contest-110,Biweekly Contest 110,2023-08-05,4,minimum-time-to-make-array-sum-at-most-x,2809,Minimum Time to Make Array Sum At Most x,Hard,28.1
+biweekly-contest-110,Biweekly Contest 110,2023-08-05,4,insert-greatest-common-divisors-in-linked-list,2807,Insert Greatest Common Divisors in Linked List,Medium,91.3
 biweekly-contest-110,Biweekly Contest 110,2023-08-05,4,minimum-seconds-to-equalize-a-circular-array,2808,Minimum Seconds to Equalize a Circular Array,Medium,28.9
+biweekly-contest-110,Biweekly Contest 110,2023-08-05,4,minimum-time-to-make-array-sum-at-most-x,2809,Minimum Time to Make Array Sum At Most x,Hard,28.1
+biweekly-contest-111,Biweekly Contest 111,2023-08-19,4,count-pairs-whose-sum-is-less-than-target,2824,Count Pairs Whose Sum is Less than Target,Easy,87.8
+biweekly-contest-111,Biweekly Contest 111,2023-08-19,4,make-string-a-subsequence-using-cyclic-increments,2825,Make String a Subsequence Using Cyclic Increments,Medium,65.7
 biweekly-contest-111,Biweekly Contest 111,2023-08-19,4,sorting-three-groups,2826,Sorting Three Groups,Medium,43.2
 biweekly-contest-111,Biweekly Contest 111,2023-08-19,4,number-of-beautiful-integers-in-the-range,2827,Number of Beautiful Integers in the Range,Hard,23.2
-biweekly-contest-111,Biweekly Contest 111,2023-08-19,4,make-string-a-subsequence-using-cyclic-increments,2825,Make String a Subsequence Using Cyclic Increments,Medium,65.7
-biweekly-contest-111,Biweekly Contest 111,2023-08-19,4,count-pairs-whose-sum-is-less-than-target,2824,Count Pairs Whose Sum is Less than Target,Easy,87.8
-biweekly-contest-112,Biweekly Contest 112,2023-09-02,4,maximum-sum-of-almost-unique-subarray,2841,Maximum Sum of Almost Unique Subarray,Medium,41.5
-biweekly-contest-112,Biweekly Contest 112,2023-09-02,4,check-if-strings-can-be-made-equal-with-operations-ii,2840,Check if Strings Can be Made Equal With Operations II,Medium,74.1
 biweekly-contest-112,Biweekly Contest 112,2023-09-02,4,check-if-strings-can-be-made-equal-with-operations-i,2839,Check if Strings Can be Made Equal With Operations I,Easy,61.9
+biweekly-contest-112,Biweekly Contest 112,2023-09-02,4,check-if-strings-can-be-made-equal-with-operations-ii,2840,Check if Strings Can be Made Equal With Operations II,Medium,74.1
+biweekly-contest-112,Biweekly Contest 112,2023-09-02,4,maximum-sum-of-almost-unique-subarray,2841,Maximum Sum of Almost Unique Subarray,Medium,41.5
 biweekly-contest-112,Biweekly Contest 112,2023-09-02,4,count-k-subsequences-of-a-string-with-maximum-beauty,2842,Count K-Subsequences of a String With Maximum Beauty,Hard,30.5
-biweekly-contest-113,Biweekly Contest 113,2023-09-16,4,count-pairs-of-points-with-distance-k,2857,Count Pairs of Points With Distance k,Medium,33.2
-biweekly-contest-113,Biweekly Contest 113,2023-09-16,4,minimum-array-length-after-pair-removals,2856,Minimum Array Length After Pair Removals,Medium,27.9
 biweekly-contest-113,Biweekly Contest 113,2023-09-16,4,minimum-right-shifts-to-sort-the-array,2855,Minimum Right Shifts to Sort the Array,Easy,57.6
+biweekly-contest-113,Biweekly Contest 113,2023-09-16,4,minimum-array-length-after-pair-removals,2856,Minimum Array Length After Pair Removals,Medium,27.9
+biweekly-contest-113,Biweekly Contest 113,2023-09-16,4,count-pairs-of-points-with-distance-k,2857,Count Pairs of Points With Distance k,Medium,33.2
 biweekly-contest-113,Biweekly Contest 113,2023-09-16,4,minimum-edge-reversals-so-every-node-is-reachable,2858,Minimum Edge Reversals So Every Node Is Reachable,Hard,59.6
 biweekly-contest-114,Biweekly Contest 114,2023-09-30,4,minimum-operations-to-collect-elements,2869,Minimum Operations to Collect Elements,Easy,62.7
-biweekly-contest-114,Biweekly Contest 114,2023-09-30,4,split-array-into-maximum-number-of-subarrays,2871,Split Array Into Maximum Number of Subarrays,Medium,42.7
 biweekly-contest-114,Biweekly Contest 114,2023-09-30,4,minimum-number-of-operations-to-make-array-empty,2870,Minimum Number of Operations to Make Array Empty,Medium,62.2
+biweekly-contest-114,Biweekly Contest 114,2023-09-30,4,split-array-into-maximum-number-of-subarrays,2871,Split Array Into Maximum Number of Subarrays,Medium,42.7
 biweekly-contest-114,Biweekly Contest 114,2023-09-30,4,maximum-number-of-k-divisible-components,2872,Maximum Number of K-Divisible Components,Hard,74.0
 biweekly-contest-115,Biweekly Contest 115,2023-10-14,4,last-visited-integers,2899,Last Visited Integers,Easy,62.6
 biweekly-contest-115,Biweekly Contest 115,2023-10-14,4,longest-unequal-adjacent-groups-subsequence-i,2900,Longest Unequal Adjacent Groups Subsequence I,Easy,66.8
-biweekly-contest-115,Biweekly Contest 115,2023-10-14,4,count-of-sub-multisets-with-bounded-sum,2902,Count of Sub-Multisets With Bounded Sum,Hard,22.8
 biweekly-contest-115,Biweekly Contest 115,2023-10-14,4,longest-unequal-adjacent-groups-subsequence-ii,2901,Longest Unequal Adjacent Groups Subsequence II,Medium,51.3
+biweekly-contest-115,Biweekly Contest 115,2023-10-14,4,count-of-sub-multisets-with-bounded-sum,2902,Count of Sub-Multisets With Bounded Sum,Hard,22.8
 biweekly-contest-116,Biweekly Contest 116,2023-10-28,4,subarrays-distinct-element-sum-of-squares-i,2913,Subarrays Distinct Element Sum of Squares I,Easy,80.4
-biweekly-contest-116,Biweekly Contest 116,2023-10-28,4,subarrays-distinct-element-sum-of-squares-ii,2916,Subarrays Distinct Element Sum of Squares II,Hard,23.7
-biweekly-contest-116,Biweekly Contest 116,2023-10-28,4,length-of-the-longest-subsequence-that-sums-to-target,2915,Length of the Longest Subsequence That Sums to Target,Medium,40.2
 biweekly-contest-116,Biweekly Contest 116,2023-10-28,4,minimum-number-of-changes-to-make-binary-string-beautiful,2914,Minimum Number of Changes to Make Binary String Beautiful,Medium,76.4
-biweekly-contest-117,Biweekly Contest 117,2023-11-11,4,distribute-candies-among-children-ii,2929,Distribute Candies Among Children II,Medium,55.6
+biweekly-contest-116,Biweekly Contest 116,2023-10-28,4,length-of-the-longest-subsequence-that-sums-to-target,2915,Length of the Longest Subsequence That Sums to Target,Medium,40.2
+biweekly-contest-116,Biweekly Contest 116,2023-10-28,4,subarrays-distinct-element-sum-of-squares-ii,2916,Subarrays Distinct Element Sum of Squares II,Hard,23.7
 biweekly-contest-117,Biweekly Contest 117,2023-11-11,4,distribute-candies-among-children-i,2928,Distribute Candies Among Children I,Easy,76.7
-biweekly-contest-117,Biweekly Contest 117,2023-11-11,4,maximum-spending-after-buying-items,2931,Maximum Spending After Buying Items,Hard,61.5
+biweekly-contest-117,Biweekly Contest 117,2023-11-11,4,distribute-candies-among-children-ii,2929,Distribute Candies Among Children II,Medium,55.6
 biweekly-contest-117,Biweekly Contest 117,2023-11-11,4,number-of-strings-which-can-be-rearranged-to-contain-substring,2930,Number of Strings Which Can Be Rearranged to Contain Substring,Medium,56.6
+biweekly-contest-117,Biweekly Contest 117,2023-11-11,4,maximum-spending-after-buying-items,2931,Maximum Spending After Buying Items,Hard,61.5
+biweekly-contest-118,Biweekly Contest 118,2023-11-25,4,find-words-containing-character,2942,Find Words Containing Character,Easy,90.4
 biweekly-contest-118,Biweekly Contest 118,2023-11-25,4,maximize-area-of-square-hole-in-grid,2943,Maximize Area of Square Hole in Grid,Medium,61.8
 biweekly-contest-118,Biweekly Contest 118,2023-11-25,4,minimum-number-of-coins-for-fruits,2944,Minimum Number of Coins for Fruits,Medium,49.6
 biweekly-contest-118,Biweekly Contest 118,2023-11-25,4,find-maximum-non-decreasing-array-length,2945,Find Maximum Non-decreasing Array Length,Hard,19.2
-biweekly-contest-118,Biweekly Contest 118,2023-11-25,4,find-words-containing-character,2942,Find Words Containing Character,Easy,90.4
-biweekly-contest-119,Biweekly Contest 119,2023-12-09,4,length-of-longest-subarray-with-at-most-k-frequency,2958,Length of Longest Subarray With at Most K Frequency,Medium,56.8
-biweekly-contest-119,Biweekly Contest 119,2023-12-09,4,remove-adjacent-almost-equal-characters,2957,Remove Adjacent Almost-Equal Characters,Medium,53.9
-biweekly-contest-119,Biweekly Contest 119,2023-12-09,4,number-of-possible-sets-of-closing-branches,2959,Number of Possible Sets of Closing Branches,Hard,50.7
 biweekly-contest-119,Biweekly Contest 119,2023-12-09,4,find-common-elements-between-two-arrays,2956,Find Common Elements Between Two Arrays,Easy,84.7
-biweekly-contest-120,Biweekly Contest 120,2023-12-23,4,count-the-number-of-incremovable-subarrays-ii,2972,Count the Number of Incremovable Subarrays II,Hard,40.6
-biweekly-contest-120,Biweekly Contest 120,2023-12-23,4,find-number-of-coins-to-place-in-tree-nodes,2973,Find Number of Coins to Place in Tree Nodes,Hard,37.8
+biweekly-contest-119,Biweekly Contest 119,2023-12-09,4,remove-adjacent-almost-equal-characters,2957,Remove Adjacent Almost-Equal Characters,Medium,53.9
+biweekly-contest-119,Biweekly Contest 119,2023-12-09,4,length-of-longest-subarray-with-at-most-k-frequency,2958,Length of Longest Subarray With at Most K Frequency,Medium,56.8
+biweekly-contest-119,Biweekly Contest 119,2023-12-09,4,number-of-possible-sets-of-closing-branches,2959,Number of Possible Sets of Closing Branches,Hard,50.6
 biweekly-contest-120,Biweekly Contest 120,2023-12-23,4,count-the-number-of-incremovable-subarrays-i,2970,Count the Number of Incremovable Subarrays I,Easy,56.9
 biweekly-contest-120,Biweekly Contest 120,2023-12-23,4,find-polygon-with-the-largest-perimeter,2971,Find Polygon With the Largest Perimeter,Medium,65.6
+biweekly-contest-120,Biweekly Contest 120,2023-12-23,4,count-the-number-of-incremovable-subarrays-ii,2972,Count the Number of Incremovable Subarrays II,Hard,40.6
+biweekly-contest-120,Biweekly Contest 120,2023-12-23,4,find-number-of-coins-to-place-in-tree-nodes,2973,Find Number of Coins to Place in Tree Nodes,Hard,37.8
 biweekly-contest-121,Biweekly Contest 121,2024-01-06,4,smallest-missing-integer-greater-than-sequential-prefix-sum,2996,Smallest Missing Integer Greater Than Sequential Prefix Sum,Easy,35.9
 biweekly-contest-121,Biweekly Contest 121,2024-01-06,4,minimum-number-of-operations-to-make-array-xor-equal-to-k,2997,Minimum Number of Operations to Make Array XOR Equal to K,Medium,85.5
 biweekly-contest-121,Biweekly Contest 121,2024-01-06,4,minimum-number-of-operations-to-make-x-and-y-equal,2998,Minimum Number of Operations to Make X and Y Equal,Medium,48.9
 biweekly-contest-121,Biweekly Contest 121,2024-01-06,4,count-the-number-of-powerful-integers,2999,Count the Number of Powerful Integers,Hard,46.3
 biweekly-contest-122,Biweekly Contest 122,2024-01-20,4,divide-an-array-into-subarrays-with-minimum-cost-i,3010,Divide an Array Into Subarrays With Minimum Cost I,Easy,80.6
+biweekly-contest-122,Biweekly Contest 122,2024-01-20,4,find-if-array-can-be-sorted,3011,Find if Array Can Be Sorted,Medium,66.4
 biweekly-contest-122,Biweekly Contest 122,2024-01-20,4,minimize-length-of-array-using-operations,3012,Minimize Length of Array Using Operations,Medium,35.8
 biweekly-contest-122,Biweekly Contest 122,2024-01-20,4,divide-an-array-into-subarrays-with-minimum-cost-ii,3013,Divide an Array Into Subarrays With Minimum Cost II,Hard,54.7
-biweekly-contest-122,Biweekly Contest 122,2024-01-20,4,find-if-array-can-be-sorted,3011,Find if Array Can Be Sorted,Medium,66.4
-biweekly-contest-123,Biweekly Contest 123,2024-02-03,4,find-the-number-of-ways-to-place-people-i,3025,Find the Number of Ways to Place People I,Medium,64.0
 biweekly-contest-123,Biweekly Contest 123,2024-02-03,4,type-of-triangle,3024,Type of Triangle,Easy,44.0
+biweekly-contest-123,Biweekly Contest 123,2024-02-03,4,find-the-number-of-ways-to-place-people-i,3025,Find the Number of Ways to Place People I,Medium,64.0
 biweekly-contest-123,Biweekly Contest 123,2024-02-03,4,maximum-good-subarray-sum,3026,Maximum Good Subarray Sum,Medium,22.2
 biweekly-contest-123,Biweekly Contest 123,2024-02-03,4,find-the-number-of-ways-to-place-people-ii,3027,Find the Number of Ways to Place People II,Hard,64.4
-biweekly-contest-124,Biweekly Contest 124,2024-02-17,4,apply-operations-to-make-string-empty,3039,Apply Operations to Make String Empty,Medium,57.9
 biweekly-contest-124,Biweekly Contest 124,2024-02-17,4,maximum-number-of-operations-with-the-same-score-i,3038,Maximum Number of Operations With the Same Score I,Easy,53.1
+biweekly-contest-124,Biweekly Contest 124,2024-02-17,4,apply-operations-to-make-string-empty,3039,Apply Operations to Make String Empty,Medium,57.9
 biweekly-contest-124,Biweekly Contest 124,2024-02-17,4,maximum-number-of-operations-with-the-same-score-ii,3040,Maximum Number of Operations With the Same Score II,Medium,34.4
 biweekly-contest-124,Biweekly Contest 124,2024-02-17,4,maximize-consecutive-elements-in-an-array-after-modification,3041,Maximize Consecutive Elements in an Array After Modification,Hard,34.2
 biweekly-contest-125,Biweekly Contest 125,2024-03-02,4,minimum-operations-to-exceed-threshold-value-i,3065,Minimum Operations to Exceed Threshold Value I,Easy,86.9
-biweekly-contest-125,Biweekly Contest 125,2024-03-02,4,count-pairs-of-connectable-servers-in-a-weighted-tree-network,3067,Count Pairs of Connectable Servers in a Weighted Tree Network,Medium,56.3
 biweekly-contest-125,Biweekly Contest 125,2024-03-02,4,minimum-operations-to-exceed-threshold-value-ii,3066,Minimum Operations to Exceed Threshold Value II,Medium,45.9
+biweekly-contest-125,Biweekly Contest 125,2024-03-02,4,count-pairs-of-connectable-servers-in-a-weighted-tree-network,3067,Count Pairs of Connectable Servers in a Weighted Tree Network,Medium,56.3
 biweekly-contest-125,Biweekly Contest 125,2024-03-02,4,find-the-maximum-sum-of-node-values,3068,Find the Maximum Sum of Node Values,Hard,69.4
+biweekly-contest-126,Biweekly Contest 126,2024-03-16,4,find-the-sum-of-encrypted-integers,3079,Find the Sum of Encrypted Integers,Easy,75.3
+biweekly-contest-126,Biweekly Contest 126,2024-03-16,4,mark-elements-on-array-by-performing-queries,3080,Mark Elements on Array by Performing Queries,Medium,49.7
 biweekly-contest-126,Biweekly Contest 126,2024-03-16,4,replace-question-marks-in-string-to-minimize-its-value,3081,Replace Question Marks in String to Minimize Its Value,Medium,29.4
 biweekly-contest-126,Biweekly Contest 126,2024-03-16,4,find-the-sum-of-the-power-of-all-subsequences,3082,Find the Sum of the Power of All Subsequences,Hard,38.8
-biweekly-contest-126,Biweekly Contest 126,2024-03-16,4,mark-elements-on-array-by-performing-queries,3080,Mark Elements on Array by Performing Queries,Medium,49.7
-biweekly-contest-126,Biweekly Contest 126,2024-03-16,4,find-the-sum-of-encrypted-integers,3079,Find the Sum of Encrypted Integers,Easy,75.3
 biweekly-contest-127,Biweekly Contest 127,2024-03-30,4,shortest-subarray-with-or-at-least-k-i,3095,Shortest Subarray With OR at Least K I,Easy,44.9
-biweekly-contest-127,Biweekly Contest 127,2024-03-30,4,shortest-subarray-with-or-at-least-k-ii,3097,Shortest Subarray With OR at Least K II,Medium,50.3
 biweekly-contest-127,Biweekly Contest 127,2024-03-30,4,minimum-levels-to-gain-more-points,3096,Minimum Levels to Gain More Points,Medium,40.6
+biweekly-contest-127,Biweekly Contest 127,2024-03-30,4,shortest-subarray-with-or-at-least-k-ii,3097,Shortest Subarray With OR at Least K II,Medium,50.3
 biweekly-contest-127,Biweekly Contest 127,2024-03-30,4,find-the-sum-of-subsequence-powers,3098,Find the Sum of Subsequence Powers,Hard,25.5
-biweekly-contest-128,Biweekly Contest 128,2024-04-13,4,minimum-time-to-visit-disappearing-nodes,3112,Minimum Time to Visit Disappearing Nodes,Medium,38.0
 biweekly-contest-128,Biweekly Contest 128,2024-04-13,4,score-of-a-string,3110,Score of a String,Easy,91.4
 biweekly-contest-128,Biweekly Contest 128,2024-04-13,4,minimum-rectangles-to-cover-points,3111,Minimum Rectangles to Cover Points,Medium,64.1
+biweekly-contest-128,Biweekly Contest 128,2024-04-13,4,minimum-time-to-visit-disappearing-nodes,3112,Minimum Time to Visit Disappearing Nodes,Medium,38.0
 biweekly-contest-128,Biweekly Contest 128,2024-04-13,4,find-the-number-of-subarrays-where-boundary-elements-are-maximum,3113,Find the Number of Subarrays Where Boundary Elements Are Maximum,Hard,33.9
+biweekly-contest-129,Biweekly Contest 129,2024-04-27,4,make-a-square-with-the-same-color,3127,Make a Square with the Same Color,Easy,52.9
 biweekly-contest-129,Biweekly Contest 129,2024-04-27,4,right-triangles,3128,Right Triangles,Medium,49.0
-biweekly-contest-129,Biweekly Contest 129,2024-04-27,4,find-all-possible-stable-binary-arrays-ii,3130,Find All Possible Stable Binary Arrays II,Hard,58.8
 biweekly-contest-129,Biweekly Contest 129,2024-04-27,4,find-all-possible-stable-binary-arrays-i,3129,Find All Possible Stable Binary Arrays I,Medium,53.6
-biweekly-contest-129,Biweekly Contest 129,2024-04-27,4,make-a-square-with-the-same-color,3127,Make a Square with the Same Color,Easy,53.0
-biweekly-contest-130,Biweekly Contest 130,2024-05-11,4,find-products-of-elements-of-big-array,3145,Find Products of Elements of Big Array,Hard,25.2
+biweekly-contest-129,Biweekly Contest 129,2024-04-27,4,find-all-possible-stable-binary-arrays-ii,3130,Find All Possible Stable Binary Arrays II,Hard,58.8
 biweekly-contest-130,Biweekly Contest 130,2024-05-11,4,check-if-grid-satisfies-conditions,3142,Check if Grid Satisfies Conditions,Easy,45.8
-biweekly-contest-130,Biweekly Contest 130,2024-05-11,4,minimum-substring-partition-of-equal-character-frequency,3144,Minimum Substring Partition of Equal Character Frequency,Medium,40.6
 biweekly-contest-130,Biweekly Contest 130,2024-05-11,4,maximum-points-inside-the-square,3143,Maximum Points Inside the Square,Medium,39.9
-biweekly-contest-131,Biweekly Contest 131,2024-05-25,4,block-placement-queries,3161,Block Placement Queries,Hard,41.4
-biweekly-contest-131,Biweekly Contest 131,2024-05-25,4,find-occurrences-of-an-element-in-an-array,3159,Find Occurrences of an Element in an Array,Medium,73.2
+biweekly-contest-130,Biweekly Contest 130,2024-05-11,4,minimum-substring-partition-of-equal-character-frequency,3144,Minimum Substring Partition of Equal Character Frequency,Medium,40.6
+biweekly-contest-130,Biweekly Contest 130,2024-05-11,4,find-products-of-elements-of-big-array,3145,Find Products of Elements of Big Array,Hard,25.2
 biweekly-contest-131,Biweekly Contest 131,2024-05-25,4,find-the-xor-of-numbers-which-appear-twice,3158,Find the XOR of Numbers Which Appear Twice,Easy,79.2
+biweekly-contest-131,Biweekly Contest 131,2024-05-25,4,find-occurrences-of-an-element-in-an-array,3159,Find Occurrences of an Element in an Array,Medium,73.2
 biweekly-contest-131,Biweekly Contest 131,2024-05-25,4,find-the-number-of-distinct-colors-among-the-balls,3160,Find the Number of Distinct Colors Among the Balls,Medium,54.2
+biweekly-contest-131,Biweekly Contest 131,2024-05-25,4,block-placement-queries,3161,Block Placement Queries,Hard,41.4
 biweekly-contest-132,Biweekly Contest 132,2024-06-08,4,clear-digits,3174,Clear Digits,Easy,82.8
-biweekly-contest-132,Biweekly Contest 132,2024-06-08,4,find-the-maximum-length-of-a-good-subsequence-i,3176,Find the Maximum Length of a Good Subsequence I,Medium,33.1
 biweekly-contest-132,Biweekly Contest 132,2024-06-08,4,find-the-first-player-to-win-k-games-in-a-row,3175,Find The First Player to win K Games in a Row,Medium,40.4
+biweekly-contest-132,Biweekly Contest 132,2024-06-08,4,find-the-maximum-length-of-a-good-subsequence-i,3176,Find the Maximum Length of a Good Subsequence I,Medium,33.1
 biweekly-contest-132,Biweekly Contest 132,2024-06-08,4,find-the-maximum-length-of-a-good-subsequence-ii,3177,Find the Maximum Length of a Good Subsequence II,Hard,25.5
-biweekly-contest-133,Biweekly Contest 133,2024-06-22,4,minimum-operations-to-make-binary-array-elements-equal-to-one-ii,3192,Minimum Operations to Make Binary Array Elements Equal to One II,Medium,65.3
 biweekly-contest-133,Biweekly Contest 133,2024-06-22,4,find-minimum-operations-to-make-all-elements-divisible-by-three,3190,Find Minimum Operations to Make All Elements Divisible by Three,Easy,90.8
 biweekly-contest-133,Biweekly Contest 133,2024-06-22,4,minimum-operations-to-make-binary-array-elements-equal-to-one-i,3191,Minimum Operations to Make Binary Array Elements Equal to One I,Medium,80.4
+biweekly-contest-133,Biweekly Contest 133,2024-06-22,4,minimum-operations-to-make-binary-array-elements-equal-to-one-ii,3192,Minimum Operations to Make Binary Array Elements Equal to One II,Medium,65.3
 biweekly-contest-133,Biweekly Contest 133,2024-06-22,4,count-the-number-of-inversions,3193,Count the Number of Inversions,Hard,31.9
-biweekly-contest-134,Biweekly Contest 134,2024-07-06,4,alternating-groups-ii,3208,Alternating Groups II,Medium,60.1
 biweekly-contest-134,Biweekly Contest 134,2024-07-06,4,alternating-groups-i,3206,Alternating Groups I,Easy,69.3
-biweekly-contest-134,Biweekly Contest 134,2024-07-06,4,number-of-subarrays-with-and-value-of-k,3209,Number of Subarrays With AND Value of K,Hard,35.7
 biweekly-contest-134,Biweekly Contest 134,2024-07-06,4,maximum-points-after-enemy-battles,3207,Maximum Points After Enemy Battles,Medium,33.5
-biweekly-contest-135,Biweekly Contest 135,2024-07-20,4,maximum-score-from-grid-operations,3225,Maximum Score From Grid Operations,Hard,64.2
+biweekly-contest-134,Biweekly Contest 134,2024-07-06,4,alternating-groups-ii,3208,Alternating Groups II,Medium,60.1
+biweekly-contest-134,Biweekly Contest 134,2024-07-06,4,number-of-subarrays-with-and-value-of-k,3209,Number of Subarrays With AND Value of K,Hard,35.7
 biweekly-contest-135,Biweekly Contest 135,2024-07-20,4,find-the-winning-player-in-coin-game,3222,Find the Winning Player in Coin Game,Easy,53.7
 biweekly-contest-135,Biweekly Contest 135,2024-07-20,4,minimum-length-of-string-after-operations,3223,Minimum Length of String After Operations,Medium,75.1
 biweekly-contest-135,Biweekly Contest 135,2024-07-20,4,minimum-array-changes-to-make-differences-equal,3224,Minimum Array Changes to Make Differences Equal,Medium,24.9
-biweekly-contest-136,Biweekly Contest 136,2024-08-03,4,time-taken-to-mark-all-nodes,3241,Time Taken to Mark All Nodes,Hard,28.8
-biweekly-contest-136,Biweekly Contest 136,2024-08-03,4,minimum-number-of-flips-to-make-binary-grid-palindromic-ii,3240,Minimum Number of Flips to Make Binary Grid Palindromic II,Medium,25.8
+biweekly-contest-135,Biweekly Contest 135,2024-07-20,4,maximum-score-from-grid-operations,3225,Maximum Score From Grid Operations,Hard,64.2
 biweekly-contest-136,Biweekly Contest 136,2024-08-03,4,find-the-number-of-winning-players,3238,Find the Number of Winning Players,Easy,60.7
 biweekly-contest-136,Biweekly Contest 136,2024-08-03,4,minimum-number-of-flips-to-make-binary-grid-palindromic-i,3239,Minimum Number of Flips to Make Binary Grid Palindromic I,Medium,75.1
-biweekly-contest-137,Biweekly Contest 137,2024-08-17,4,find-the-power-of-k-size-subarrays-ii,3255,Find the Power of K-Size Subarrays II,Medium,31.9
+biweekly-contest-136,Biweekly Contest 136,2024-08-03,4,minimum-number-of-flips-to-make-binary-grid-palindromic-ii,3240,Minimum Number of Flips to Make Binary Grid Palindromic II,Medium,25.8
+biweekly-contest-136,Biweekly Contest 136,2024-08-03,4,time-taken-to-mark-all-nodes,3241,Time Taken to Mark All Nodes,Hard,28.8
 biweekly-contest-137,Biweekly Contest 137,2024-08-17,4,find-the-power-of-k-size-subarrays-i,3254,Find the Power of K-Size Subarrays I,Medium,62.1
+biweekly-contest-137,Biweekly Contest 137,2024-08-17,4,find-the-power-of-k-size-subarrays-ii,3255,Find the Power of K-Size Subarrays II,Medium,31.9
 biweekly-contest-137,Biweekly Contest 137,2024-08-17,4,maximum-value-sum-by-placing-three-rooks-i,3256,Maximum Value Sum by Placing Three Rooks I,Hard,16.9
 biweekly-contest-137,Biweekly Contest 137,2024-08-17,4,maximum-value-sum-by-placing-three-rooks-ii,3257,Maximum Value Sum by Placing Three Rooks II,Hard,27.1
+biweekly-contest-138,Biweekly Contest 138,2024-08-31,4,find-the-key-of-the-numbers,3270,Find the Key of the Numbers,Easy,76.7
 biweekly-contest-138,Biweekly Contest 138,2024-08-31,4,hash-divided-string,3271,Hash Divided String,Medium,83.4
 biweekly-contest-138,Biweekly Contest 138,2024-08-31,4,find-the-count-of-good-integers,3272,Find the Count of Good Integers,Hard,69.2
-biweekly-contest-138,Biweekly Contest 138,2024-08-31,4,find-the-key-of-the-numbers,3270,Find the Key of the Numbers,Easy,76.7
 biweekly-contest-138,Biweekly Contest 138,2024-08-31,4,minimum-amount-of-damage-dealt-to-bob,3273,Minimum Amount of Damage Dealt to Bob,Hard,40.1
-biweekly-contest-139,Biweekly Contest 139,2024-09-14,4,length-of-the-longest-increasing-path,3288,Length of the Longest Increasing Path,Hard,19.8
-biweekly-contest-139,Biweekly Contest 139,2024-09-14,4,find-the-maximum-sequence-value-of-array,3287,Find the Maximum Sequence Value of Array,Hard,22.2
 biweekly-contest-139,Biweekly Contest 139,2024-09-14,4,find-indices-of-stable-mountains,3285,Find Indices of Stable Mountains,Easy,87.2
 biweekly-contest-139,Biweekly Contest 139,2024-09-14,4,find-a-safe-walk-through-a-grid,3286,Find a Safe Walk Through a Grid,Medium,55.4
-biweekly-contest-140,Biweekly Contest 140,2024-09-28,4,find-the-lexicographically-smallest-valid-sequence,3302,Find the Lexicographically Smallest Valid Sequence,Medium,22.3
-biweekly-contest-140,Biweekly Contest 140,2024-09-28,4,maximize-the-total-height-of-unique-towers,3301,Maximize the Total Height of Unique Towers,Medium,37.7
+biweekly-contest-139,Biweekly Contest 139,2024-09-14,4,find-the-maximum-sequence-value-of-array,3287,Find the Maximum Sequence Value of Array,Hard,22.2
+biweekly-contest-139,Biweekly Contest 139,2024-09-14,4,length-of-the-longest-increasing-path,3288,Length of the Longest Increasing Path,Hard,19.8
 biweekly-contest-140,Biweekly Contest 140,2024-09-28,4,minimum-element-after-replacement-with-digit-sum,3300,Minimum Element After Replacement With Digit Sum,Easy,89.6
+biweekly-contest-140,Biweekly Contest 140,2024-09-28,4,maximize-the-total-height-of-unique-towers,3301,Maximize the Total Height of Unique Towers,Medium,37.7
+biweekly-contest-140,Biweekly Contest 140,2024-09-28,4,find-the-lexicographically-smallest-valid-sequence,3302,Find the Lexicographically Smallest Valid Sequence,Medium,22.3
 biweekly-contest-140,Biweekly Contest 140,2024-09-28,4,find-the-occurrence-of-first-almost-equal-substring,3303,Find the Occurrence of First Almost Equal Substring,Hard,16.0
-biweekly-contest-141,Biweekly Contest 141,2024-10-12,4,find-the-number-of-possible-ways-for-an-event,3317,Find the Number of Possible Ways for an Event,Hard,35.4
-biweekly-contest-141,Biweekly Contest 141,2024-10-12,4,find-maximum-removals-from-source-string,3316,Find Maximum Removals From Source String,Medium,39.7
 biweekly-contest-141,Biweekly Contest 141,2024-10-12,4,construct-the-minimum-bitwise-array-i,3314,Construct the Minimum Bitwise Array I,Easy,85.3
 biweekly-contest-141,Biweekly Contest 141,2024-10-12,4,construct-the-minimum-bitwise-array-ii,3315,Construct the Minimum Bitwise Array II,Medium,66.6
-biweekly-contest-142,Biweekly Contest 142,2024-10-26,4,maximum-points-tourist-can-earn,3332,Maximum Points Tourist Can Earn,Medium,48.1
+biweekly-contest-141,Biweekly Contest 141,2024-10-12,4,find-maximum-removals-from-source-string,3316,Find Maximum Removals From Source String,Medium,39.7
+biweekly-contest-141,Biweekly Contest 141,2024-10-12,4,find-the-number-of-possible-ways-for-an-event,3317,Find the Number of Possible Ways for an Event,Hard,35.4
 biweekly-contest-142,Biweekly Contest 142,2024-10-26,4,find-the-original-typed-string-i,3330,Find the Original Typed String I,Easy,72.1
 biweekly-contest-142,Biweekly Contest 142,2024-10-26,4,find-subtree-sizes-after-changes,3331,Find Subtree Sizes After Changes,Medium,53.8
+biweekly-contest-142,Biweekly Contest 142,2024-10-26,4,maximum-points-tourist-can-earn,3332,Maximum Points Tourist Can Earn,Medium,48.1
 biweekly-contest-142,Biweekly Contest 142,2024-10-26,4,find-the-original-typed-string-ii,3333,Find the Original Typed String II,Hard,45.5
-biweekly-contest-143,Biweekly Contest 143,2024-11-09,4,maximum-frequency-of-an-element-after-performing-operations-ii,3347,Maximum Frequency of an Element After Performing Operations II,Hard,53.9
-biweekly-contest-143,Biweekly Contest 143,2024-11-09,4,maximum-frequency-of-an-element-after-performing-operations-i,3346,Maximum Frequency of an Element After Performing Operations I,Medium,40.3
-biweekly-contest-143,Biweekly Contest 143,2024-11-09,4,smallest-divisible-digit-product-ii,3348,Smallest Divisible Digit Product II,Hard,14.9
 biweekly-contest-143,Biweekly Contest 143,2024-11-09,4,smallest-divisible-digit-product-i,3345,Smallest Divisible Digit Product I,Easy,64.7
-biweekly-contest-144,Biweekly Contest 144,2024-11-23,4,find-the-maximum-number-of-fruits-collected,3363,Find the Maximum Number of Fruits Collected,Hard,65.0
+biweekly-contest-143,Biweekly Contest 143,2024-11-09,4,maximum-frequency-of-an-element-after-performing-operations-i,3346,Maximum Frequency of an Element After Performing Operations I,Medium,40.3
+biweekly-contest-143,Biweekly Contest 143,2024-11-09,4,maximum-frequency-of-an-element-after-performing-operations-ii,3347,Maximum Frequency of an Element After Performing Operations II,Hard,53.9
+biweekly-contest-143,Biweekly Contest 143,2024-11-09,4,smallest-divisible-digit-product-ii,3348,Smallest Divisible Digit Product II,Hard,14.9
 biweekly-contest-144,Biweekly Contest 144,2024-11-23,4,stone-removal-game,3360,Stone Removal Game,Easy,42.6
 biweekly-contest-144,Biweekly Contest 144,2024-11-23,4,shift-distance-between-two-strings,3361,Shift Distance Between Two Strings,Medium,53.9
 biweekly-contest-144,Biweekly Contest 144,2024-11-23,4,zero-array-transformation-iii,3362,Zero Array Transformation III,Medium,54.7
+biweekly-contest-144,Biweekly Contest 144,2024-11-23,4,find-the-maximum-number-of-fruits-collected,3363,Find the Maximum Number of Fruits Collected,Hard,65.0
 biweekly-contest-145,Biweekly Contest 145,2024-12-07,4,minimum-operations-to-make-array-values-equal-to-k,3375,Minimum Operations to Make Array Values Equal to K,Easy,73.2
 biweekly-contest-145,Biweekly Contest 145,2024-12-07,4,minimum-time-to-break-locks-i,3376,Minimum Time to Break Locks I,Medium,32.9
+biweekly-contest-145,Biweekly Contest 145,2024-12-07,4,digit-operations-to-make-two-integers-equal,3377,Digit Operations to Make Two Integers Equal,Medium,31.1
 biweekly-contest-145,Biweekly Contest 145,2024-12-07,4,count-connected-components-in-lcm-graph,3378,Count Connected Components in LCM Graph,Hard,31.7
-biweekly-contest-145,Biweekly Contest 145,2024-12-07,4,digit-operations-to-make-two-integers-equal,3377,Digit Operations to Make Two Integers Equal,Medium,31.0
 biweekly-contest-146,Biweekly Contest 146,2024-12-21,4,count-subarrays-of-length-three-with-a-condition,3392,Count Subarrays of Length Three With a Condition,Easy,61.4
-biweekly-contest-146,Biweekly Contest 146,2024-12-21,4,subsequences-with-a-unique-middle-mode-i,3395,Subsequences with a Unique Middle Mode I,Hard,21.8
 biweekly-contest-146,Biweekly Contest 146,2024-12-21,4,count-paths-with-the-given-xor-value,3393,Count Paths With the Given XOR Value,Medium,40.9
 biweekly-contest-146,Biweekly Contest 146,2024-12-21,4,check-if-grid-can-be-cut-into-sections,3394,Check if Grid can be Cut into Sections,Medium,68.3
-biweekly-contest-147,Biweekly Contest 147,2025-01-04,4,longest-subsequence-with-decreasing-adjacent-difference,3409,Longest Subsequence With Decreasing Adjacent Difference,Medium,17.1
+biweekly-contest-146,Biweekly Contest 146,2024-12-21,4,subsequences-with-a-unique-middle-mode-i,3395,Subsequences with a Unique Middle Mode I,Hard,21.8
 biweekly-contest-147,Biweekly Contest 147,2025-01-04,4,substring-matching-pattern,3407,Substring Matching Pattern,Easy,29.1
-biweekly-contest-147,Biweekly Contest 147,2025-01-04,4,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,3410,Maximize Subarray Sum After Removing All Occurrences of One Element,Hard,23.5
 biweekly-contest-147,Biweekly Contest 147,2025-01-04,4,design-task-manager,3408,Design Task Manager,Medium,48.9
+biweekly-contest-147,Biweekly Contest 147,2025-01-04,4,longest-subsequence-with-decreasing-adjacent-difference,3409,Longest Subsequence With Decreasing Adjacent Difference,Medium,17.1
+biweekly-contest-147,Biweekly Contest 147,2025-01-04,4,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,3410,Maximize Subarray Sum After Removing All Occurrences of One Element,Hard,23.5
 biweekly-contest-148,Biweekly Contest 148,2025-01-18,4,maximum-difference-between-adjacent-elements-in-a-circular-array,3423,Maximum Difference Between Adjacent Elements in a Circular Array,Easy,75.6
 biweekly-contest-148,Biweekly Contest 148,2025-01-18,4,minimum-cost-to-make-arrays-identical,3424,Minimum Cost to Make Arrays Identical,Medium,38.1
 biweekly-contest-148,Biweekly Contest 148,2025-01-18,4,longest-special-path,3425,Longest Special Path,Hard,23.2
 biweekly-contest-148,Biweekly Contest 148,2025-01-18,4,manhattan-distances-of-all-arrangements-of-pieces,3426,Manhattan Distances of All Arrangements of Pieces,Hard,35.8
 biweekly-contest-149,Biweekly Contest 149,2025-02-01,4,find-valid-pair-of-adjacent-digits-in-string,3438,Find Valid Pair of Adjacent Digits in String,Easy,61.2
+biweekly-contest-149,Biweekly Contest 149,2025-02-01,4,reschedule-meetings-for-maximum-free-time-i,3439,Reschedule Meetings for Maximum Free Time I,Medium,54.0
 biweekly-contest-149,Biweekly Contest 149,2025-02-01,4,reschedule-meetings-for-maximum-free-time-ii,3440,Reschedule Meetings for Maximum Free Time II,Medium,60.4
 biweekly-contest-149,Biweekly Contest 149,2025-02-01,4,minimum-cost-good-caption,3441,Minimum Cost Good Caption,Hard,21.2
-biweekly-contest-149,Biweekly Contest 149,2025-02-01,4,reschedule-meetings-for-maximum-free-time-i,3439,Reschedule Meetings for Maximum Free Time I,Medium,54.0
-biweekly-contest-150,Biweekly Contest 150,2025-02-15,4,shortest-matching-substring,3455,Shortest Matching Substring,Hard,24.7
 biweekly-contest-150,Biweekly Contest 150,2025-02-15,4,sum-of-good-numbers,3452,Sum of Good Numbers,Easy,69.9
 biweekly-contest-150,Biweekly Contest 150,2025-02-15,4,separate-squares-i,3453,Separate Squares I,Medium,58.0
 biweekly-contest-150,Biweekly Contest 150,2025-02-15,4,separate-squares-ii,3454,Separate Squares II,Hard,59.2
+biweekly-contest-150,Biweekly Contest 150,2025-02-15,4,shortest-matching-substring,3455,Shortest Matching Substring,Hard,24.7
+biweekly-contest-151,Biweekly Contest 151,2025-03-01,4,transform-array-by-parity,3467,Transform Array by Parity,Easy,89.8
 biweekly-contest-151,Biweekly Contest 151,2025-03-01,4,find-the-number-of-copy-arrays,3468,Find the Number of Copy Arrays,Medium,47.3
 biweekly-contest-151,Biweekly Contest 151,2025-03-01,4,find-minimum-cost-to-remove-array-elements,3469,Find Minimum Cost to Remove Array Elements,Medium,22.2
-biweekly-contest-151,Biweekly Contest 151,2025-03-01,4,transform-array-by-parity,3467,Transform Array by Parity,Easy,89.8
 biweekly-contest-151,Biweekly Contest 151,2025-03-01,4,permutations-iv,3470,Permutations IV,Hard,34.6
 biweekly-contest-152,Biweekly Contest 152,2025-03-15,4,unique-3-digit-even-numbers,3483,Unique 3-Digit Even Numbers,Easy,70.3
-biweekly-contest-152,Biweekly Contest 152,2025-03-15,4,longest-special-path-ii,3486,Longest Special Path II,Hard,19.9
 biweekly-contest-152,Biweekly Contest 152,2025-03-15,4,design-spreadsheet,3484,Design Spreadsheet,Medium,73.9
 biweekly-contest-152,Biweekly Contest 152,2025-03-15,4,longest-common-prefix-of-k-strings-after-removal,3485,Longest Common Prefix of K Strings After Removal,Hard,24.4
-biweekly-contest-153,Biweekly Contest 153,2025-03-29,4,maximize-active-section-with-trade-i,3499,Maximize Active Section with Trade I,Medium,60.9
-biweekly-contest-153,Biweekly Contest 153,2025-03-29,4,maximize-active-section-with-trade-ii,3501,Maximize Active Section with Trade II,Hard,65.2
+biweekly-contest-152,Biweekly Contest 152,2025-03-15,4,longest-special-path-ii,3486,Longest Special Path II,Hard,19.9
 biweekly-contest-153,Biweekly Contest 153,2025-03-29,4,reverse-degree-of-a-string,3498,Reverse Degree of a String,Easy,88.9
+biweekly-contest-153,Biweekly Contest 153,2025-03-29,4,maximize-active-section-with-trade-i,3499,Maximize Active Section with Trade I,Medium,60.9
 biweekly-contest-153,Biweekly Contest 153,2025-03-29,4,minimum-cost-to-divide-array-into-subarrays,3500,Minimum Cost to Divide Array Into Subarrays,Hard,28.5
-biweekly-contest-154,Biweekly Contest 154,2025-04-12,4,number-of-unique-xor-triplets-ii,3514,Number of Unique XOR Triplets II,Medium,52.8
+biweekly-contest-153,Biweekly Contest 153,2025-03-29,4,maximize-active-section-with-trade-ii,3501,Maximize Active Section with Trade II,Hard,65.2
 biweekly-contest-154,Biweekly Contest 154,2025-04-12,4,minimum-operations-to-make-array-sum-divisible-by-k,3512,Minimum Operations to Make Array Sum Divisible by K,Easy,92.3
-biweekly-contest-154,Biweekly Contest 154,2025-04-12,4,shortest-path-in-a-weighted-tree,3515,Shortest Path in a Weighted Tree,Hard,42.8
 biweekly-contest-154,Biweekly Contest 154,2025-04-12,4,number-of-unique-xor-triplets-i,3513,Number of Unique XOR Triplets I,Medium,57.5
-biweekly-contest-155,Biweekly Contest 155,2025-04-26,4,count-cells-in-overlapping-horizontal-and-vertical-substrings,3529,Count Cells in Overlapping Horizontal and Vertical Substrings,Medium,27.7
-biweekly-contest-155,Biweekly Contest 155,2025-04-26,4,unit-conversion-i,3528,Unit Conversion I,Medium,54.1
-biweekly-contest-155,Biweekly Contest 155,2025-04-26,4,maximum-profit-from-valid-topological-order-in-dag,3530,Maximum Profit from Valid Topological Order in DAG,Hard,30.6
+biweekly-contest-154,Biweekly Contest 154,2025-04-12,4,number-of-unique-xor-triplets-ii,3514,Number of Unique XOR Triplets II,Medium,52.8
+biweekly-contest-154,Biweekly Contest 154,2025-04-12,4,shortest-path-in-a-weighted-tree,3515,Shortest Path in a Weighted Tree,Hard,42.8
 biweekly-contest-155,Biweekly Contest 155,2025-04-26,4,find-the-most-common-response,3527,Find the Most Common Response,Medium,74.9
-biweekly-contest-156,Biweekly Contest 156,2025-05-10,4,minimum-operations-to-convert-all-elements-to-zero,3542,Minimum Operations to Convert All Elements to Zero,Medium,53.1
+biweekly-contest-155,Biweekly Contest 155,2025-04-26,4,unit-conversion-i,3528,Unit Conversion I,Medium,54.1
+biweekly-contest-155,Biweekly Contest 155,2025-04-26,4,count-cells-in-overlapping-horizontal-and-vertical-substrings,3529,Count Cells in Overlapping Horizontal and Vertical Substrings,Medium,27.7
+biweekly-contest-155,Biweekly Contest 155,2025-04-26,4,maximum-profit-from-valid-topological-order-in-dag,3530,Maximum Profit from Valid Topological Order in DAG,Hard,30.6
 biweekly-contest-156,Biweekly Contest 156,2025-05-10,4,find-most-frequent-vowel-and-consonant,3541,Find Most Frequent Vowel and Consonant,Easy,89.3
-biweekly-contest-156,Biweekly Contest 156,2025-05-10,4,subtree-inversion-sum,3544,Subtree Inversion Sum,Hard,44.3
+biweekly-contest-156,Biweekly Contest 156,2025-05-10,4,minimum-operations-to-convert-all-elements-to-zero,3542,Minimum Operations to Convert All Elements to Zero,Medium,53.1
 biweekly-contest-156,Biweekly Contest 156,2025-05-10,4,maximum-weighted-k-edge-path,3543,Maximum Weighted K-Edge Path,Medium,20.3
-biweekly-contest-157,Biweekly Contest 157,2025-05-24,4,number-of-ways-to-assign-edge-weights-i,3558,Number of Ways to Assign Edge Weights I,Medium,64.0
-biweekly-contest-157,Biweekly Contest 157,2025-05-24,4,find-maximum-number-of-non-intersecting-substrings,3557,Find Maximum Number of Non Intersecting Substrings,Medium,31.1
-biweekly-contest-157,Biweekly Contest 157,2025-05-24,4,number-of-ways-to-assign-edge-weights-ii,3559,Number of Ways to Assign Edge Weights II,Hard,72.4
+biweekly-contest-156,Biweekly Contest 156,2025-05-10,4,subtree-inversion-sum,3544,Subtree Inversion Sum,Hard,44.3
 biweekly-contest-157,Biweekly Contest 157,2025-05-24,4,sum-of-largest-prime-substrings,3556,Sum of Largest Prime Substrings,Medium,38.2
+biweekly-contest-157,Biweekly Contest 157,2025-05-24,4,find-maximum-number-of-non-intersecting-substrings,3557,Find Maximum Number of Non Intersecting Substrings,Medium,31.1
+biweekly-contest-157,Biweekly Contest 157,2025-05-24,4,number-of-ways-to-assign-edge-weights-i,3558,Number of Ways to Assign Edge Weights I,Medium,64.0
+biweekly-contest-157,Biweekly Contest 157,2025-05-24,4,number-of-ways-to-assign-edge-weights-ii,3559,Number of Ways to Assign Edge Weights II,Hard,72.4
 biweekly-contest-158,Biweekly Contest 158,2025-06-07,4,maximize-ysum-by-picking-a-triplet-of-distinct-xvalues,3572,Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values,Medium,63.5
 biweekly-contest-158,Biweekly Contest 158,2025-06-07,4,best-time-to-buy-and-sell-stock-v,3573,Best Time to Buy and Sell Stock V,Medium,60.6
 biweekly-contest-158,Biweekly Contest 158,2025-06-07,4,maximize-subarray-gcd-score,3574,Maximize Subarray GCD Score,Hard,25.6
-biweekly-contest-158,Biweekly Contest 158,2025-06-07,4,maximum-good-subtree-score,3575,Maximum Good Subtree Score,Hard,46.0
-biweekly-contest-159,Biweekly Contest 159,2025-06-21,4,count-prime-gap-balanced-subarrays,3589,Count Prime-Gap Balanced Subarrays,Medium,23.9
+biweekly-contest-158,Biweekly Contest 158,2025-06-07,4,maximum-good-subtree-score,3575,Maximum Good Subtree Score,Hard,45.9
 biweekly-contest-159,Biweekly Contest 159,2025-06-21,4,minimum-adjacent-swaps-to-alternate-parity,3587,Minimum Adjacent Swaps to Alternate Parity,Medium,42.6
-biweekly-contest-159,Biweekly Contest 159,2025-06-21,4,kth-smallest-path-xor-sum,3590,Kth Smallest Path XOR Sum,Hard,30.7
 biweekly-contest-159,Biweekly Contest 159,2025-06-21,4,find-maximum-area-of-a-triangle,3588,Find Maximum Area of a Triangle,Medium,29.8
-biweekly-contest-160,Biweekly Contest 160,2025-07-05,4,minimum-time-to-reach-destination-in-directed-graph,3604,Minimum Time to Reach Destination in Directed Graph,Medium,45.5
-biweekly-contest-160,Biweekly Contest 160,2025-07-05,4,minimum-stability-factor-of-array,3605,Minimum Stability Factor of Array,Hard,20.9
+biweekly-contest-159,Biweekly Contest 159,2025-06-21,4,count-prime-gap-balanced-subarrays,3589,Count Prime-Gap Balanced Subarrays,Medium,23.9
+biweekly-contest-159,Biweekly Contest 159,2025-06-21,4,kth-smallest-path-xor-sum,3590,Kth Smallest Path XOR Sum,Hard,30.7
 biweekly-contest-160,Biweekly Contest 160,2025-07-05,4,hexadecimal-and-hexatrigesimal-conversion,3602,Hexadecimal and Hexatrigesimal Conversion,Easy,81.0
 biweekly-contest-160,Biweekly Contest 160,2025-07-05,4,minimum-cost-path-with-alternating-directions-ii,3603,Minimum Cost Path with Alternating Directions II,Medium,45.2
-biweekly-contest-161,Biweekly Contest 161,2025-07-19,4,count-islands-with-total-value-divisible-by-k,3619,Count Islands With Total Value Divisible by K,Medium,56.2
-biweekly-contest-161,Biweekly Contest 161,2025-07-19,4,number-of-integers-with-popcount-depth-equal-to-k-i,3621,Number of Integers With Popcount-Depth Equal to K I,Hard,23.2
-biweekly-contest-161,Biweekly Contest 161,2025-07-19,4,network-recovery-pathways,3620,Network Recovery Pathways,Hard,50.8
+biweekly-contest-160,Biweekly Contest 160,2025-07-05,4,minimum-time-to-reach-destination-in-directed-graph,3604,Minimum Time to Reach Destination in Directed Graph,Medium,45.5
+biweekly-contest-160,Biweekly Contest 160,2025-07-05,4,minimum-stability-factor-of-array,3605,Minimum Stability Factor of Array,Hard,20.9
 biweekly-contest-161,Biweekly Contest 161,2025-07-19,4,split-array-by-prime-indices,3618,Split Array by Prime Indices,Medium,49.7
+biweekly-contest-161,Biweekly Contest 161,2025-07-19,4,count-islands-with-total-value-divisible-by-k,3619,Count Islands With Total Value Divisible by K,Medium,56.2
+biweekly-contest-161,Biweekly Contest 161,2025-07-19,4,network-recovery-pathways,3620,Network Recovery Pathways,Hard,50.8
+biweekly-contest-161,Biweekly Contest 161,2025-07-19,4,number-of-integers-with-popcount-depth-equal-to-k-i,3621,Number of Integers With Popcount-Depth Equal to K I,Hard,23.2
+biweekly-contest-162,Biweekly Contest 162,2025-08-02,4,earliest-finish-time-for-land-and-water-rides-i,3633,Earliest Finish Time for Land and Water Rides I,Easy,73.0
+biweekly-contest-162,Biweekly Contest 162,2025-08-02,4,minimum-removals-to-balance-array,3634,Minimum Removals to Balance Array,Medium,47.8
 biweekly-contest-162,Biweekly Contest 162,2025-08-02,4,earliest-finish-time-for-land-and-water-rides-ii,3635,Earliest Finish Time for Land and Water Rides II,Medium,64.3
 biweekly-contest-162,Biweekly Contest 162,2025-08-02,4,threshold-majority-queries,3636,Threshold Majority Queries,Hard,22.5
-biweekly-contest-162,Biweekly Contest 162,2025-08-02,4,minimum-removals-to-balance-array,3634,Minimum Removals to Balance Array,Medium,47.8
-biweekly-contest-162,Biweekly Contest 162,2025-08-02,4,earliest-finish-time-for-land-and-water-rides-i,3633,Earliest Finish Time for Land and Water Rides I,Easy,73.0
 biweekly-contest-163,Biweekly Contest 163,2025-08-16,4,minimum-sensors-to-cover-grid,3648,Minimum Sensors to Cover Grid,Medium,68.8
 biweekly-contest-163,Biweekly Contest 163,2025-08-16,4,number-of-perfect-pairs,3649,Number of Perfect Pairs,Medium,34.5
 biweekly-contest-163,Biweekly Contest 163,2025-08-16,4,minimum-cost-path-with-edge-reversals,3650,Minimum Cost Path with Edge Reversals,Medium,61.8
 biweekly-contest-163,Biweekly Contest 163,2025-08-16,4,minimum-cost-path-with-teleportations,3651,Minimum Cost Path with Teleportations,Hard,45.3
-biweekly-contest-164,Biweekly Contest 164,2025-08-30,4,two-letter-card-game,3664,Two-Letter Card Game,Medium,13.1
-biweekly-contest-164,Biweekly Contest 164,2025-08-30,4,minimum-operations-to-equalize-binary-string,3666,Minimum Operations to Equalize Binary String,Hard,45.1
 biweekly-contest-164,Biweekly Contest 164,2025-08-30,4,find-the-least-frequent-digit,3663,Find The Least Frequent Digit,Easy,69.8
+biweekly-contest-164,Biweekly Contest 164,2025-08-30,4,two-letter-card-game,3664,Two-Letter Card Game,Medium,13.1
 biweekly-contest-164,Biweekly Contest 164,2025-08-30,4,twisted-mirror-path-count,3665,Twisted Mirror Path Count,Medium,47.5
-biweekly-contest-165,Biweekly Contest 165,2025-09-13,4,maximum-xor-of-subsequences,3681,Maximum XOR of Subsequences,Hard,51.6
-biweekly-contest-165,Biweekly Contest 165,2025-09-13,4,generate-schedule,3680,Generate Schedule,Medium,25.0
+biweekly-contest-164,Biweekly Contest 164,2025-08-30,4,minimum-operations-to-equalize-binary-string,3666,Minimum Operations to Equalize Binary String,Hard,45.1
 biweekly-contest-165,Biweekly Contest 165,2025-09-13,4,smallest-absent-positive-greater-than-average,3678,Smallest Absent Positive Greater Than Average,Easy,34.5
 biweekly-contest-165,Biweekly Contest 165,2025-09-13,4,minimum-discards-to-balance-inventory,3679, Minimum Discards to Balance Inventory,Medium,35.4
-biweekly-contest-166,Biweekly Contest 166,2025-09-27,4,climbing-stairs-ii,3693,Climbing Stairs II,Medium,64.5
-biweekly-contest-166,Biweekly Contest 166,2025-09-27,4,maximize-alternating-sum-using-swaps,3695,Maximize Alternating Sum Using Swaps,Hard,64.9
+biweekly-contest-165,Biweekly Contest 165,2025-09-13,4,generate-schedule,3680,Generate Schedule,Medium,25.0
+biweekly-contest-165,Biweekly Contest 165,2025-09-13,4,maximum-xor-of-subsequences,3681,Maximum XOR of Subsequences,Hard,51.6
 biweekly-contest-166,Biweekly Contest 166,2025-09-27,4,majority-frequency-characters,3692,Majority Frequency Characters,Easy,67.3
+biweekly-contest-166,Biweekly Contest 166,2025-09-27,4,climbing-stairs-ii,3693,Climbing Stairs II,Medium,64.5
 biweekly-contest-166,Biweekly Contest 166,2025-09-27,4,distinct-points-reachable-after-substring-removal,3694,Distinct Points Reachable After Substring Removal,Medium,54.3
+biweekly-contest-166,Biweekly Contest 166,2025-09-27,4,maximize-alternating-sum-using-swaps,3695,Maximize Alternating Sum Using Swaps,Hard,64.9
 biweekly-contest-167,Biweekly Contest 167,2025-10-11,4,equal-score-substrings,3707,Equal Score Substrings,Easy,57.0
 biweekly-contest-167,Biweekly Contest 167,2025-10-11,4,longest-fibonacci-subarray,3708,Longest Fibonacci Subarray,Medium,69.7
-biweekly-contest-167,Biweekly Contest 167,2025-10-11,4,maximum-partition-factor,3710,Maximum Partition Factor,Hard,32.2
 biweekly-contest-167,Biweekly Contest 167,2025-10-11,4,design-exam-scores-tracker,3709,Design Exam Scores Tracker,Medium,44.4
-biweekly-contest-168,Biweekly Contest 168,2025-10-25,4,minimum-operations-to-transform-array,3724,Minimum Operations to Transform Array,Medium,40.3
-biweekly-contest-168,Biweekly Contest 168,2025-10-25,4,maximize-sum-of-squares-of-digits,3723,Maximize Sum of Squares of Digits,Medium,59.1
+biweekly-contest-167,Biweekly Contest 167,2025-10-11,4,maximum-partition-factor,3710,Maximum Partition Factor,Hard,32.2
 biweekly-contest-168,Biweekly Contest 168,2025-10-25,4,lexicographically-smallest-string-after-reverse,3722,Lexicographically Smallest String After Reverse,Medium,54.9
+biweekly-contest-168,Biweekly Contest 168,2025-10-25,4,maximize-sum-of-squares-of-digits,3723,Maximize Sum of Squares of Digits,Medium,59.1
+biweekly-contest-168,Biweekly Contest 168,2025-10-25,4,minimum-operations-to-transform-array,3724,Minimum Operations to Transform Array,Medium,40.3
 biweekly-contest-168,Biweekly Contest 168,2025-10-25,4,count-ways-to-choose-coprime-integers-from-rows,3725,Count Ways to Choose Coprime Integers from Rows,Hard,48.6
-biweekly-contest-169,Biweekly Contest 169,2025-11-08,4,count-subarrays-with-majority-element-ii,3739,Count Subarrays With Majority Element II,Hard,64.8
+biweekly-contest-169,Biweekly Contest 169,2025-11-08,4,minimum-moves-to-equal-array-elements-iii,3736,Minimum Moves to Equal Array Elements III,Easy,82.2
 biweekly-contest-169,Biweekly Contest 169,2025-11-08,4,count-subarrays-with-majority-element-i,3737,Count Subarrays With Majority Element I,Medium,75.7
 biweekly-contest-169,Biweekly Contest 169,2025-11-08,4,longest-non-decreasing-subarray-after-replacing-at-most-one-element,3738,Longest Non-Decreasing Subarray After Replacing at Most One Element,Medium,22.7
-biweekly-contest-169,Biweekly Contest 169,2025-11-08,4,minimum-moves-to-equal-array-elements-iii,3736,Minimum Moves to Equal Array Elements III,Easy,82.2
-biweekly-contest-170,Biweekly Contest 170,2025-11-22,4,total-waviness-of-numbers-in-range-i,3751,Total Waviness of Numbers in Range I,Medium,87.4
+biweekly-contest-169,Biweekly Contest 169,2025-11-08,4,count-subarrays-with-majority-element-ii,3739,Count Subarrays With Majority Element II,Hard,64.8
 biweekly-contest-170,Biweekly Contest 170,2025-11-22,4,minimum-number-of-flips-to-reverse-binary-string,3750,Minimum Number of Flips to Reverse Binary String,Easy,76.9
-biweekly-contest-170,Biweekly Contest 170,2025-11-22,4,total-waviness-of-numbers-in-range-ii,3753,Total Waviness of Numbers in Range II,Hard,56.6
+biweekly-contest-170,Biweekly Contest 170,2025-11-22,4,total-waviness-of-numbers-in-range-i,3751,Total Waviness of Numbers in Range I,Medium,87.4
 biweekly-contest-170,Biweekly Contest 170,2025-11-22,4,lexicographically-smallest-negated-permutation-that-sums-to-target,3752,Lexicographically Smallest Negated Permutation that Sums to Target,Medium,31.5
-biweekly-contest-171,Biweekly Contest 171,2025-12-06,4,minimum-inversion-count-in-subarrays-of-fixed-length,3768,Minimum Inversion Count in Subarrays of Fixed Length,Hard,42.8
+biweekly-contest-170,Biweekly Contest 170,2025-11-22,4,total-waviness-of-numbers-in-range-ii,3753,Total Waviness of Numbers in Range II,Hard,56.6
 biweekly-contest-171,Biweekly Contest 171,2025-12-06,4,complete-prime-number,3765,Complete Prime Number,Medium,36.6
-biweekly-contest-171,Biweekly Contest 171,2025-12-06,4,maximize-points-after-choosing-k-tasks,3767,Maximize Points After Choosing K Tasks,Medium,60.3
 biweekly-contest-171,Biweekly Contest 171,2025-12-06,4,minimum-operations-to-make-binary-palindrome,3766,Minimum Operations to Make Binary Palindrome,Medium,52.2
-biweekly-contest-172,Biweekly Contest 172,2025-12-20,4,last-remaining-integer-after-alternating-deletion-operations,3782,Last Remaining Integer After Alternating Deletion Operations,Hard,49.0
+biweekly-contest-171,Biweekly Contest 171,2025-12-06,4,maximize-points-after-choosing-k-tasks,3767,Maximize Points After Choosing K Tasks,Medium,60.3
+biweekly-contest-171,Biweekly Contest 171,2025-12-06,4,minimum-inversion-count-in-subarrays-of-fixed-length,3768,Minimum Inversion Count in Subarrays of Fixed Length,Hard,42.8
+biweekly-contest-172,Biweekly Contest 172,2025-12-20,4,minimum-number-of-operations-to-have-distinct-elements,3779,Minimum Number of Operations to Have Distinct Elements,Medium,42.6
 biweekly-contest-172,Biweekly Contest 172,2025-12-20,4,maximum-sum-of-three-numbers-divisible-by-three,3780,Maximum Sum of Three Numbers Divisible by Three,Medium,47.6
 biweekly-contest-172,Biweekly Contest 172,2025-12-20,4,maximum-score-after-binary-swaps,3781,Maximum Score After Binary Swaps,Medium,35.5
-biweekly-contest-172,Biweekly Contest 172,2025-12-20,4,minimum-number-of-operations-to-have-distinct-elements,3779,Minimum Number of Operations to Have Distinct Elements,Medium,42.6
-biweekly-contest-173,Biweekly Contest 173,2026-01-03,4,count-routes-to-climb-a-rectangular-grid,3797,Count Routes to Climb a Rectangular Grid,Hard,25.2
+biweekly-contest-172,Biweekly Contest 172,2025-12-20,4,last-remaining-integer-after-alternating-deletion-operations,3782,Last Remaining Integer After Alternating Deletion Operations,Hard,49.0
 biweekly-contest-173,Biweekly Contest 173,2026-01-03,4,reverse-string-prefix,3794,Reverse String Prefix,Easy,89.5
-biweekly-contest-173,Biweekly Contest 173,2026-01-03,4,find-maximum-value-in-a-constrained-sequence,3796,Find Maximum Value in a Constrained Sequence,Medium,62.5
 biweekly-contest-173,Biweekly Contest 173,2026-01-03,4,minimum-subarray-length-with-distinct-sum-at-least-k,3795,Minimum Subarray Length With Distinct Sum At Least K,Medium,32.0
-biweekly-contest-174,Biweekly Contest 174,2026-01-17,4,minimum-edge-toggles-on-a-tree,3812,Minimum Edge Toggles on a Tree,Hard,69.2
-biweekly-contest-174,Biweekly Contest 174,2026-01-17,4,minimum-operations-to-reach-target-array,3810,Minimum Operations to Reach Target Array,Medium,64.0
+biweekly-contest-173,Biweekly Contest 173,2026-01-03,4,find-maximum-value-in-a-constrained-sequence,3796,Find Maximum Value in a Constrained Sequence,Medium,62.5
+biweekly-contest-173,Biweekly Contest 173,2026-01-03,4,count-routes-to-climb-a-rectangular-grid,3797,Count Routes to Climb a Rectangular Grid,Hard,25.2
 biweekly-contest-174,Biweekly Contest 174,2026-01-17,4,best-reachable-tower,3809,Best Reachable Tower,Medium,56.1
+biweekly-contest-174,Biweekly Contest 174,2026-01-17,4,minimum-operations-to-reach-target-array,3810,Minimum Operations to Reach Target Array,Medium,64.0
 biweekly-contest-174,Biweekly Contest 174,2026-01-17,4,number-of-alternating-xor-partitions,3811,Number of Alternating XOR Partitions,Medium,27.3
+biweekly-contest-174,Biweekly Contest 174,2026-01-17,4,minimum-edge-toggles-on-a-tree,3812,Minimum Edge Toggles on a Tree,Hard,69.0
+biweekly-contest-175,Biweekly Contest 175,2026-01-31,4,reverse-letters-then-special-characters-in-a-string,3823,Reverse Letters Then Special Characters in a String,Easy,82.3
 biweekly-contest-175,Biweekly Contest 175,2026-01-31,4,minimum-k-to-reduce-array-within-limit,3824,Minimum K to Reduce Array Within Limit,Medium,41.0
 biweekly-contest-175,Biweekly Contest 175,2026-01-31,4,longest-strictly-increasing-subsequence-with-non-zero-bitwise-and,3825,Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND,Medium,50.6
-biweekly-contest-175,Biweekly Contest 175,2026-01-31,4,reverse-letters-then-special-characters-in-a-string,3823,Reverse Letters Then Special Characters in a String,Easy,82.3
 biweekly-contest-175,Biweekly Contest 175,2026-01-31,4,minimum-partition-score,3826,Minimum Partition Score,Hard,33.9
 biweekly-contest-176,Biweekly Contest 176,2026-02-14,4,weighted-word-mapping,3838,Weighted Word Mapping,Easy,90.6
-biweekly-contest-176,Biweekly Contest 176,2026-02-14,4,house-robber-v,3840,House Robber V,Medium,53.9
 biweekly-contest-176,Biweekly Contest 176,2026-02-14,4,number-of-prefix-connected-groups,3839,Number of Prefix Connected Groups,Medium,60.7
+biweekly-contest-176,Biweekly Contest 176,2026-02-14,4,house-robber-v,3840,House Robber V,Medium,53.9
 biweekly-contest-176,Biweekly Contest 176,2026-02-14,4,palindromic-path-queries-in-a-tree,3841,Palindromic Path Queries in a Tree,Hard,37.0
-biweekly-contest-177,Biweekly Contest 177,2026-02-28,4,merge-close-characters,3853,Merge Close Characters,Medium,54.8
-biweekly-contest-177,Biweekly Contest 177,2026-02-28,4,sum-of-k-digit-numbers-in-a-range,3855,Sum of K-Digit Numbers in a Range,Hard,50.9
-biweekly-contest-177,Biweekly Contest 177,2026-02-28,4,minimum-operations-to-make-array-parity-alternating,3854,Minimum Operations to Make Array Parity Alternating,Medium,17.4
 biweekly-contest-177,Biweekly Contest 177,2026-02-28,4,smallest-pair-with-different-frequencies,3852,Smallest Pair With Different Frequencies,Easy,69.4
-biweekly-contest-178,Biweekly Contest 178,2026-03-14,4,minimum-cost-to-equalize-arrays-using-swaps,3868,Minimum Cost to Equalize Arrays Using Swaps,Medium,48.9
-biweekly-contest-178,Biweekly Contest 178,2026-03-14,4,count-fancy-numbers-in-a-range,3869,Count Fancy Numbers in a Range,Hard,27.4
+biweekly-contest-177,Biweekly Contest 177,2026-02-28,4,merge-close-characters,3853,Merge Close Characters,Medium,54.8
+biweekly-contest-177,Biweekly Contest 177,2026-02-28,4,minimum-operations-to-make-array-parity-alternating,3854,Minimum Operations to Make Array Parity Alternating,Medium,17.4
+biweekly-contest-177,Biweekly Contest 177,2026-02-28,4,sum-of-k-digit-numbers-in-a-range,3855,Sum of K-Digit Numbers in a Range,Hard,50.9
 biweekly-contest-178,Biweekly Contest 178,2026-03-14,4,first-unique-even-element,3866,First Unique Even Element,Easy,66.2
 biweekly-contest-178,Biweekly Contest 178,2026-03-14,4,sum-of-gcd-of-formed-pairs,3867,Sum of GCD of Formed Pairs,Medium,75.0
-biweekly-contest-179,Biweekly Contest 179,2026-03-28,4,direction-assignments-with-exactly-k-visible-people,3881,Direction Assignments with Exactly K Visible People,Medium,36.4
+biweekly-contest-178,Biweekly Contest 178,2026-03-14,4,minimum-cost-to-equalize-arrays-using-swaps,3868,Minimum Cost to Equalize Arrays Using Swaps,Medium,48.9
+biweekly-contest-178,Biweekly Contest 178,2026-03-14,4,count-fancy-numbers-in-a-range,3869,Count Fancy Numbers in a Range,Hard,27.4
 biweekly-contest-179,Biweekly Contest 179,2026-03-28,4,minimum-absolute-difference-between-two-values,3880,Minimum Absolute Difference Between Two Values,Easy,66.9
+biweekly-contest-179,Biweekly Contest 179,2026-03-28,4,direction-assignments-with-exactly-k-visible-people,3881,Direction Assignments with Exactly K Visible People,Medium,36.4
 biweekly-contest-179,Biweekly Contest 179,2026-03-28,4,minimum-xor-path-in-a-grid,3882,Minimum XOR Path in a Grid,Medium,39.9
 biweekly-contest-179,Biweekly Contest 179,2026-03-28,4,count-non-decreasing-arrays-with-given-digit-sums,3883,Count Non Decreasing Arrays With Given Digit Sums,Hard,41.7
-biweekly-contest-180,Biweekly Contest 180,2026-04-11,4,count-digit-appearances,3895,Count Digit Appearances,Medium,86.8
-biweekly-contest-180,Biweekly Contest 180,2026-04-11,4,maximum-value-of-concatenated-binary-segments,3897,Maximum Value of Concatenated Binary Segments,Hard,26.9
 biweekly-contest-180,Biweekly Contest 180,2026-04-11,4,traffic-signal-color,3894,Traffic Signal Color,Easy,83.8
+biweekly-contest-180,Biweekly Contest 180,2026-04-11,4,count-digit-appearances,3895,Count Digit Appearances,Medium,86.8
 biweekly-contest-180,Biweekly Contest 180,2026-04-11,4,minimum-operations-to-transform-array-into-alternating-prime,3896,Minimum Operations to Transform Array into Alternating Prime,Medium,53.2
+biweekly-contest-180,Biweekly Contest 180,2026-04-11,4,maximum-value-of-concatenated-binary-segments,3897,Maximum Value of Concatenated Binary Segments,Hard,26.9
 biweekly-contest-181,Biweekly Contest 181,2026-04-25,4,valid-digit-number,3908,Valid Digit Number,Easy,70.7
+biweekly-contest-181,Biweekly Contest 181,2026-04-25,4,compare-sums-of-bitonic-parts,3909,Compare Sums of Bitonic Parts,Medium,53.6
 biweekly-contest-181,Biweekly Contest 181,2026-04-25,4,count-connected-subgraphs-with-even-node-sum,3910,Count Connected Subgraphs with Even Node Sum,Hard,62.3
 biweekly-contest-181,Biweekly Contest 181,2026-04-25,4,k-th-smallest-remaining-even-integer-in-subarray-queries,3911,K-th Smallest Remaining Even Integer in Subarray Queries,Hard,29.7
-biweekly-contest-181,Biweekly Contest 181,2026-04-25,4,compare-sums-of-bitonic-parts,3909,Compare Sums of Bitonic Parts,Medium,53.6
 biweekly-contest-182,Biweekly Contest 182,2026-05-09,4,score-validator,3921,Score Validator,Easy,73.7
 biweekly-contest-182,Biweekly Contest 182,2026-05-09,4,minimum-flips-to-make-binary-string-coherent,3922,Minimum Flips to Make Binary String Coherent,Medium,20.0
 biweekly-contest-182,Biweekly Contest 182,2026-05-09,4,minimum-generations-to-target-point,3923,Minimum Generations to Target Point,Medium,44.2
 biweekly-contest-182,Biweekly Contest 182,2026-05-09,4,minimum-threshold-path-with-limited-heavy-edges,3924,Minimum Threshold Path With Limited Heavy Edges,Hard,39.9
 biweekly-contest-183,Biweekly Contest 183,2026-05-23,4,minimum-swaps-to-move-zeros-to-end,3936,Minimum Swaps to Move Zeros to End,Easy,60.7
-biweekly-contest-183,Biweekly Contest 183,2026-05-23,4,count-non-adjacent-subsets-in-a-rooted-tree,3939,Count Non Adjacent Subsets in a Rooted Tree,Hard,56.1
 biweekly-contest-183,Biweekly Contest 183,2026-05-23,4,minimum-operations-to-make-array-modulo-alternating-i,3937,Minimum Operations to Make Array Modulo Alternating I,Medium,46.8
 biweekly-contest-183,Biweekly Contest 183,2026-05-23,4,maximum-path-intersection-sum-in-a-grid,3938,Maximum Path Intersection Sum in a Grid,Medium,25.9
-biweekly-contest-184,Biweekly Contest 184,2026-06-06,4,maximum-score-with-co-prime-element,3953,Maximum Score with Co-Prime Element,Hard,28.2
+biweekly-contest-183,Biweekly Contest 183,2026-05-23,4,count-non-adjacent-subsets-in-a-rooted-tree,3939,Count Non Adjacent Subsets in a Rooted Tree,Hard,56.1
 biweekly-contest-184,Biweekly Contest 184,2026-06-06,4,exactly-one-consecutive-set-bits-pair,3950,Exactly One Consecutive Set Bits Pair,Easy,50.9
-biweekly-contest-184,Biweekly Contest 184,2026-06-06,4,maximum-total-value-of-covered-indices,3952,Maximum Total Value of Covered Indices,Medium,28.4
 biweekly-contest-184,Biweekly Contest 184,2026-06-06,4,minimum-energy-to-maintain-brightness,3951,Minimum Energy to Maintain Brightness,Medium,54.1
+biweekly-contest-184,Biweekly Contest 184,2026-06-06,4,maximum-total-value-of-covered-indices,3952,Maximum Total Value of Covered Indices,Medium,28.4
+biweekly-contest-184,Biweekly Contest 184,2026-06-06,4,maximum-score-with-co-prime-element,3953,Maximum Score with Co-Prime Element,Hard,28.2
 biweekly-contest-185,Biweekly Contest 185,2026-06-20,4,create-grid-with-exactly-one-path,3963,Create Grid With Exactly One Path,Easy,76.3
 biweekly-contest-185,Biweekly Contest 185,2026-06-20,4,minimum-lights-to-illuminate-a-road,3964,Minimum Lights to Illuminate a Road,Medium,38.0
-biweekly-contest-185,Biweekly Contest 185,2026-06-20,4,count-good-integers-in-a-range,3966,Count Good Integers in a Range,Hard,52.2
 biweekly-contest-185,Biweekly Contest 185,2026-06-20,4,finish-time-of-tasks-i,3965,Finish Time of Tasks I,Medium,61.8
-biweekly-contest-186,Biweekly Contest 186,2026-07-04,4,count-distinct-ways-to-form-target-from-two-strings,3981,Count Distinct Ways to Form Target from Two Strings,Hard,46.5
-biweekly-contest-186,Biweekly Contest 186,2026-07-04,4,minimum-operations-to-transform-binary-string,3980,Minimum Operations to Transform Binary String,Medium,36.4
+biweekly-contest-185,Biweekly Contest 185,2026-06-20,4,count-good-integers-in-a-range,3966,Count Good Integers in a Range,Hard,52.2
 biweekly-contest-186,Biweekly Contest 186,2026-07-04,4,unique-middle-element,3978,Unique Middle Element,Easy,72.3
 biweekly-contest-186,Biweekly Contest 186,2026-07-04,4,maximum-valid-pair-sum,3979,Maximum Valid Pair Sum,Medium,49.2
-biweekly-contest-187,Biweekly Contest 187,2026-07-18,4,minimum-cost-to-convert-string-iii,3995,Minimum Cost to Convert String III,Hard,55.4
+biweekly-contest-186,Biweekly Contest 186,2026-07-04,4,minimum-operations-to-transform-binary-string,3980,Minimum Operations to Transform Binary String,Medium,36.5
+biweekly-contest-186,Biweekly Contest 186,2026-07-04,4,count-distinct-ways-to-form-target-from-two-strings,3981,Count Distinct Ways to Form Target from Two Strings,Hard,46.5
 biweekly-contest-187,Biweekly Contest 187,2026-07-18,4,rearrange-string-to-avoid-character-pair,3992,Rearrange String to Avoid Character Pair,Easy,78.0
 biweekly-contest-187,Biweekly Contest 187,2026-07-18,4,maximum-value-of-an-alternating-sequence,3993,Maximum Value of an Alternating Sequence,Medium,31.5
 biweekly-contest-187,Biweekly Contest 187,2026-07-18,4,minimum-adjacent-swaps-to-partition-array,3994,Minimum Adjacent Swaps to Partition Array,Medium,57.3
+biweekly-contest-187,Biweekly Contest 187,2026-07-18,4,minimum-cost-to-convert-string-iii,3995,Minimum Cost to Convert String III,Hard,55.4
