@@ -715,7 +715,7 @@
                 const qId = p.questionFrontendId;
                 const leetLink = `${LEETCODE_CONTEST_BASE_URL}${contest.slug}/problems/${p.titleSlug}/`;
                 const tooltip = `${qId}. ${p.title}\n${contest.contestTitle}\n${contest.date}`;
-                const count =  (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0);
+                const count =  (questionMeta[qId]?.count ?? 0);// + (contestMeta[qId]?.count ?? 0);
 
                 const githubLink = `${ONELINERS_URL}${qId}.${p.titleSlug}.py`;
                 //html += `<a href="${leetLink}" target="_blank" class="day-cell contest-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">${contest.day} (${meta.count+1})</a>`;
