@@ -230,6 +230,50 @@
         
         .Hard { background-color: #ff375f; color: white; border-color: #ff375f; }
         .Hard .occ-count { color: white; }
+
+        /* --- Contest Rows (below the daily grid) --- */
+        .contests-container {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding: 6px 10px 12px;
+            border-top: 1px dashed #e5e5e5;
+            margin-top: 2px;
+        }
+
+        .contest-row {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* .contest-cell also carries .day-cell so it shares hover/highlight/
+           selection rules; only geometry is overridden here. */
+        .contest-cell {
+            width: 60px;
+            height: 60px;
+            flex: 0 0 auto;
+            font-size: 0.72em;
+            font-weight: 700;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.95em; 
+        }
+
+        .contest-label {
+            font-size: 0.94em;
+            color: #666;
+            margin-left: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .contest-label a {
+          font-weight: 600;
+          color: #cccccc;
+          text-decoration: none;
+        }
         
         @media (max-width: 1100px) {
             .calendar-grid { grid-template-columns: repeat(2, 1fr); }
@@ -286,29 +330,48 @@
 
     <script>
         const CSV_URL = 'daily.csv';
+        const WEEKLY_CSV_URL = 'weekly_contests.csv';
+        const BIWEEKLY_CSV_URL = 'biweekly_contests.csv';
         const LEETCODE_BASE_URL = "https://leetcode.com/problems/";
-        const GITHUB_BASE_URL = "https://github.com/joric/oneliners/blob/main/leetcode/";
+        const LEETCODE_CONTEST_BASE_URL = "https://leetcode.com/contest/";
+        const ONELINERS_URL = "https://github.com/joric/oneliners/blob/main/leetcode/";
         const DEFAULT_TITLE = "LeetCode Daily History";
+        const MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
+                              "July", "August", "September", "October", "November", "December"];
 
         document.addEventListener('DOMContentLoaded', () => {
             fetchData();
         });
 
-        function fetchData() {
-            Papa.parse(CSV_URL, {
-                download: true,
-                header: true,
-                skipEmptyLines: true,
-                complete: function(results) {
-                    processData(results.data);
-                },
-                error: function(err) {
-                    document.getElementById('loading').textContent = "Error loading CSV: " + err.message;
-                }
+        function loadCSV(url) {
+            // Resolves with [] instead of rejecting so a missing/unreachable
+            // contest CSV never breaks the rest of the page.
+            return new Promise((resolve) => {
+                Papa.parse(url, {
+                    download: true,
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: (results) => resolve(results.data),
+                    error: (err) => {
+                        console.warn(`Could not load ${url}:`, err.message);
+                        resolve([]);
+                    }
+                });
             });
         }
 
-        function processData(rows) {
+        function fetchData() {
+            Promise.all([loadCSV(CSV_URL), loadCSV(WEEKLY_CSV_URL), loadCSV(BIWEEKLY_CSV_URL)])
+                .then(([dailyRows, weeklyRows, biweeklyRows]) => {
+                    if (!dailyRows.length) {
+                        document.getElementById('loading').textContent = "Error loading CSV: daily.csv returned no data";
+                        return;
+                    }
+                    processData(dailyRows, weeklyRows, biweeklyRows);
+                });
+        }
+
+        function processData(rows, weeklyRows, biweeklyRows) {
             const questions = {};
             const lastAppearance = {};
             const recurTimes = [];
@@ -324,6 +387,10 @@
             const searchIndex = [];
             const seenInSearch = new Set();
             const slugToIdMap = {};
+
+            // Populated below by processContests(); declared here so the
+            // search-count getter created in the daily loop can reference it.
+            const contestMeta = {};
 
             rows.forEach(row => {
                 if (!row.date) return;
@@ -365,13 +432,12 @@
                         title: row.title,
                         slug: row.titleSlug,
                         searchStr: (qId + " " + row.title + " " + row.titleSlug).toLowerCase(),
-                        get count() { return questionMeta[qId]?.count ?? 0; },
+                        // Combined total: daily appearances + contest appearances.
+                        get count() { return (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0); },
                     });
                 }
 
-                const monthNames = ["January", "February", "March", "April", "May", "June",
-                                  "July", "August", "September", "October", "November", "December"];
-                const monthStr = `${monthNames[dObj.getUTCMonth()]} ${dObj.getUTCFullYear()}`;
+                const monthStr = `${MONTH_NAMES[dObj.getUTCMonth()]} ${dObj.getUTCFullYear()}`;
                 
                 if (!calendarData[monthStr]) calendarData[monthStr] = {};
                 calendarData[monthStr][dObj.getUTCDate()] = {
@@ -381,6 +447,8 @@
                     id: row.questionFrontendId
                 };
             });
+
+            const contestsByMonth = processContests(weeklyRows, biweeklyRows, contestMeta, slugToIdMap, searchIndex, seenInSearch, questionMeta);
 
             searchIndex.sort((a, b) => a.id - b.id);
 
@@ -417,7 +485,7 @@
 
             renderSummary(countAtMax, maxFreq, totalDays, uniqueQuestions, avgRecurrence);
             renderCharts(diffCounts, freqCounts, heatmapPercents, recurTimes);
-            renderCalendar(calendarData, questionMeta);
+            renderCalendar(calendarData, questionMeta, contestsByMonth, contestMeta);
             
             const taskDataMap = {}; 
             searchIndex.forEach(x => taskDataMap[x.idStr] = x);
@@ -453,6 +521,77 @@
                     Plotly.Plots.resize(document.getElementById(id));
                 });
             });
+        }
+
+        // Groups weekly/biweekly contest CSV rows by contestSlug, buckets them
+        // by month for rendering, and folds their problems into the shared
+        // search index / questionMeta counts so search + cross-highlighting
+        // cover contest problems too (not just daily ones).
+        function processContests(weeklyRows, biweeklyRows, contestMeta, slugToIdMap, searchIndex, seenInSearch, questionMeta) {
+            const groups = {}; // contestSlug -> { slug, date, contestTitle, problems: [] }
+
+            [...weeklyRows, ...biweeklyRows].forEach(row => {
+                if (!row.date || !row.contestSlug || !row.questionFrontendId) return;
+
+                if (!groups[row.contestSlug]) {
+                    groups[row.contestSlug] = {
+                        slug: row.contestSlug,
+                        date: row.date,
+                        contestTitle: row.contestTitle || row.contestSlug,
+                        problems: []
+                    };
+                }
+                groups[row.contestSlug].problems.push({
+                    questionFrontendId: row.questionFrontendId,
+                    title: row.title,
+                    titleSlug: row.titleSlug,
+                    difficulty: row.difficulty
+                });
+            });
+
+            const contestsByMonth = {};
+
+            Object.values(groups).forEach(contest => {
+                contest.problems.sort((a, b) => parseInt(a.questionFrontendId) - parseInt(b.questionFrontendId));
+
+                const [y, m, d] = contest.date.split('-').map(Number);
+                contest.day = d;
+                const monthStr = `${MONTH_NAMES[m - 1]} ${y}`;
+
+                if (!contestsByMonth[monthStr]) contestsByMonth[monthStr] = [];
+                contestsByMonth[monthStr].push(contest);
+
+                contest.problems.forEach(p => {
+                    const qId = p.questionFrontendId;
+
+                    if (!contestMeta[qId]) contestMeta[qId] = { count: 0, dates: [] };
+                    contestMeta[qId].count++;
+                    contestMeta[qId].dates.push(`${contest.date} (${contest.contestTitle})`);
+
+                    if (p.titleSlug && !slugToIdMap[p.titleSlug]) {
+                        slugToIdMap[p.titleSlug] = qId;
+                    }
+
+                    // Only add a NEW search entry if this problem never showed
+                    // up as a daily problem. If it did, its existing entry's
+                    // count getter already adds contestMeta on top.
+                    if (!seenInSearch.has(qId)) {
+                        seenInSearch.add(qId);
+                        searchIndex.push({
+                            id: parseInt(qId),
+                            idStr: qId,
+                            title: p.title,
+                            slug: p.titleSlug,
+                            searchStr: (qId + " " + p.title + " " + p.titleSlug).toLowerCase(),
+                            get count() { return (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0); },
+                        });
+                    }
+                });
+            });
+
+            Object.values(contestsByMonth).forEach(arr => arr.sort((a, b) => a.day - b.day));
+
+            return contestsByMonth;
         }
 
         function getLeetCodeTime(startDate = new Date('2020-03-31')) {
@@ -560,14 +699,44 @@
             }, config);
         }
 
-        function renderCalendar(calendarData, questionMeta) {
+        function renderContestRowHtml(contest, contestMeta, questionMeta) {
+            let html = '<div class="contest-row">';
+            contest.problems.forEach(p => {
+                const diffClass = p.difficulty || '';
+                const qId = p.questionFrontendId;
+                const leetLink = `${LEETCODE_CONTEST_BASE_URL}${contest.slug}/problems/${p.titleSlug}/`;
+                const tooltip = `${qId}. ${p.title}\n${contest.contestTitle}\n${contest.date}`;
+                const count =  (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0);
+
+                const githubLink = `${ONELINERS_URL}${qId}.${p.titleSlug}.py`;
+                //html += `<a href="${leetLink}" target="_blank" class="day-cell contest-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">${contest.day} (${meta.count+1})</a>`;
+                html += `<div class="day-cell contest-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">
+                            <a href="${leetLink}" target="_blank" class="day-number">${contest.day}</a>
+                            <a href="${githubLink}" target="_blank" class="occ-count">${count}</a>
+                          </div>`;
+            });
+            html += `<span class="contest-label"><a href="https://leetcode.com/contest/${contest.slug}/">${contest.contestTitle}</a></span>`;
+            html += '</div>';
+            return html;
+        }
+
+        function renderCalendar(calendarData, questionMeta, contestsByMonth, contestMeta) {
             const container = document.getElementById('calendar');
             container.innerHTML = '';
 
-            const sortedMonths = Object.keys(calendarData).sort((a, b) => new Date(b) - new Date(a));
+            // Union of months: some early months may have only contests
+            // (contests can predate daily.csv's coverage) and some may have
+            // only daily data. Either way we still want a card for the month.
+            const allMonthKeys = new Set([...Object.keys(calendarData), ...Object.keys(contestsByMonth)]);
+            const sortedMonths = [...allMonthKeys].sort((a, b) => new Date(b) - new Date(a));
 
             sortedMonths.forEach(monthStr => {
-                const daysData = calendarData[monthStr];
+                // Default to {} for contest-only months so the day loop below
+                // renders plain, unfilled day cells instead of erroring or
+                // pretending those days had a daily problem.
+                const daysData = calendarData[monthStr] || {};
+                const monthContests = contestsByMonth[monthStr] || [];
+
                 const dt = new Date(monthStr + " 1"); 
                 const year = dt.getFullYear();
                 const month = dt.getMonth(); 
@@ -593,7 +762,7 @@
                         const diffClass = info.diff;
                         const qId = info.id;
                         
-                        const githubLink = `${GITHUB_BASE_URL}${info.id}.${info.slug}.py`;
+                        const githubLink = `${ONELINERS_URL}${info.id}.${info.slug}.py`;
                         const leetcodeLink = `${LEETCODE_BASE_URL}${info.slug}/`;
                         
                         const meta = questionMeta[qId] || { count: 0, dates: [] };
@@ -610,6 +779,15 @@
                 }
                 
                 html += '</div>';
+
+                if (monthContests.length) {
+                    html += '<div class="contests-container">';
+                    monthContests.forEach(contest => {
+                        html += renderContestRowHtml(contest, contestMeta, questionMeta);
+                    });
+                    html += '</div>';
+                }
+
                 card.innerHTML = html;
                 container.appendChild(card);
             });

@@ -1,0 +1,30 @@
+name: Update Data Contests
+on:
+  workflow_call:  # Can be called by other workflows
+  workflow_dispatch:  # Can also be run manually
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-dateutil
+      - name: Run fetch-contests
+        run: python fetch-contests.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add weekly_contests.csv biweekly_contests.csv
+          git diff --staged --quiet && echo "No changes - skipping" || (
+            git commit -m "scheduled update" &&
+            git push
+          )
