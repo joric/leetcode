@@ -67,10 +67,10 @@ biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,matrix-block-sum,1314,Matri
 biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,sum-of-nodes-with-even-valued-grandparent,1315,Sum of Nodes with Even-Valued Grandparent,Medium,86.0
 biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,decompress-run-length-encoded-list,1313,Decompress Run-Length Encoded List,Easy,86.3
 biweekly-contest-17,Biweekly Contest 17,2020-01-11,4,distinct-echo-substrings,1316,Distinct Echo Substrings,Hard,53.4
-biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,reverse-subarray-to-maximize-array-value,1330,Reverse Subarray To Maximize Array Value,Hard,44.3
+biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,rank-transform-of-an-array,1331,Rank Transform of an Array,Easy,73.9
 biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,break-a-palindrome,1328,Break a Palindrome,Medium,51.6
 biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,sort-the-matrix-diagonally,1329,Sort the Matrix Diagonally,Medium,83.2
-biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,rank-transform-of-an-array,1331,Rank Transform of an Array,Easy,73.9
+biweekly-contest-18,Biweekly Contest 18,2020-01-25,4,reverse-subarray-to-maximize-array-value,1330,Reverse Subarray To Maximize Array Value,Hard,44.3
 biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,jump-game-iv,1345,Jump Game IV,Hard,51.0
 biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,number-of-steps-to-reduce-a-number-to-zero,1342,Number of Steps to Reduce a Number to Zero,Easy,85.9
 biweekly-contest-19,Biweekly Contest 19,2020-02-08,4,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,Medium,73.6
