@@ -715,13 +715,13 @@
                 const qId = p.questionFrontendId;
                 const leetLink = `${LEETCODE_CONTEST_BASE_URL}${contest.slug}/problems/${p.titleSlug}/`;
                 const tooltip = `${qId}. ${p.title}\n${contest.contestTitle}\n${contest.date}`;
-                const count =  (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0);
+                const count =  (questionMeta[qId]?.count ?? 0);// + (contestMeta[qId]?.count ?? 0);
 
                 const githubLink = `${ONELINERS_URL}${qId}.${p.titleSlug}.py`;
                 //html += `<a href="${leetLink}" target="_blank" class="day-cell contest-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">${contest.day} (${meta.count+1})</a>`;
                 html += `<div class="day-cell contest-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">
                             <a href="${leetLink}" target="_blank" class="day-number">${contest.day}</a>
-                            <a href="${githubLink}" target="_blank" class="occ-count">${count}</a>
+                            <a href="${githubLink}" target="_blank" class="occ-count">${count ? count: ''}</a>
                           </div>`;
             });
             html += `<span class="contest-label"><a href="https://leetcode.com/contest/${contest.slug}/" target=_blank>${contest.contestTitle}</a></span>`;
