@@ -552,7 +552,15 @@
             const contestsByMonth = {};
 
             Object.values(groups).forEach(contest => {
-                contest.problems.sort((a, b) => parseInt(a.questionFrontendId) - parseInt(b.questionFrontendId));
+
+                //contest.problems.sort((a, b) => parseInt(a.questionFrontendId) - parseInt(b.questionFrontendId));
+
+                const difficultyOrder = { 'Easy': 0, 'Medium': 1, 'Hard': 2 };
+                contest.problems.sort((a, b) => {
+                    const diffCompare = difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
+                    if (diffCompare !== 0) return diffCompare;
+                    return parseInt(a.questionFrontendId) - parseInt(b.questionFrontendId);
+                });
 
                 const [y, m, d] = contest.date.split('-').map(Number);
                 contest.day = d;
