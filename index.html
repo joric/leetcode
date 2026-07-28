@@ -202,6 +202,7 @@
             align-items: center; 
             justify-content: center; 
             font-weight: 500;
+            padding: 2px;
         }
         
         .day-number-static { color: #ccc; font-weight: 400; }
@@ -231,48 +232,44 @@
         .Hard { background-color: #ff375f; color: white; border-color: #ff375f; }
         .Hard .occ-count { color: white; }
 
-        /* --- Contest Rows (below the daily grid) --- */
-        .contests-container {
+        /* --- Contest markers (rendered inside each daily cell, bottom-aligned) ---
+           The row is flush with the cell's edges (no inset) so there's
+           maximum width to divide up; each marker grows/shrinks to fill an
+           equal share instead of using a fixed size, so 4 or 5 markers
+           always fit on one line without wrapping. */
+        .contest-markers {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
             display: flex;
-            flex-direction: column;
-            gap: 6px;
-            padding: 6px 10px 12px;
-            border-top: 1px dashed #e5e5e5;
-            margin-top: 2px;
+            align-items: flex-end;
+            gap: 1px;
+            z-index: 2;
         }
 
-        .contest-row {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        /* .contest-cell also carries .day-cell so it shares hover/highlight/
-           selection rules; only geometry is overridden here. */
-        .contest-cell {
-            width: 60px;
-            height: 60px;
-            flex: 0 0 auto;
-            font-size: 0.72em;
+        /* .contest-marker also carries .day-cell so it shares hover/highlight/
+           selection rules for free. It deliberately has no background or
+           border of its own — background stays transparent so the parent
+           day-cell's own color shows through underneath it, and color:
+           inherit (plus overriding the browser's default blue link color)
+           matches the parent cell's foreground. */
+        .day-cell.contest-marker {
+            flex: 1 1 0;
+            min-width: 0;
+            aspect-ratio: 1 / 1;
+            font-size: 0.6em;
             font-weight: 700;
-            border-radius: 4px;
+            border-radius: 2px;
             text-decoration: none;
-            font-size: 0.95em; 
+            border: none;
+            background: transparent;
+            color: inherit;
+            opacity: 0.85;
         }
-
-        .contest-label {
-            font-size: 0.94em;
-            color: #666;
-            margin-left: 4px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .contest-label a {
-          font-weight: 600;
-          color: #cccccc;
-          text-decoration: none;
+        .day-cell.contest-marker:hover {
+            text-decoration: underline;
+            opacity: 1;
         }
         
         @media (max-width: 1100px) {
@@ -552,17 +549,6 @@
             const contestsByMonth = {};
 
             Object.values(groups).forEach(contest => {
-
-                //contest.problems.sort((a, b) => parseInt(a.questionFrontendId) - parseInt(b.questionFrontendId));
-                /*
-                const difficultyOrder = { 'Easy': 0, 'Medium': 1, 'Hard': 2 };
-                contest.problems.sort((a, b) => {
-                    const diffCompare = difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
-                    if (diffCompare !== 0) return diffCompare;
-                    return parseInt(a.questionFrontendId) - parseInt(b.questionFrontendId);
-                });
-                */
-
                 const [y, m, d] = contest.date.split('-').map(Number);
                 contest.day = d;
                 const monthStr = `${MONTH_NAMES[m - 1]} ${y}`;
@@ -708,23 +694,20 @@
             }, config);
         }
 
-        function renderContestRowHtml(contest, contestMeta, questionMeta) {
-            let html = '<div class="contest-row">';
-            contest.problems.forEach(p => {
-                const diffClass = p.difficulty || '';
+        // Renders the small marker squares for contest problems that fell on
+        // one specific day. Each marker only shows the occurrence count (0 is
+        // a valid, visible value) rather than the day number, since it's
+        // nested inside a cell that already shows the day.
+        function renderContestMarkersHtml(problems, questionMeta) {
+            if (!problems.length) return '';
+            let html = '<div class="contest-markers">';
+            problems.forEach(p => {
                 const qId = p.questionFrontendId;
-                const leetLink = `${LEETCODE_CONTEST_BASE_URL}${contest.slug}/problems/${p.titleSlug}/`;
-                const tooltip = `${qId}. ${p.title}\n${contest.contestTitle}\n${contest.date}`;
-                const count =  (questionMeta[qId]?.count ?? 0);// + (contestMeta[qId]?.count ?? 0);
-
-                const githubLink = `${ONELINERS_URL}${qId}.${p.titleSlug}.py`;
-                //html += `<a href="${leetLink}" target="_blank" class="day-cell contest-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">${contest.day} (${meta.count+1})</a>`;
-                html += `<div class="day-cell contest-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">
-                            <a href="${leetLink}" target="_blank" class="day-number">${contest.day}</a>
-                            <a href="${githubLink}" target="_blank" class="occ-count">${count ? count: ''}</a>
-                          </div>`;
+                const leetLink = `${LEETCODE_CONTEST_BASE_URL}${p.contestSlug}/problems/${p.titleSlug}/`;
+                const tooltip = `${qId}. ${p.title}\n${p.contestTitle}\n${p.date}`;
+                const count = questionMeta[qId]?.count ?? 0;
+                html += `<a href="${leetLink}" target="_blank" class="day-cell contest-marker" title="${tooltip}" data-qid="${qId}">${count}</a>`;
             });
-            html += `<span class="contest-label"><a href="https://leetcode.com/contest/${contest.slug}/" target=_blank>${contest.contestTitle}</a></span>`;
             html += '</div>';
             return html;
         }
@@ -766,6 +749,18 @@
                 }
 
                 for(let day=1; day<=daysInMonth; day++) {
+                    // Contest problems (from possibly more than one contest,
+                    // though that's rare) that landed on this specific day.
+                    const contestsForDay = monthContests
+                        .filter(c => c.day === day)
+                        .flatMap(c => c.problems.map(p => ({
+                            ...p,
+                            contestSlug: c.slug,
+                            contestTitle: c.contestTitle,
+                            date: c.date
+                        })));
+                    const markersHtml = renderContestMarkersHtml(contestsForDay, questionMeta);
+
                     if (daysData[day]) {
                         const info = daysData[day];
                         const diffClass = info.diff;
@@ -781,21 +776,17 @@
                         html += `<div class="day-cell ${diffClass}" title="${tooltip}" data-qid="${qId}">
                                     <a href="${leetcodeLink}" target="_blank" class="day-number">${day}</a>
                                     <a href="${githubLink}" target="_blank" class="occ-count">${meta.count}</a>
+                                    ${markersHtml}
                                  </div>`;
                     } else {
-                        html += `<div class="day-cell empty"><span class="day-number-static">${day}</span></div>`;
+                        html += `<div class="day-cell empty">
+                                    <span class="day-number-static">${day}</span>
+                                    ${markersHtml}
+                                 </div>`;
                     }
                 }
                 
                 html += '</div>';
-
-                if (monthContests.length) {
-                    html += '<div class="contests-container">';
-                    monthContests.forEach(contest => {
-                        html += renderContestRowHtml(contest, contestMeta, questionMeta);
-                    });
-                    html += '</div>';
-                }
 
                 card.innerHTML = html;
                 container.appendChild(card);
