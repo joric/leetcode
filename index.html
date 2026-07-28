@@ -699,14 +699,14 @@
         // one specific day. Each marker only shows the occurrence count (0 is
         // a valid, visible value) rather than the day number, since it's
         // nested inside a cell that already shows the day.
-        function renderContestMarkersHtml(problems, questionMeta) {
+        function renderContestMarkersHtml(problems, questionMeta, contestMeta) {
             if (!problems.length) return '';
             let html = '<div class="contest-markers">';
             problems.forEach(p => {
                 const qId = p.questionFrontendId;
                 const leetLink = `${LEETCODE_CONTEST_BASE_URL}${p.contestSlug}/problems/${p.titleSlug}/`;
                 const tooltip = `${qId}. ${p.title}\n${p.contestTitle}\n${p.date}`;
-                const count = questionMeta[qId]?.count ?? 0;
+                const count = (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0);
                 html += `<a href="${leetLink}" target="_blank" class="day-cell contest-marker" title="${tooltip}" data-qid="${qId}">${count}</a>`;
             });
             html += '</div>';
@@ -760,7 +760,7 @@
                             contestTitle: c.contestTitle,
                             date: c.date
                         })));
-                    const markersHtml = renderContestMarkersHtml(contestsForDay, questionMeta);
+                    const markersHtml = renderContestMarkersHtml(contestsForDay, questionMeta, contestMeta);
 
                     if (daysData[day]) {
                         const info = daysData[day];
