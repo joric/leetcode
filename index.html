@@ -621,7 +621,7 @@
 
         function renderSummary(countAtMax, maxFreq, totalDays, uniqueQuestions, avgRecur) {
             const html = `Out of ${totalDays} total days (${getLeetCodeTime()}), there were ${uniqueQuestions} unique daily questions.</br>
-                          ${countAtMax} questions appeared ${maxFreq} times.
+                          ${countAtMax} daily questions appeared ${maxFreq} times.
                           Average time between reoccurrences: ${avgRecur} days.`;
 
             document.getElementById('summary').innerHTML = html;
