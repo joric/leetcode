@@ -706,7 +706,7 @@
                 const qId = p.questionFrontendId;
                 const leetLink = `${LEETCODE_CONTEST_BASE_URL}${p.contestSlug}/problems/${p.titleSlug}/`;
                 const tooltip = `${qId}. ${p.title}\n${p.contestTitle}\n${p.date}`;
-                const count = (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0);
+                const count = (questionMeta[qId]?.count ?? 0);// + (contestMeta[qId]?.count ?? 0);
                 html += `<a href="${leetLink}" target="_blank" class="day-cell contest-marker" title="${tooltip}" data-qid="${qId}">${count}</a>`;
             });
             html += '</div>';
