@@ -337,6 +337,8 @@
         const MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
                               "July", "August", "September", "October", "November", "December"];
 
+        const ZERO_COUNT = true;
+
         document.addEventListener('DOMContentLoaded', () => {
             fetchData();
         });
@@ -432,8 +434,7 @@
                         slug: row.titleSlug,
                         searchStr: (qId + " " + row.title + " " + row.titleSlug).toLowerCase(),
                         // Combined total: daily appearances + contest appearances.
-                        get count() { return (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0); },
-                        //get count() { return (questionMeta[qId]?.count ?? 0); },
+                        get count() { return (questionMeta[qId]?.count ?? 0) + (ZERO_COUNT ? 0 : (contestMeta[qId]?.count ?? 0)); },
                     });
                 }
 
@@ -581,8 +582,7 @@
                             title: p.title,
                             slug: p.titleSlug,
                             searchStr: (qId + " " + p.title + " " + p.titleSlug).toLowerCase(),
-                            get count() { return (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0); },
-                            //get count() { return (questionMeta[qId]?.count ?? 0); },
+                            get count() { return (questionMeta[qId]?.count ?? 0) + (ZERO_COUNT ? 0 : (contestMeta[qId]?.count ?? 0)); },
                         });
                     }
                 });
@@ -709,7 +709,7 @@
                 const qId = p.questionFrontendId;
                 const leetLink = `${LEETCODE_CONTEST_BASE_URL}${p.contestSlug}/problems/${p.titleSlug}/`;
                 const tooltip = `${qId}. ${p.title}\n${p.contestTitle}\n${p.date}`;
-                const count = (questionMeta[qId]?.count ?? 0) + (contestMeta[qId]?.count ?? 0);
+                const count = (questionMeta[qId]?.count ?? 0) + (ZERO_COUNT ? 0:(contestMeta[qId]?.count ?? 0));
                 html += `<a href="${leetLink}" target="_blank" class="day-cell contest-marker" title="${tooltip}" data-qid="${qId}">${count}</a>`;
             });
             html += '</div>';
