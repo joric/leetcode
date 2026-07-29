@@ -1,4 +1,4 @@
-name: Scheduled Trigger
+name: Scheduled Trigger Contests
 on:
   schedule:
     - cron: '17 4 * * 1'
