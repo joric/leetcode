@@ -705,15 +705,14 @@
         function renderContestMarkersHtml(problems, questionMeta, contestMeta) {
             if (!problems.length) return '';
             let html = '<div class="contest-markers">';
-            problems.forEach(p => {
+            problems.forEach((p, idx) => {
                 const qId = p.questionFrontendId;
                 const leetLink = `${LEETCODE_CONTEST_BASE_URL}${p.contestSlug}/problems/${p.titleSlug}/`;
-
                 const dailyMeta = questionMeta[qId] || { count: 0, dates: [] };
                 const contestDates = ZERO_COUNT ? [] : (contestMeta[qId]?.dates ?? []);
                 const count = dailyMeta.count + (ZERO_COUNT ? 0 : (contestMeta[qId]?.count ?? 0));
                 const allDates = [...dailyMeta.dates, ...contestDates];
-                let tooltip = `${qId}. ${p.title}`;
+                let tooltip = `${p.contestTitle}, Q.${idx + 1}/${problems.length} (${p.difficulty})\n${qId}. ${p.title}`;
                 if (allDates.length) tooltip += `\nAppearances: ${count}\nDates:\n${allDates.join('\n')}`;
 
                 html += `<a href="${leetLink}" target="_blank" class="day-cell contest-marker" title="${tooltip}" data-qid="${qId}">${count}</a>`;
