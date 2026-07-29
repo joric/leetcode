@@ -354,3 +354,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-08,word-pattern-ii,291,Word Pattern II,Medium,48.9
 2026-07-15,generalized-abbreviation,320,Generalized Abbreviation,Medium,60.5
 2026-07-22,bold-words-in-string,758,Bold Words in String,Medium,52.5
+2026-07-29,longest-word-with-all-prefixes,1858,Longest Word With All Prefixes,Medium,72.2

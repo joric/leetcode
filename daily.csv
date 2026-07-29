@@ -2309,3 +2309,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-26,maximum-product-of-three-numbers,628,Maximum Product of Three Numbers,Easy,46.1
 2026-07-27,maximum-product-of-two-elements-in-an-array,1464,Maximum Product of Two Elements in an Array,Easy,83.7
 2026-07-28,smallest-palindromic-rearrangement-i,3517,Smallest Palindromic Rearrangement I,Medium,64.1
+2026-07-29,smallest-palindromic-rearrangement-ii,3518,Smallest Palindromic Rearrangement II,Hard,15.7
