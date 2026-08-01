@@ -1,7 +1,8 @@
 name: Scheduled Trigger Contests
 on:
   schedule:
-    - cron: '17 4 * * 1'
+    - cron: '0 4 * * 0' # Weekly Contest: Sunday at 4:30 AM GMT (2:30 AM + 1.5 hours)
+    - cron: '0 16 * * 6' # Biweekly Contest: Saturday at 4:30 PM GMT (2:30 PM + 1.5 hours)
   workflow_dispatch:
 
 jobs:
