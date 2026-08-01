@@ -355,3 +355,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-07-15,generalized-abbreviation,320,Generalized Abbreviation,Medium,60.5
 2026-07-22,bold-words-in-string,758,Bold Words in String,Medium,52.5
 2026-07-29,longest-word-with-all-prefixes,1858,Longest Word With All Prefixes,Medium,72.2
+2026-08-01,minimum-time-to-build-blocks,1199,Minimum Time to Build Blocks,Hard,46.7
