@@ -105,8 +105,10 @@
         .search-item.active,
         .search-item:hover { background: #f4f6f8; }
         
-        .search-item .id { color: #888; font-size: 0.9em; margin-right: 10px; min-width: 40px; text-align: right; }
-        .search-item .title { font-weight: 500; color: #333; flex: 1; }
+        .search-item .id { color: #888; font-size: 0.9em; margin-right: 10px; min-width: 40px; text-align: right; align-self: flex-start; }
+        .search-item .text { flex: 1; min-width: 0; }
+        .search-item .title { display: block; font-weight: 500; color: #333; }
+        .search-item .subtitle { display: block; color: #888; font-size: 0.8em; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .search-item .count { color: #888; font-size: 0.9em; text-align: right; }
 
         /* --- Chart Grid System --- */
@@ -295,7 +297,7 @@
             <div id="summary" class="summary-text"></div>
             
             <div class="search-wrapper">
-                <input type="text" id="search-input" placeholder="Search problems (e.g. 'Two Sum')..." autocomplete="off" autofocus>
+                <input type="text" id="search-input" placeholder="Search problems, contests, or dates..." autocomplete="off" autofocus>
                 <span id="search-clear" title="Clear search">✕</span>
                 <div id="search-results"></div>
             </div>
@@ -360,6 +362,56 @@
             });
         }
 
+        function normalizeSearchText(value) {
+            return String(value ?? '')
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, ' ')
+                .trim();
+        }
+
+        function createSearchContext(date, source = 'Daily Challenge') {
+            const [year, month, day] = date.split('-').map(Number);
+            const monthName = MONTH_NAMES[month - 1];
+            const shortMonth = monthName.slice(0, 3);
+            const dateLabel = `${monthName} ${day}, ${year}`;
+            const isContest = source !== 'Daily Challenge';
+
+            return {
+                dateLabel,
+                subtitle: isContest ? `${dateLabel} - ${source}` : dateLabel,
+                isContest,
+                searchStr: normalizeSearchText([
+                    date,
+                    `${day} ${monthName} ${year}`,
+                    `${day} ${shortMonth} ${year}`,
+                    `${monthName} ${day} ${year}`,
+                    `${shortMonth} ${day} ${year}`,
+                    source
+                ].join(' '))
+            };
+        }
+
+        function getSearchSubtitle(contexts) {
+            const labels = [];
+            const seen = new Set();
+
+            [...contexts]
+                .sort((a, b) => Number(b.isContest) - Number(a.isContest))
+                .forEach(context => {
+                    const label = context.isContest
+                        ? context.subtitle
+                        : context.dateLabel;
+
+                    if (!seen.has(label)) {
+                        seen.add(label);
+                        labels.push(label);
+                    }
+                });
+
+            const subtitle = labels.join(' / ');
+            return subtitle.length > 180 ? `${subtitle.slice(0, 177)}...` : subtitle;
+        }
+
         function fetchData() {
             Promise.all([loadCSV(CSV_URL), loadCSV(WEEKLY_CSV_URL), loadCSV(BIWEEKLY_CSV_URL)])
                 .then(([dailyRows, weeklyRows, biweeklyRows]) => {
@@ -385,7 +437,7 @@
             const calendarData = {};
             
             const searchIndex = [];
-            const seenInSearch = new Set();
+            const searchEntryById = {};
             const slugToIdMap = {};
 
             // Populated below by processContests(); declared here so the
@@ -421,22 +473,30 @@
                 questionMeta[qId].count++;
                 questionMeta[qId].dates.push(row.date);
 
-                if (!seenInSearch.has(qId)) {
-                    seenInSearch.add(qId);
-                    if (row.titleSlug) {
-                        slugToIdMap[row.titleSlug] = qId;
-                    }
-                    
-                    searchIndex.push({
+                if (row.titleSlug) {
+                    slugToIdMap[row.titleSlug] = qId;
+                }
+
+                let searchEntry = searchEntryById[qId];
+                if (!searchEntry) {
+                    searchEntry = {
                         id: parseInt(qId),
                         idStr: qId,
                         title: row.title,
                         slug: row.titleSlug,
-                        searchStr: (qId + " " + row.title + " " + row.titleSlug).toLowerCase(),
+                        searchStr: normalizeSearchText(
+                            `${qId} ${row.title} ${row.titleSlug}`
+                        ),
+                        contexts: [],
                         // Combined total: daily appearances + contest appearances.
                         get count() { return (questionMeta[qId]?.count ?? 0) + (ZERO_COUNT ? 0 : (contestMeta[qId]?.count ?? 0)); },
-                    });
+                    };
+
+                    searchIndex.push(searchEntry);
+                    searchEntryById[qId] = searchEntry;
                 }
+
+                searchEntry.contexts.push(createSearchContext(row.date));
 
                 const monthStr = `${MONTH_NAMES[dObj.getUTCMonth()]} ${dObj.getUTCFullYear()}`;
                 
@@ -449,7 +509,15 @@
                 };
             });
 
-            const contestsByMonth = processContests(weeklyRows, biweeklyRows, contestMeta, slugToIdMap, searchIndex, seenInSearch, questionMeta);
+            const contestsByMonth = processContests(
+                weeklyRows,
+                biweeklyRows,
+                contestMeta,
+                slugToIdMap,
+                searchIndex,
+                questionMeta,
+                searchEntryById
+            );
 
             searchIndex.sort((a, b) => a.id - b.id);
 
@@ -528,7 +596,7 @@
         // by month for rendering, and folds their problems into the shared
         // search index / questionMeta counts so search + cross-highlighting
         // cover contest problems too (not just daily ones).
-        function processContests(weeklyRows, biweeklyRows, contestMeta, slugToIdMap, searchIndex, seenInSearch, questionMeta) {
+        function processContests(weeklyRows, biweeklyRows, contestMeta, slugToIdMap, searchIndex, questionMeta, searchEntryById) {
             const groups = {}; // contestSlug -> { slug, date, contestTitle, problems: [] }
 
             [...weeklyRows, ...biweeklyRows].forEach(row => {
@@ -567,24 +635,31 @@
                     contestMeta[qId].count++;
                     contestMeta[qId].dates.push(`${contest.date} (${contest.contestTitle})`);
 
-                    if (p.titleSlug && !slugToIdMap[p.titleSlug]) {
+                    if (p.titleSlug) {
                         slugToIdMap[p.titleSlug] = qId;
                     }
 
-                    // Only add a NEW search entry if this problem never showed
-                    // up as a daily problem. If it did, its existing entry's
-                    // count getter already adds contestMeta on top.
-                    if (!seenInSearch.has(qId)) {
-                        seenInSearch.add(qId);
-                        searchIndex.push({
+                    let searchEntry = searchEntryById[qId];
+                    if (!searchEntry) {
+                        searchEntry = {
                             id: parseInt(qId),
                             idStr: qId,
                             title: p.title,
                             slug: p.titleSlug,
-                            searchStr: (qId + " " + p.title + " " + p.titleSlug).toLowerCase(),
+                            searchStr: normalizeSearchText(
+                                `${qId} ${p.title} ${p.titleSlug}`
+                            ),
+                            contexts: [],
                             get count() { return (questionMeta[qId]?.count ?? 0) + (ZERO_COUNT ? 0 : (contestMeta[qId]?.count ?? 0)); },
-                        });
+                        };
+
+                        searchIndex.push(searchEntry);
+                        searchEntryById[qId] = searchEntry;
                     }
+
+                    searchEntry.contexts.push(
+                        createSearchContext(contest.date, contest.contestTitle)
+                    );
                 });
             });
 
@@ -872,7 +947,7 @@
             const input = document.getElementById('search-input');
             const clearBtn = document.getElementById('search-clear');
             
-            input.placeholder = "Search problems (e.g. 'Two Sum')...";
+            input.placeholder = "Search problems, contests, or dates...";
             input.classList.remove('selected');
             input.value = '';
             clearBtn.style.display = 'none';
@@ -957,31 +1032,63 @@
             };
 
             input.addEventListener('input', function(e) {
-                const query = e.target.value.toLowerCase().trim();
+                const terms = normalizeSearchText(e.target.value)
+                    .split(' ')
+                    .filter(Boolean);
+
                 currentFocus = -1;
-                
-                if (query.length > 0) {
+
+                if (terms.length > 0) {
                     clearBtn.style.display = 'block';
-                } else {
-                    if (!lockedQId) clearBtn.style.display = 'none';
+                } else if (!lockedQId) {
+                    clearBtn.style.display = 'none';
                 }
 
-                if (query.length === 0) {
+                if (!terms.length) {
                     closeAllLists();
                     return;
                 }
 
                 const matches = index
-                    .filter(item => item.searchStr.includes(query))
-                    .sort((a, b) => a.id - b.id)
-                    .slice(0, 10);
+                    .map(item => {
+                        // Every word must occur in one contest/daily context,
+                        // or every word must occur in the problem metadata.
+                        // Thus "weekly 424" matches "Weekly Contest 424".
+                        const contextMatches = item.contexts.filter(context =>
+                            terms.every(term => context.searchStr.includes(term))
+                        );
+                        const problemMatches = terms.every(term =>
+                            item.searchStr.includes(term)
+                        );
+
+                        if (!contextMatches.length && !problemMatches) {
+                            return null;
+                        }
+
+                        return {
+                            item,
+                            contextMatches,
+                            problemMatches
+                        };
+                    })
+                    .filter(Boolean)
+                    .sort((a, b) =>
+                        Number(b.contextMatches.length > 0) -
+                        Number(a.contextMatches.length > 0) ||
+                        Number(b.problemMatches) - Number(a.problemMatches) ||
+                        a.item.id - b.item.id
+                    )
+                    .slice(0, 100);
 
                 if (matches.length > 0) {
                     let html = '';
-                    matches.forEach(item => {
+                    matches.forEach(({ item }) => {
                         html += `<div class="search-item" data-qid="${item.idStr}">
                                     <span class="id">#${item.id}</span>
-                                    <span class="title">${item.title}</span>
+                                    <span class="text">
+                                        <span class="title">${item.title}</span>
+                                        <span class="subtitle" title="${getSearchSubtitle(item.contexts)}">${getSearchSubtitle(item.contexts)}</span>
+                                    </span>
                                     <span class="count">${item.count}</span>
                                  </div>`;
                     });
