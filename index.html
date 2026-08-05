@@ -109,7 +109,7 @@
         .search-item .text { flex: 1; min-width: 0; }
         .search-item .title { display: block; font-weight: 500; color: #333; }
         .search-item .subtitle { display: block; color: #888; font-size: 0.8em; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .search-item .count { color: #888; font-size: 0.9em; text-align: right; }
+        .search-item .count { color: #888; font-size: 0.9em; text-align: right; padding-left: 1em; }
 
         /* --- Chart Grid System --- */
         .stats-grid { 
@@ -484,6 +484,7 @@
                         idStr: qId,
                         title: row.title,
                         slug: row.titleSlug,
+                        difficulty: row.difficulty,
                         searchStr: normalizeSearchText(
                             `${qId} ${row.title} ${row.titleSlug}`
                         ),
@@ -646,6 +647,7 @@
                             idStr: qId,
                             title: p.title,
                             slug: p.titleSlug,
+                            difficulty: p.difficulty,
                             searchStr: normalizeSearchText(
                                 `${qId} ${p.title} ${p.titleSlug}`
                             ),
@@ -1084,7 +1086,7 @@
                     let html = '';
                     matches.forEach(({ item }) => {
                         html += `<div class="search-item" data-qid="${item.idStr}">
-                                    <span class="id">#${item.id}</span>
+                                    <span class="id">#${item.id}<br>${item.difficulty}</span>
                                     <span class="text">
                                         <span class="title">${item.title}</span>
                                         <span class="subtitle" title="${getSearchSubtitle(item.contexts)}">${getSearchSubtitle(item.contexts)}</span>
