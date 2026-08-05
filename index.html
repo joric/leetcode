@@ -486,7 +486,7 @@
                         slug: row.titleSlug,
                         difficulty: row.difficulty,
                         searchStr: normalizeSearchText(
-                            `${qId} ${row.title} ${row.titleSlug}`
+                            `${qId} ${row.title} ${row.titleSlug} ${row.difficulty}`
                         ),
                         contexts: [],
                         // Combined total: daily appearances + contest appearances.
@@ -649,7 +649,7 @@
                             slug: p.titleSlug,
                             difficulty: p.difficulty,
                             searchStr: normalizeSearchText(
-                                `${qId} ${p.title} ${p.titleSlug}`
+                                `${qId} ${p.title} ${p.titleSlug} ${p.difficulty}`
                             ),
                             contexts: [],
                             get count() { return (questionMeta[qId]?.count ?? 0) + (ZERO_COUNT ? 0 : (contestMeta[qId]?.count ?? 0)); },
