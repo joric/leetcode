@@ -925,7 +925,10 @@
                 input.placeholder = `#${qId} - ${taskData.title}`;
                 input.classList.add('selected');
                 clearBtn.style.display = 'block';
-                
+
+                // add dates tooltip
+                input.title = getSearchSubtitle(taskData.contexts);
+
                 // IMPORTANT: Set title BEFORE pushing state
                 const newTitle = `${taskData.title} - LeetCode Daily`;
                 document.title = newTitle;
@@ -952,6 +955,7 @@
             input.placeholder = "Search problems, contests, or dates...";
             input.classList.remove('selected');
             input.value = '';
+            input.title = '';
             clearBtn.style.display = 'none';
 
             // IMPORTANT: Set title BEFORE pushing state
