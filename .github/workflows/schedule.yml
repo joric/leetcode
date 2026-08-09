@@ -1,7 +1,7 @@
 name: Scheduled Trigger
 on:
   schedule:
-    - cron: '17 23 * * *' # 00:00 GMT minus 43 minutes scheduler gap (runs at about 00:15 GMT)
+    - cron: '43 23 * * *' # 00:00 GMT minus 17 minutes scheduler gap (runs at about 00:15 GMT)
   workflow_dispatch:
 
 jobs:
