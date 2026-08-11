@@ -2322,3 +2322,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-08-08,find-the-lexicographically-smallest-valid-sequence,3302,Find the Lexicographically Smallest Valid Sequence,Medium,57.7
 2026-08-09,stone-game-ii,1140,Stone Game II,Medium,74.0
 2026-08-10,stone-game-iv,1510,Stone Game IV,Hard,59.6
+2026-08-11,smallest-missing-integer-greater-than-sequential-prefix-sum,2996,Smallest Missing Integer Greater Than Sequential Prefix Sum,Easy,35.9
