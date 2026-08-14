@@ -2325,3 +2325,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-08-11,smallest-missing-integer-greater-than-sequential-prefix-sum,2996,Smallest Missing Integer Greater Than Sequential Prefix Sum,Easy,35.9
 2026-08-12,length-of-longest-subarray-with-at-most-k-frequency,2958,Length of Longest Subarray With at Most K Frequency,Medium,56.9
 2026-08-13,longest-substring-of-one-repeating-character,2213,Longest Substring of One Repeating Character,Hard,36.8
+2026-08-14,maximum-length-substring-with-two-occurrences,3090,Maximum Length Substring With Two Occurrences,Easy,66.1
