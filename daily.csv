@@ -2327,3 +2327,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-08-13,longest-substring-of-one-repeating-character,2213,Longest Substring of One Repeating Character,Hard,36.8
 2026-08-14,maximum-length-substring-with-two-occurrences,3090,Maximum Length Substring With Two Occurrences,Easy,66.1
 2026-08-15,longest-subsequence-with-non-zero-bitwise-xor,3702,Longest Subsequence With Non-Zero Bitwise XOR,Medium,51.9
+2026-08-16,stone-game-ix,2029,Stone Game IX,Medium,31.1
