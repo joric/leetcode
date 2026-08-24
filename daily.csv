@@ -2334,3 +2334,5 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-08-20,distribute-elements-into-two-arrays-i,3069,Distribute Elements Into Two Arrays I,Easy,74.2
 2026-08-21,kth-smallest-amount-with-single-denomination-combination,3116,Kth Smallest Amount With Single Denomination Combination,Hard,21.1
 2026-08-22,check-divisibility-by-digit-sum-and-product,3622,Check Divisibility by Digit Sum and Product,Easy,69.8
+2026-08-23,sum-game,1927,Sum Game,Medium,63.5
+2026-08-24,stone-game-viii,1872,Stone Game VIII,Hard,57.4
