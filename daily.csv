@@ -2341,3 +2341,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-08-27,lexicographically-smallest-permutation-greater-than-target,3720,Lexicographically Smallest Permutation Greater Than Target,Medium,38.7
 2026-08-28,lexicographically-smallest-palindromic-permutation-greater-than-target,3734,Lexicographically Smallest Palindromic Permutation Greater Than Target,Hard,48.1
 2026-08-29,make-lexicographically-smallest-array-by-swapping-elements,2948,Make Lexicographically Smallest Array by Swapping Elements,Medium,62.1
+2026-08-30,removing-minimum-and-maximum-from-array,2091,Removing Minimum and Maximum From Array,Medium,60.3
