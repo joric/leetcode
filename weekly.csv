@@ -360,3 +360,5 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-08-15,range-sum-query-2d-mutable,308,Range Sum Query 2D - Mutable,Medium,45.7
 2026-08-22,android-unlock-patterns,351,Android Unlock Patterns,Medium,53.9
 2026-08-29,similar-rgb-color,800,Similar RGB Color,Easy,68.3
+2026-09-05,counting-elements,1426,Counting Elements,Easy,60.8
+2026-09-01,maximum-number-of-books-you-can-take,2355,Maximum Number of Books You Can Take,Hard,39.7
