@@ -2346,3 +2346,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-01,minimum-moves-to-clean-the-classroom,3568,Minimum Moves to Clean the Classroom,Medium,39.5
 2026-09-02,construct-uniform-parity-array-i,3875,Construct Uniform Parity Array I,Easy,79.8
 2026-09-03,construct-uniform-parity-array-ii,3876,Construct Uniform Parity Array II,Medium,56.4
+2026-09-04,smallest-stable-index-i,3903,Smallest Stable Index I,Easy,71.4
