@@ -2348,3 +2348,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-03,construct-uniform-parity-array-ii,3876,Construct Uniform Parity Array II,Medium,56.4
 2026-09-04,smallest-stable-index-i,3903,Smallest Stable Index I,Easy,71.4
 2026-09-05,smallest-stable-index-ii,3904,Smallest Stable Index II,Medium,75.1
+2026-09-06,distinct-subsequences,115,Distinct Subsequences,Hard,52.7
