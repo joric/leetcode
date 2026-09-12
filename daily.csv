@@ -2354,3 +2354,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-09,count-commas-in-range-ii,3871,Count Commas in Range II,Medium,44.4
 2026-09-10,count-nodes-equal-to-average-of-subtree,2265,Count Nodes Equal to Average of Subtree,Medium,87.2
 2026-09-11,unique-3-digit-even-numbers,3483,Unique 3-Digit Even Numbers,Easy,72.7
+2026-09-12,maximum-score-of-non-overlapping-intervals,3414,Maximum Score of Non-overlapping Intervals,Hard,46.2
