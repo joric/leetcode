@@ -2356,3 +2356,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-11,unique-3-digit-even-numbers,3483,Unique 3-Digit Even Numbers,Easy,72.7
 2026-09-12,maximum-score-of-non-overlapping-intervals,3414,Maximum Score of Non-overlapping Intervals,Hard,46.2
 2026-09-13,image-overlap,835,Image Overlap,Medium,65.2
+2026-09-14,rectangle-overlap,836,Rectangle Overlap,Easy,48.0
