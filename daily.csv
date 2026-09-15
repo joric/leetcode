@@ -2357,3 +2357,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-12,maximum-score-of-non-overlapping-intervals,3414,Maximum Score of Non-overlapping Intervals,Hard,46.2
 2026-09-13,image-overlap,835,Image Overlap,Medium,65.2
 2026-09-14,rectangle-overlap,836,Rectangle Overlap,Easy,48.0
+2026-09-15,maximum-number-of-non-overlapping-palindrome-substrings,2472,Maximum Number of Non-overlapping Palindrome Substrings,Hard,50.0
