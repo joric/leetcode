@@ -2363,3 +2363,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-18,maximum-number-of-non-overlapping-substrings,1520,Maximum Number of Non-Overlapping Substrings,Hard,48.5
 2026-09-19,circle-and-rectangle-overlapping,1401,Circle and Rectangle Overlapping,Medium,55.2
 2026-09-20,reverse-degree-of-a-string,3498,Reverse Degree of a String,Easy,89.5
+2026-09-21,find-x-value-of-array-i,3524,Find X Value of Array I,Medium,48.1
