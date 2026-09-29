@@ -2371,3 +2371,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-26,evaluate-the-bracket-pairs-of-a-string,1807,Evaluate the Bracket Pairs of a String,Medium,73.4
 2026-09-27,reverse-substrings-between-each-pair-of-parentheses,1190,Reverse Substrings Between Each Pair of Parentheses,Medium,72.7
 2026-09-28,maximum-nesting-depth-of-the-parentheses,1614,Maximum Nesting Depth of the Parentheses,Easy,85.4
+2026-09-29,check-if-there-is-a-valid-parentheses-string-path,2267, Check if There Is a Valid Parentheses String Path,Hard,48.0
