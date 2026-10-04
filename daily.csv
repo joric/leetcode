@@ -2376,3 +2376,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-01,valid-parentheses,20,Valid Parentheses,Easy,45.0
 2026-10-02,generate-parentheses,22,Generate Parentheses,Medium,79.3
 2026-10-03,longest-valid-parentheses,32,Longest Valid Parentheses,Hard,40.1
+2026-10-04,valid-parenthesis-string,678,Valid Parenthesis String,Medium,41.0
