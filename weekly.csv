@@ -367,3 +367,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-22,ip-to-cidr,751,IP to CIDR,Medium,53.8
 2026-09-29,web-crawler,1236,Web Crawler,Medium,68.9
 2026-10-01,minimum-costs-using-the-train-line,2361,Minimum Costs Using the Train Line,Hard,77.9
+2026-10-08,minimum-cost-to-reach-city-with-discounts,2093,Minimum Cost to Reach City With Discounts,Medium,61.4
