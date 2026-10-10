@@ -2382,3 +2382,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-07,remove-invalid-parentheses,301,Remove Invalid Parentheses,Hard,50.7
 2026-10-08,remove-outermost-parentheses,1021,Remove Outermost Parentheses,Easy,87.8
 2026-10-09,minimum-insertions-to-balance-a-parentheses-string,1541,Minimum Insertions to Balance a Parentheses String,Medium,56.2
+2026-10-10,minimum-sum-of-squared-difference,2333,Minimum Sum of Squared Difference,Medium,32.7
