@@ -368,3 +368,6 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-09-29,web-crawler,1236,Web Crawler,Medium,68.9
 2026-10-01,minimum-costs-using-the-train-line,2361,Minimum Costs Using the Train Line,Hard,77.9
 2026-10-08,minimum-cost-to-reach-city-with-discounts,2093,Minimum Cost to Reach City With Discounts,Medium,61.4
+2026-09-27,web-crawler,1236,Web Crawler,Medium,69.1
+2026-10-04,minimum-cost-to-reach-city-with-discounts,2093,Minimum Cost to Reach City With Discounts,Medium,62.2
+2026-10-11,optimal-account-balancing,465,Optimal Account Balancing,Hard,50.8
