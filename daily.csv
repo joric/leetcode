@@ -2389,3 +2389,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-14,maximize-sum-of-squares-of-digits,3723,Maximize Sum of Squares of Digits,Medium,64.6
 2026-10-15,subarrays-distinct-element-sum-of-squares-i,2913,Subarrays Distinct Element Sum of Squares I,Easy,82.9
 2026-10-16,subarrays-distinct-element-sum-of-squares-ii,2916,Subarrays Distinct Element Sum of Squares II,Hard,37.2
+2026-10-17,minimum-swaps-to-sort-by-digit-sum,3551,Minimum Swaps to Sort by Digit Sum,Medium,54.3
