@@ -2391,3 +2391,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-16,subarrays-distinct-element-sum-of-squares-ii,2916,Subarrays Distinct Element Sum of Squares II,Hard,37.2
 2026-10-17,minimum-swaps-to-sort-by-digit-sum,3551,Minimum Swaps to Sort by Digit Sum,Medium,54.3
 2026-10-18,number-of-ways-to-reorder-array-to-get-same-bst,1569,Number of Ways to Reorder Array to Get Same BST,Hard,56.3
+2026-10-19,find-target-indices-after-sorting-array,2089,Find Target Indices After Sorting Array,Easy,79.1
