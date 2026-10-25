@@ -372,3 +372,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-04,minimum-cost-to-reach-city-with-discounts,2093,Minimum Cost to Reach City With Discounts,Medium,62.2
 2026-10-11,optimal-account-balancing,465,Optimal Account Balancing,Hard,50.8
 2026-10-18,shortest-path-to-get-food,1730,Shortest Path to Get Food,Medium,57.4
+2026-10-25,path-sum-iv,666,Path Sum IV,Medium,62.9
