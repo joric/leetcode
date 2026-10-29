@@ -2401,3 +2401,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-26,count-islands-with-total-value-divisible-by-k,3619,Count Islands With Total Value Divisible by K,Medium,58.9
 2026-10-27,create-grid-with-exactly-one-path,3963,Create Grid With Exactly One Path,Easy,80.4
 2026-10-28,minimum-xor-path-in-a-grid,3882,Minimum XOR Path in a Grid,Medium,47.0
+2026-10-29,palindromic-path-queries-in-a-tree,3841,Palindromic Path Queries in a Tree,Hard,56.9
