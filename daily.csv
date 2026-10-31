@@ -2403,3 +2403,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-28,minimum-xor-path-in-a-grid,3882,Minimum XOR Path in a Grid,Medium,47.0
 2026-10-29,palindromic-path-queries-in-a-tree,3841,Palindromic Path Queries in a Tree,Hard,56.9
 2026-10-30,shortest-path-with-at-most-k-consecutive-identical-characters,3970,Shortest Path With At Most K Consecutive Identical Characters,Medium,52.1
+2026-10-31,twisted-mirror-path-count,3665,Twisted Mirror Path Count,Medium,55.9
