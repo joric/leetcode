@@ -2121,3 +2121,7 @@ weekly-contest-525,Weekly Contest 525,2026-10-25,4,binary-digit-score,4092,Binar
 weekly-contest-525,Weekly Contest 525,2026-10-25,4,maximize-sum-after-at-most-k-digit-rearrangements,4093,Maximize Sum After At Most K Digit Rearrangements,Medium,50.6
 weekly-contest-525,Weekly Contest 525,2026-10-25,4,count-frequency-staircase-subarrays-i,4094,Count Frequency Staircase Subarrays I,Medium,59.2
 weekly-contest-525,Weekly Contest 525,2026-10-25,4,count-frequency-staircase-subarrays-ii,4095,Count Frequency Staircase Subarrays II,Hard,14.6
+weekly-contest-526,Weekly Contest 526,2026-11-01,4,minimum-value-of-merged-integers,4097,Minimum Value of Merged Integers,Easy,68.9
+weekly-contest-526,Weekly Contest 526,2026-11-01,4,minimize-the-maximum-value-of-gcd-connected-array,4098,Minimize the Maximum Value of GCD-Connected Array,Medium,25.4
+weekly-contest-526,Weekly Contest 526,2026-11-01,4,minimum-operations-to-sort-with-locked-indices,4099,Minimum Operations to Sort With Locked Indices,Medium,42.9
+weekly-contest-526,Weekly Contest 526,2026-11-01,4,minimum-cost-path-with-even-xor-parity,4100,Minimum Cost Path With Even XOR Parity,Hard,53.4
