@@ -2405,3 +2405,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-10-30,shortest-path-with-at-most-k-consecutive-identical-characters,3970,Shortest Path With At Most K Consecutive Identical Characters,Medium,52.1
 2026-10-31,twisted-mirror-path-count,3665,Twisted Mirror Path Count,Medium,55.9
 2026-11-01,minimum-moves-to-equal-array-elements,453,Minimum Moves to Equal Array Elements,Medium,60.3
+2026-11-02,minimum-moves-to-equal-array-elements-ii,462,Minimum Moves to Equal Array Elements II,Medium,63.6
