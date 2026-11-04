@@ -2407,3 +2407,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-11-01,minimum-moves-to-equal-array-elements,453,Minimum Moves to Equal Array Elements,Medium,60.3
 2026-11-02,minimum-moves-to-equal-array-elements-ii,462,Minimum Moves to Equal Array Elements II,Medium,63.6
 2026-11-03,minimum-moves-to-equal-array-elements-iii,3736,Minimum Moves to Equal Array Elements III,Easy,86.1
+2026-11-04,minimum-operations-to-make-elements-within-k-subarrays-equal,3505,Minimum Operations to Make Elements Within K Subarrays Equal,Hard,48.4
