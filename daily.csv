@@ -2409,3 +2409,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-11-03,minimum-moves-to-equal-array-elements-iii,3736,Minimum Moves to Equal Array Elements III,Easy,86.1
 2026-11-04,minimum-operations-to-make-elements-within-k-subarrays-equal,3505,Minimum Operations to Make Elements Within K Subarrays Equal,Hard,48.4
 2026-11-05,find-the-distance-value-between-two-arrays,1385,Find the Distance Value Between Two Arrays,Easy,74.5
+2026-11-06,count-zero-request-servers,2747,Count Zero Request Servers,Medium,44.9
