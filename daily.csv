@@ -2413,3 +2413,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-11-07,process-tasks-using-servers,1882,Process Tasks Using Servers,Medium,45.0
 2026-11-08,count-servers-that-communicate,1267,Count Servers that Communicate,Medium,74.4
 2026-11-09,find-servers-that-handled-most-number-of-requests,1606,Find Servers That Handled Most Number of Requests,Hard,51.4
+2026-11-10,climbing-stairs-ii,3693,Climbing Stairs II,Medium,69.9
