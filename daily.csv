@@ -2416,3 +2416,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-11-10,climbing-stairs-ii,3693,Climbing Stairs II,Medium,69.9
 2026-11-11,minimum-cost-to-acquire-required-items,3789,Minimum Cost to Acquire Required Items,Medium,42.7
 2026-11-12,longest-strictly-increasing-or-strictly-decreasing-subarray,3105,Longest Strictly Increasing or Strictly Decreasing Subarray,Easy,66.0
+2026-11-13,count-non-decreasing-subarrays-after-k-operations,3420,Count Non-Decreasing Subarrays After K Operations,Hard,47.3
