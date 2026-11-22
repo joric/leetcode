@@ -2425,3 +2425,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-11-19,minimum-score-by-changing-two-elements,2567,Minimum Score by Changing Two Elements,Medium,59.1
 2026-11-20,maximize-consecutive-elements-in-an-array-after-modification,3041,Maximize Consecutive Elements in an Array After Modification,Hard,49.3
 2026-11-21,find-subtree-sizes-after-changes,3331,Find Subtree Sizes After Changes,Medium,61.1
+2026-11-22,check-if-all-as-appears-before-all-bs,2124,Check if All A's Appears Before All B's,Easy,75.3
