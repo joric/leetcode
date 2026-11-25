@@ -2428,3 +2428,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-11-22,check-if-all-as-appears-before-all-bs,2124,Check if All A's Appears Before All B's,Easy,75.3
 2026-11-23,product-of-the-last-k-numbers,1352,Product of the Last K Numbers,Medium,64.3
 2026-11-24,maximum-subarray-with-equal-products,3411,Maximum Subarray With Equal Products,Easy,55.4
+2026-11-25,smallest-unique-subarray,3934,Smallest Unique Subarray,Hard,54.6
