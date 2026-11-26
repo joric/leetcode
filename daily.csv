@@ -2429,3 +2429,4 @@ date,titleSlug,questionFrontendId,title,difficulty,acRate
 2026-11-23,product-of-the-last-k-numbers,1352,Product of the Last K Numbers,Medium,64.3
 2026-11-24,maximum-subarray-with-equal-products,3411,Maximum Subarray With Equal Products,Easy,55.4
 2026-11-25,smallest-unique-subarray,3934,Smallest Unique Subarray,Hard,54.6
+2026-11-26,stone-removal-game,3360,Stone Removal Game,Easy,50.6
